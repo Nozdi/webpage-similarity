@@ -1,0 +1,42 @@
+FUNCTION_BLOCK napiwek
+
+VAR_INPUT
+	obsluga : REAL;
+	jedzenie : REAL;
+END_VAR
+
+VAR_OUTPUT
+	napiwek : REAL;
+END_VAR
+
+FUZZIFY obsluga
+	TERM zla := (0, 1) (4, 0) ;
+	TERM dobra := (1, 0) (4,1) (6,1) (9,0);
+	TERM znakomita := (6, 0) (9, 1);
+END_FUZZIFY
+
+FUZZIFY jedzenie
+	TERM niezbytsmaczne := (0, 1) (1, 1) (3,0) ;
+	TERM srednie := (1,0) (3,1) (7,1) (9,0);
+	TERM wysmienite := (7,0) (9,1);
+END_FUZZIFY
+
+DEFUZZIFY napiwek
+	TERM skromny := (0,0) (5,1) (10,0);
+	TERM sredni := (5,0) (10,1) (15,0);
+	TERM hojny := (10,0) (15,1) (20,1);
+	ACCU: MAX;
+	METHOD : COG;
+	DEFAULT := 0;
+END_DEFUZZIFY
+
+RULEBLOCK No1
+	AND : MIN;
+	ACT : MIN;
+	RULE 1 : IF obsluga IS zla OR jedzenie IS niezbytsmaczne THEN napiwek IS skromny;
+	RULE 2 : IF obsluga IS dobra THEN napiwek IS sredni;
+	RULE 3 : IF obsluga IS znakomita AND jedzenie IS wysmienite THEN napiwek IS hojny;
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK
+
