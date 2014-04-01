@@ -24,7 +24,7 @@ END_FUZZIFY
 DEFUZZIFY napiwek
 	TERM skromny := (0,0) (5,1) (10,0);
 	TERM sredni := (5,0) (10,1) (15,0);
-	TERM hojny := (10,0) (15,1) (20,1);
+	TERM hojny := (10,0) (15,1) (20,0);
 	ACCU: MAX;
 	METHOD : COG;
 	DEFAULT := 0;

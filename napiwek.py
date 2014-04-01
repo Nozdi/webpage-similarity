@@ -20,6 +20,8 @@ def main():
     }
     system.calculate(input_variables, output_variables)
     print(output_variables)
+    d.createDocSets({"accumulated": system.variables["napiwek"].defuzzify.accumulated_set}, "accumulated set")
+
 
 if __name__ == '__main__':
     main()
