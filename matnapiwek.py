@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from fuzzy.storage.fcl.Reader import Reader
-from fuzzy.doc.plot.matplotlib.doc import Doc # less errors :)
+from fuzzy.doc.plot.matplotlib.doc import Doc  # less errors :)
 
 
 def main():
@@ -24,15 +24,14 @@ def main():
     )
     d.createDocSets(system.variables["napiwek"].defuzzify.activated_sets, "activated sets")
 
-
     #other possibilitis:
     import matplotlib.pyplot as plt
-    plt.figure(5)
+    plt.figure(6)
     d.build2DPlot(plt.gca(), system, "obsluga", "napiwek")
 
-    plt.figure(6)
+    plt.figure(7)
     d.build3DPlot(plt.gca(projection="3d"), system, 'obsluga', 'jedzenie', 'napiwek',
-                  input_dict = { name: 0.0 for name in system.variables.keys()})
+                  input_dict={name: 0.0 for name in system.variables.keys()})
 
     plt.show()
 
