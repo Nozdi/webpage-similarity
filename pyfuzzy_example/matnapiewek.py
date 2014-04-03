@@ -18,6 +18,7 @@ def main():
     }
     system.calculate(input_variables, output_variables)
     print(output_variables)
+
     d.createDocSets(
         {"accumulated": system.variables["napiwek"].defuzzify.accumulated_set},
         "accumulated set"
@@ -30,8 +31,9 @@ def main():
     d.build2DPlot(plt.gca(), system, "obsluga", "napiwek")
 
     plt.figure(7)
-    d.build3DPlot(plt.gca(projection="3d"), system, 'obsluga', 'jedzenie', 'napiwek',
-                  input_dict={name: 0.0 for name in system.variables.keys()})
+    ax = plt.gca(projection="3d")
+    d.build3DPlot(ax, system, 'obsluga', 'jedzenie', 'napiwek')
+    ax.set_zlim(*d.getValues(system.variables['napiwek']))
 
     plt.show()
 

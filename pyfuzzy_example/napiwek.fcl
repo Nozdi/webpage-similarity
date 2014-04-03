@@ -33,6 +33,7 @@ END_DEFUZZIFY
 RULEBLOCK No1
 	AND : MIN;
 	ACT : MIN;
+	(*ACCU:MAX;*)
 	RULE 1 : IF obsluga IS zla OR jedzenie IS niezbytsmaczne THEN napiwek IS skromny;
 	RULE 2 : IF obsluga IS dobra THEN napiwek IS sredni;
 	RULE 3 : IF obsluga IS znakomita AND jedzenie IS wysmienite THEN napiwek IS hojny;
