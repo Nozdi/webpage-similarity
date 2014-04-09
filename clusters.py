@@ -36,7 +36,7 @@ def get_all_words_from_files(files):
     for filename in files:
         with open(filename) as f:
             for line in f:
-                for word in line.split():
+                for word in line.decode("utf-8").split():
                     words.add(normalize_word(word))
     return list(words)
 
@@ -47,7 +47,7 @@ def cluster_documents(directory, clusterer, *args, **kwargs):
 
     cluster = clusterer(*args, **kwargs)
 
-    vect = [vectorspaced(open(filename).read()) for filename in files]
+    vect = [vectorspaced(open(filename).read().decode("utf-8")) for filename in files]
     cluster.cluster(vect)
 
     classified = [cluster.classify(v) for v in vect]

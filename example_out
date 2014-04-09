@@ -1,0 +1,169 @@
+0 ./texts/dogs/11.txt
+0 ./texts/dogs/14.txt
+0 ./texts/dogs/15.txt
+0 ./texts/dogs/19.txt
+0 ./texts/dogs/21.txt
+0 ./texts/dogs/22.txt
+0 ./texts/dogs/25.txt
+0 ./texts/dogs/27.txt
+0 ./texts/dogs/28.txt
+0 ./texts/dogs/33.txt
+0 ./texts/dogs/42.txt
+0 ./texts/dogs/51.txt
+0 ./texts/dogs/7.txt
+0 ./texts/dogs/9.txt
+1 ./texts/1900s history/11.txt
+1 ./texts/1900s history/16.txt
+1 ./texts/1900s history/2.txt
+1 ./texts/1900s history/5.txt
+1 ./texts/1900s history/50.txt
+2 ./texts/1900s history/1.txt
+2 ./texts/1900s history/10.txt
+2 ./texts/1900s history/12.txt
+2 ./texts/1900s history/13.txt
+2 ./texts/1900s history/14.txt
+2 ./texts/1900s history/15.txt
+2 ./texts/1900s history/17.txt
+2 ./texts/1900s history/18.txt
+2 ./texts/1900s history/19.txt
+2 ./texts/1900s history/20.txt
+2 ./texts/1900s history/21.txt
+2 ./texts/1900s history/23.txt
+2 ./texts/1900s history/24.txt
+2 ./texts/1900s history/25.txt
+2 ./texts/1900s history/26.txt
+2 ./texts/1900s history/27.txt
+2 ./texts/1900s history/28.txt
+2 ./texts/1900s history/29.txt
+2 ./texts/1900s history/3.txt
+2 ./texts/1900s history/30.txt
+2 ./texts/1900s history/31.txt
+2 ./texts/1900s history/32.txt
+2 ./texts/1900s history/33.txt
+2 ./texts/1900s history/34.txt
+2 ./texts/1900s history/35.txt
+2 ./texts/1900s history/36.txt
+2 ./texts/1900s history/37.txt
+2 ./texts/1900s history/38.txt
+2 ./texts/1900s history/39.txt
+2 ./texts/1900s history/4.txt
+2 ./texts/1900s history/40.txt
+2 ./texts/1900s history/41.txt
+2 ./texts/1900s history/42.txt
+2 ./texts/1900s history/43.txt
+2 ./texts/1900s history/44.txt
+2 ./texts/1900s history/45.txt
+2 ./texts/1900s history/46.txt
+2 ./texts/1900s history/47.txt
+2 ./texts/1900s history/48.txt
+2 ./texts/1900s history/49.txt
+2 ./texts/1900s history/51.txt
+2 ./texts/1900s history/52.txt
+2 ./texts/1900s history/53.txt
+2 ./texts/1900s history/54.txt
+2 ./texts/1900s history/55.txt
+2 ./texts/1900s history/56.txt
+2 ./texts/1900s history/57.txt
+2 ./texts/1900s history/58.txt
+2 ./texts/1900s history/59.txt
+2 ./texts/1900s history/6.txt
+2 ./texts/1900s history/60.txt
+2 ./texts/1900s history/61.txt
+2 ./texts/1900s history/62.txt
+2 ./texts/1900s history/63.txt
+2 ./texts/1900s history/64.txt
+2 ./texts/1900s history/65.txt
+2 ./texts/1900s history/66.txt
+2 ./texts/1900s history/67.txt
+2 ./texts/1900s history/68.txt
+2 ./texts/1900s history/69.txt
+2 ./texts/1900s history/7.txt
+2 ./texts/1900s history/70.txt
+2 ./texts/1900s history/71.txt
+2 ./texts/1900s history/72.txt
+2 ./texts/1900s history/73.txt
+2 ./texts/1900s history/74.txt
+2 ./texts/1900s history/75.txt
+2 ./texts/1900s history/76.txt
+2 ./texts/1900s history/77.txt
+2 ./texts/1900s history/78.txt
+2 ./texts/1900s history/79.txt
+2 ./texts/1900s history/8.txt
+2 ./texts/1900s history/80.txt
+2 ./texts/1900s history/81.txt
+2 ./texts/1900s history/82.txt
+2 ./texts/1900s history/9.txt
+2 ./texts/dogs/1.txt
+2 ./texts/dogs/10.txt
+2 ./texts/dogs/12.txt
+2 ./texts/dogs/13.txt
+2 ./texts/dogs/16.txt
+2 ./texts/dogs/17.txt
+2 ./texts/dogs/18.txt
+2 ./texts/dogs/2.txt
+2 ./texts/dogs/20.txt
+2 ./texts/dogs/23.txt
+2 ./texts/dogs/24.txt
+2 ./texts/dogs/26.txt
+2 ./texts/dogs/29.txt
+2 ./texts/dogs/3.txt
+2 ./texts/dogs/30.txt
+2 ./texts/dogs/31.txt
+2 ./texts/dogs/32.txt
+2 ./texts/dogs/34.txt
+2 ./texts/dogs/35.txt
+2 ./texts/dogs/36.txt
+2 ./texts/dogs/37.txt
+2 ./texts/dogs/38.txt
+2 ./texts/dogs/39.txt
+2 ./texts/dogs/4.txt
+2 ./texts/dogs/40.txt
+2 ./texts/dogs/41.txt
+2 ./texts/dogs/43.txt
+2 ./texts/dogs/44.txt
+2 ./texts/dogs/45.txt
+2 ./texts/dogs/46.txt
+2 ./texts/dogs/47.txt
+2 ./texts/dogs/48.txt
+2 ./texts/dogs/49.txt
+2 ./texts/dogs/5.txt
+2 ./texts/dogs/50.txt
+2 ./texts/dogs/52.txt
+2 ./texts/dogs/6.txt
+2 ./texts/dogs/8.txt
+2 ./texts/vegetarian food/1.txt
+2 ./texts/vegetarian food/10.txt
+2 ./texts/vegetarian food/11.txt
+2 ./texts/vegetarian food/12.txt
+2 ./texts/vegetarian food/13.txt
+2 ./texts/vegetarian food/14.txt
+2 ./texts/vegetarian food/15.txt
+2 ./texts/vegetarian food/16.txt
+2 ./texts/vegetarian food/17.txt
+2 ./texts/vegetarian food/18.txt
+2 ./texts/vegetarian food/19.txt
+2 ./texts/vegetarian food/2.txt
+2 ./texts/vegetarian food/20.txt
+2 ./texts/vegetarian food/21.txt
+2 ./texts/vegetarian food/22.txt
+2 ./texts/vegetarian food/23.txt
+2 ./texts/vegetarian food/24.txt
+2 ./texts/vegetarian food/25.txt
+2 ./texts/vegetarian food/26.txt
+2 ./texts/vegetarian food/27.txt
+2 ./texts/vegetarian food/28.txt
+2 ./texts/vegetarian food/29.txt
+2 ./texts/vegetarian food/3.txt
+2 ./texts/vegetarian food/30.txt
+2 ./texts/vegetarian food/31.txt
+2 ./texts/vegetarian food/32.txt
+2 ./texts/vegetarian food/33.txt
+2 ./texts/vegetarian food/34.txt
+2 ./texts/vegetarian food/35.txt
+2 ./texts/vegetarian food/4.txt
+2 ./texts/vegetarian food/5.txt
+2 ./texts/vegetarian food/6.txt
+2 ./texts/vegetarian food/7.txt
+2 ./texts/vegetarian food/8.txt
+2 ./texts/vegetarian food/9.txt
+3 ./texts/1900s history/22.txt
