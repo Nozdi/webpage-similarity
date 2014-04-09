@@ -1,6 +1,0 @@
-Not so skilled worker
-Skilled worker
-This algorithm works by assigning membership to each data point corresponding to each cluster center on the basis
-of distance between the cluster center and the data point. More the data is near to the cluster center more is its
-membership towards the particular cluster center. Clearly, summation of membership of each data point should be
-equal to one. After each iteration membership and cluster centers are updated according to the formula.
