@@ -2,3 +2,4 @@ antlr_python_runtime
 numpy
 gnuplot-py
 matplotlib
+nltk

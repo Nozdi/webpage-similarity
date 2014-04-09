@@ -11,7 +11,7 @@ Debian/Ubuntu:
 
 Install python dependencies:
 ```
-pip install -r requirements.txt --allow-all-external --allow-unverified antlr-python-runtime --allow-unverified gnuplot-py
+pip install -r requirements.txt [--allow-all-external --allow-unverified antlr-python-runtime --allow-unverified gnuplot-py]
 ```
 If any problems install packages from system utils (port, brew, apt-get, yum, ...)
 
