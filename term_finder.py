@@ -4,27 +4,19 @@
 import sys
 from topia.termextract import extract
 
-class TermFinder(object):
-
-
-    def __init__(self, text):
-        self.text = text
-
-
-    def exctract(self):
-        """
+def exctract(text):
+    """
             Finds terms in text and returns them as list of tuples
             ( term, term amount, term length in  words)
-        """
-        extractor = extract.TermExtractor()
-        extractor.filter = extract.permissiveFilter
-        return extractor(self.text)
+    """
+    extractor = extract.TermExtractor()
+    extractor.filter = extract.permissiveFilter
+    return extractor(text)
 
 if __name__ == "__main__":
     argv=sys.argv
     with open (argv[1], "r") as myfile:
         text=myfile.read().replace('\n', ' ')
-    termFinder =  TermFinder(text)
-    extracted =  termFinder.exctract()
+    extracted =  exctract(text)
     print len(extracted)
     print extracted
