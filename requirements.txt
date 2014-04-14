@@ -3,3 +3,4 @@ numpy
 gnuplot-py
 matplotlib
 nltk
+topia.termextract
