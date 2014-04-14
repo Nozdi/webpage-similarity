@@ -19,7 +19,6 @@ def extract_all_terms_from_files(filenames):
     """
     words = set()
     for filename in filenames:
-        print filename,"\n"
         words |= set(extract_terms_from_file(filename))
     return list(words)
 
@@ -29,8 +28,7 @@ def extract_terms_from_file(filename):
     """
     with open (filename, "r") as myfile:
         text=myfile.read().replace('\n', ' ')
-        extracted = [touple[0] for touple in extract_terms_from_text(text)]
-        return extracted
+        return [term  for term, quantity, words_no in extract_terms_from_text(text)]
 
 
 if __name__ == "__main__":
