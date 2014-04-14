@@ -4,14 +4,24 @@
 import sys
 from topia.termextract import extract
 
-def extract_terms_from_text(text):
+def extract_terms_with_quantity_from_text(text):
     """
             Finds terms in text and returns them as list of tuples
-            ( term, term amount, term length in  words)
+            ( term, term amount)
     """
     extractor = extract.TermExtractor()
     extractor.filter = extract.permissiveFilter
-    return extractor(text)
+    return [(term.lower(), quantity)  for term, quantity, words_no in extractor(text)]
+
+def extract_terms_with_quantity_from_file(filename):
+    """
+        Finds terms in text file and returns them as list of tuples
+            ( term, term amount)
+    """
+    with open (filename, "r") as myfile:
+        text=myfile.read().replace('\n', ' ')
+        return extract_terms_with_quantity_from_text(text)
+
 
 def extract_all_terms_from_files(filenames):
     """
@@ -28,7 +38,7 @@ def extract_terms_from_file(filename):
     """
     with open (filename, "r") as myfile:
         text=myfile.read().replace('\n', ' ')
-        return [term.lower()  for term, quantity, words_no in extract_terms_from_text(text)]
+        return [term for term, quantity in extract_terms_with_quantity_from_text(text)]
 
 
 if __name__ == "__main__":
