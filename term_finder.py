@@ -28,7 +28,7 @@ def extract_terms_from_file(filename):
     """
     with open (filename, "r") as myfile:
         text=myfile.read().replace('\n', ' ')
-        return [term  for term, quantity, words_no in extract_terms_from_text(text)]
+        return [term.lower()  for term, quantity, words_no in extract_terms_from_text(text)]
 
 
 if __name__ == "__main__":
