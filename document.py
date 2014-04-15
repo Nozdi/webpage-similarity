@@ -1,4 +1,5 @@
 from re import findall
+import fuzzy
 
 
 class Document(object):
@@ -39,21 +40,19 @@ class Document(object):
 
     def calculate_terms_weights(self):
         sumOfWords = len(self.terms)
-        for uTerm in self.uniqueTerms:
-            for term in self.terms:
-                if uTerm == term:
-                    self.termsWithWeights[term] = \
-                        self.termsWithWeights.get(term) + 1
+        for term in self.terms:
+            if term in self.uniqueTerms:
+                self.termsWithWeights[term] += 1
 
-        for term, count in self.termsWithWeights.items():
-            self.termsWithWeights[term] = count / sumOfWords
+        for term in self.termsWithWeights:
+            self.termsWithWeights[term] /= sumOfWords
 
     def calculate_terms_belongness(self):
         denumerator = self.termsWithWeights.get(max(self.termsWithWeights))
 
         for term in self.termsWithWeights:
-            self.termsBelongness[term] = self.termsWithWeights.get(term) \
-             / denumerator
+            self.termsBelongness[term] = (self.termsWithWeights.get(term)
+                                            / denumerator)
 
 
 class TrainingDocument(Document):
@@ -62,8 +61,7 @@ class TrainingDocument(Document):
         Degree of belongness to categories is not needed,
         only chrisp sets are used.
     """
-    def __init__(self, text):
-        Document.__init__(self, text)
+    pass
 
 
 class AnalizedDocument(Document):
@@ -84,6 +82,8 @@ class AnalizedDocument(Document):
         """
         numerator = 0.0
         denumerator = 0.0
+
+        self.calculate_terms_belongness()
 
         for category in categories:
             for term, value in self.termBelongness:
