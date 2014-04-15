@@ -1,0 +1,2 @@
+żeby odpalić crawler wejść do katalogu ze spiderem i wpisać:
+scrapy crawl webpage_spider
