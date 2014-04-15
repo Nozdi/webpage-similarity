@@ -1,0 +1,20 @@
+
+
+Many colors used on maps have a relationship to the object or feature on the ground.  For example, blue is almost always the color chosen for fresh water or ocean (bust blue may not just represent water).  
+
+Political maps, which show more human created features (especially boundaries), usually use more map colors than physical maps, which represent the landscape often without regard for human modification. 
+
+Political maps will often use four or more colors to represent different countries or internal divisions of countries (such as states).  Political maps will also use such colors as blue for water and black and/or red for cities, roads, and railways.  Political maps will also often use black to show boundaries, differing the type of dashes and/or dots used in the line to represent the type of boundary - international, state, or county or other political subdivision. 
+
+Physical maps commonly use color most dramatically to show changes in elevation.  A palette of greens is often used to display common elevations.  Dark green usually represents low-lying land with lighter shades of green used for higher elevations.  In the higher elevations, physical maps will often use a palette of light brown to dark brown to show higher elevations.  Such maps will commonly use reds or white or purples to represent the highest elevations on the map. 
+
+With such a map that uses shades of greens, browns, and the like, it is very important to remember that the color does not represent the ground cover.  For example, just because the Mojave Desert is shown in green due to the low elevation, it doesn't mean that the desert is lush with green crops.  Likewise, the peaks of mountains shown in white does not indicate that the mountains are capped in ice and snow all year long. 
+
+On physical maps, blues are used for water, with darker blues used for the deepest water and lighter blues used for more shallow water.  For elevations below sea level, a green-grey or red or blue-grey or some other color is used. 
+
+Road maps and other general use maps are often a jumble of color.  They use map colors in a variety of ways...
+
+ 
+ 
+
+Choropleth maps can also be used to show population, educational attainment, ethnicity, density, life expectancy, prevalence of a certain disease, and so much more.  When mapping certain percentages, cartographers who design choropleth mas will often use different shades of the same color, which produces a very nice visual effect.  For example, a map of county-by-county per capita income could use a range of green from light green for lowest per-capita income to dark green for highest per-capita income. 

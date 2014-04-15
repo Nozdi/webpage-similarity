@@ -1,0 +1,33 @@
+
+Players 
+
+2 to 4 players. 
+Deck 
+
+Standard 52-card deck. 
+Goal 
+
+To discard all of your cards. 
+Setup 
+
+Choose a dealer. 
+
+In a two-player game, each player is dealt seven cards. In a game with three or four players, each player is dealt five cards. 
+
+The remaining cards are placed face down in the center of the table, forming a draw pile. The top card of the draw pile is turned face up to start the discard pile. 
+Gameplay 
+
+The player to the left of the dealer goes first. Play moves clockwise. 
+
+On a turn, each player adds to the discard pile by playing one card that matches the top card on the discard pile either by suit or by rank (i.e. 6, jack, ace, etc.). 
+
+A player who cannot match the top card on the discard pile by suit or rank must draw cards until he can play one. It is allowed to pull cards from the draw pile even if you already have a legal play. When the draw pile is empty, a player who cannot add to the discard pile passes his turn. 
+
+All eights are wild and can be played on any card during a player's turn. When a player discards an eight, he chooses which suit is now in play. The next player must play either a card of that suit or another eight. 
+Winning 
+
+The first player to discard all of his cards wins. 
+
+With four players, it is possible to play partnership. If you do this, the game ends when both members of a partnership discard all their cards. 
+
+To play multiple games, add up the cards remaining in the losers' hands and give the points to the winner: 10 points for each face card, 1 point for each ace, 50 points for each eight, and the face value for the other number cards. Play to a set number, such as 150 or 200. 

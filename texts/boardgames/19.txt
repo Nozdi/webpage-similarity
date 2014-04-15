@@ -1,0 +1,29 @@
+
+Players 
+
+2 to 12 players 
+Deck 
+
+With 2 to 6 players, use one standard 52-card deck. With 7 players, the players decide whether to use one or two decks. (One deck is a shorter game; two decks is a longer game.) With 8 to 12 players, use two standard 52-card decks. 
+Goal 
+
+To be the first player who gets rid of all his cards. 
+Setup 
+
+Choose a dealer randomly. The dealer shuffles the cards and gives each player seven cards. The rest of the deck is placed face down in the middle of the table to form a draw pile. 
+Gameplay 
+
+The player to the left of the dealer goes first. He may play any card in his hand. Play proceeds clockwise. 
+
+Each subsequent player must play a card that follows suit or is of the same rank. EXAMPLE: Alexandra leads with the 7 of diamonds. Benjamin must play a diamond or a 7. If a player can't follow suit or rank, he must draw from the draw pile until he can. If the draw pile is empty and a player can't play a card, he skips the trick. 
+
+Once each player has played a card, the highest card of the suit led wins each trick. 
+
+When two decks are used, if cards of identical rank are played to the same trick (e.g. both 10s of clubs), the one played first outranks the other. 
+
+The winner of the trick leads the next trick. 
+Winning 
+
+The first player to get rid of all his cards wins the game. 
+
+For a multi-hand game, use the following scoring method. The winner of the hand score points equal to the total of the cards remaining in the other players' hands. Aces are worth 1, face cards are worth 10, and the other cards are worth face value. Play continues until one player scores 200 or more points. That player is the winner. 

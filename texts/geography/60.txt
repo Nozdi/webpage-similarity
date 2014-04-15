@@ -1,0 +1,29 @@
+
+
+Maptech, Inc.'s Terrain Navigator sets of USGS (U.S. Geological Survey) topographic maps on CD-ROM are a very cost-effective resource for anyone who wants or needs topographic maps for a multi-county area.  I used the Los Angeles, Orange, and Ventura Counties CD, which includes over 160 great looking 1:24,000 topographic maps of the region for $99.  Since the USGS charges $4 per map, if one were to buy paper maps covering the entire region, the cost would be several hundred dollars; this digital library of maps on CD-ROM is a substantial savings and a useful tool. 
+
+Terrain Navigator maps can be printed in color or black and white on just about any printer, making it easy to produce maps for a hike or exploration.  The maps can also be exported in TIF and BMP formats to other programs and data can be transferred between the program and supported GPS units (with the proper cable).  A user can even load Terrain Navigator onto a laptop and hook up a GPS unit to show a real-time map of their location!  Topographic maps are great for the field, when you can choose between dozens on a computer without having to unroll or unfold, it's a added plus. 
+
+The program features each 1:24,000 and 1:100,000 map for the region included on the CD-ROM.  Most states are broken up into several CD-ROMs, each containing several counties.  Users can zoom the maps at 25%, 50%, 100%, and to 200% scale for best use.  The toolbar features, among other things, tools to measure distance, and drawing and annotation tools. 
+ 
+
+The toolbar on Terrain Navigator continuously provides coordinates in degrees, minutes, and seconds (or decimal degrees) or UTM along with elevation.  Unfortunately, I found that some maps provided slightly inaccurate (up to about a 10% error) elevations on the toolbar, even when the cursor was placed over obviously accurate points such as bench marks and contour lines. 
+
+Printed maps look great, even when printed in black and white on an HP DeskJet.  The program automatically fills an plain sheet of paper at the zoomed-to level. 
+
+Currently, twenty-seven states and Washington D.C. are covered by Terrain Navigator, though MapTech plans to expand to all fifty in the near future.  Each CD-ROM is either $29, $49, or $99, based on the number of topographic maps stored on each disc (up to 100 maps, 101-150 maps, and over 150 maps, respectively).  While most people will settle for a region or two, some might want to purchase an entire state worth of topographic maps, which will run from $29 for one CD-ROM for Delaware to $1156 for 17 CDs for Texas. 
+
+Although Terrain Navigator utilizes the most recent topographic maps from the USGS, these maps are often outdated, especially for rapidly growing urban areas.  The base maps are often a few decades old and the latest photorevision for the USGS maps is usually ten years old or so.  However, its difficult to find maps that compare to the excellent detail of USGS topographic maps and to have a collection on these maps on CD-ROM is wonderful. 
+
+The program currently has a "2-map mode" feature that places the edges of two maps next to each other on the screen, to allow easy viewing of adjacent maps (since the maps on Terrain Navigator are simply scanned images of individual topographic maps, complete with their border and USGS information around the edge).  This is a great feature but later this year Maptech will be rolling out an upgrade of Terrain Navigator that will include seamless maps that allow a user to scroll between topo maps without having to "jump" between them. 
+
+Topographic maps are part of the geographer's basic repertoire; Maptech has produced an excellent digital library of these important maps.  I recommend adding a CD or two to your wish list, you'll be glad you did!  The Terrain Navigator site includes information on currently available states, dealers, and downloadable demos.  The company also offers additional mapping products for outdoor enthusiasts. 
+
+Terrain Navigator's key competitor is a product called Topo! which offers a similar product but covers smaller and fewer areas of the country. 
+  
+
+Subscribe to the free weekly Geography Newsletter to stay updated about this site. 
+
+Visit the Geography Forum to discuss any geographical topic. 
+Previous Features 
+
