@@ -1,5 +1,14 @@
-from re import findall
-import fuzzy
+"""
+.. module:: document
+    :synopsis: This module provides all Document-like objects
+"""
+
+from topia.termextract import extract
+
+from similarity.fuzzy import (
+    algebraic_product,
+    algebraic_sum,
+)
 
 
 class Document(object):
@@ -15,6 +24,8 @@ class Document(object):
         :field uniqueTerms: set of terms appearing in text
         :type uniqueTerms: Set
     """
+    extractor = extract.TermExtractor()
+    extractor.filter = extract.permissiveFilter
 
     def __init__(self, text):
         """
@@ -23,36 +34,21 @@ class Document(object):
         """
         self.text = text
 
-        self.terms = []
-        self.termsWithWeights = {}
+        self.termsWithWeights = dict(
+            [(term.lower(), quantity)
+             for term, quantity, words_no in Document.extractor(text)]
+        )
         self.termsBelongness = {}
 
-    def find_terms(self):
-        """
-            Splits up the document into words (terms).
-            Weight of every term is initally set to 0
-        """
-        self.terms = findall('\w+', self.text.lower())
-        self.uniqueTerms = set(self.terms)
-
-        for term in self.terms:
-            self.termsWithWeights[term] = 0.0
-
-    def calculate_terms_weights(self):
-        sumOfWords = len(self.terms)
-        for term in self.terms:
-            if term in self.uniqueTerms:
-                self.termsWithWeights[term] += 1
-
-        for term in self.termsWithWeights:
-            self.termsWithWeights[term] /= sumOfWords
+    def __str__(self):
+        return self.name
 
     def calculate_terms_belongness(self):
         denumerator = self.termsWithWeights.get(max(self.termsWithWeights))
 
         for term in self.termsWithWeights:
             self.termsBelongness[term] = (self.termsWithWeights.get(term)
-                                            / denumerator)
+                                          / denumerator)
 
 
 class TrainingDocument(Document):
@@ -61,7 +57,15 @@ class TrainingDocument(Document):
         Degree of belongness to categories is not needed,
         only chrisp sets are used.
     """
-    pass
+    def __init__(self, name, text):
+        """
+            :param name: document name
+            :type name: string
+            :param text: content of document
+            :type text: string
+        """
+        super(TrainingDocument, self).__init__(text)
+        self.name = name
 
 
 class AnalizedDocument(Document):

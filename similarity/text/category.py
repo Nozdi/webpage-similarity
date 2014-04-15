@@ -1,3 +1,8 @@
+"""
+.. module:: document
+    :synopsis: This module provides categories for documents
+"""
+
 class Category(object):
     """
         Category of text
@@ -33,12 +38,13 @@ class Category(object):
 
     def count_local_terms_weights(self):
         denumerator = self.trainingDocuments.termsWithWeights.get(
-                            max(self.trainingDocuments.termsWithWeights))
+            max(self.trainingDocuments.termsWithWeights)
+        )
 
         for document in self.trainingDocuments:
             for term in document.termsWithWeights.items():
-                self.belongingTerms[term] += document.termsWithWeights.get(
-                                                term) / denumerator
+                self.belongingTerms[term] += (document.termsWithWeights.get(term)
+                                              / denumerator)
 
 
 class CategoryManager(object):
@@ -67,10 +73,10 @@ class CategoryManager(object):
             category.count_local_terms_weights()
 
         for trainingDocument in self.trainingDocuments:
-            for term, weight in document.termsWithWeights.items():
-                denumerator += document.termsWithWeights.get(term)
+            for term, weight in trainingDocument.termsWithWeights.items():
+                denumerator += trainingDocument.termsWithWeights.get(term)
 
         for category in self.categories:
             for trainingDocument in self.trainingDocuments:
-                for term in document.termsWithWeights:
+                for term in trainingDocument.termsWithWeights:
                     category.belongingTerms[term] /= denumerator
