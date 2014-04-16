@@ -12,10 +12,10 @@ from similarity.text.document import TrainingDocument
 import numpy
 
 
-def vectorspaced(document):
+def vectorspaced(document, all_terms):
     return numpy.array([
         document.termsWithWeights.get(word, 0)
-        for word in vectorspaced.all_terms
+        for word in all_terms
     ])
 
 
@@ -30,13 +30,13 @@ def cluster_documents(directory, regex, clusterer, *args, **kwargs):
             )
 
     # is it magic?
-    vectorspaced.all_terms = set(
+    all_terms = set(
         reduce(list.__add__, map(lambda d: d.termsWithWeights.keys(), documents))
     )
 
     cluster = clusterer(*args, **kwargs)
 
-    vectors = [vectorspaced(doc) for doc in documents]
+    vectors = [vectorspaced(doc, all_terms) for doc in documents]
     cluster.cluster(vectors)
 
     classified = [cluster.classify(vector) for vector in vectors]
