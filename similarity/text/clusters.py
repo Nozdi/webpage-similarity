@@ -6,13 +6,17 @@ from __future__ import unicode_literals
 
 from glob import glob
 from os import path
-from nltk.cluster import KMeansClusterer, GAAClusterer, euclidean_distance
 from similarity.text.document import TrainingDocument
 
 import numpy
 
 
 def vectorspaced(document, all_terms):
+    """
+        :param document: document object
+        :type document: TrainingDocument
+        :returns: distance vector
+    """
     return numpy.array([
         document.termsWithWeights.get(word, 0)
         for word in all_terms
@@ -20,6 +24,15 @@ def vectorspaced(document, all_terms):
 
 
 def cluster_documents(directory, regex, clusterer, *args, **kwargs):
+    """
+        :param directory: directory with documents
+        :type directory: string
+        :param regex: regex to search in directory
+        :type regex: string
+        :param clusterer: choosen clusterer
+        :type clusterer: nltk.cluster class
+        :returns: None
+    """
     files = glob(path.join(directory, regex))
 
     documents = []

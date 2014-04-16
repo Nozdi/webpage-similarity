@@ -5,9 +5,11 @@
 """
 
 from similarity.text.document import TrainingDocument
-from similarity.text.clusters import (
-    cluster_documents,
+from similarity.text.clusters import cluster_documents
+
+from nltk.cluster import (
     KMeansClusterer,
+    GAAClusterer,
     euclidean_distance,
 )
 
