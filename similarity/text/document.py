@@ -40,9 +40,6 @@ class Document(object):
         )
         self.termsBelongness = {}
 
-    def __str__(self):
-        return self.name
-
     def calculate_terms_belongness(self):
         denumerator = self.termsWithWeights.get(max(self.termsWithWeights))
 
@@ -66,6 +63,9 @@ class TrainingDocument(Document):
         """
         super(TrainingDocument, self).__init__(text)
         self.name = name
+
+    def __str__(self):
+        return self.name
 
 
 class AnalizedDocument(Document):
