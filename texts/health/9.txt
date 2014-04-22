@@ -1,0 +1,1 @@
+The same way we created a separate text file for the HTML, you will create a text file for the CSS. If you need visuals for this process please see the first tutorial. Here are the steps to create your CSS style sheet in Notepad:
