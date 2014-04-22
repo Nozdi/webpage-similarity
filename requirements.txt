@@ -4,3 +4,4 @@ gnuplot-py
 matplotlib
 nltk
 topia.termextract
+scrapy

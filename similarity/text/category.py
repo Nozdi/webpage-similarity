@@ -1,17 +1,14 @@
-def algebraic_sum(x, y):
-    return x + y - x * y
-
-
-def algebraic_product(x, y):
-    return x * y
-
+"""
+.. module:: document
+    :synopsis: This module provides categories for documents
+"""
 
 class Category(object):
     """
         Category of text
 
-        :field beloningTerms: key - term, value - belongness to category [0;1]
-        :type beloningTerms: dictionary
+        :field belongingTerms: key - term, value - belongness to category [0;1]
+        :type belongingTerms: dictionary
         :field identifier: unique identifier of category
         :type identifier: long
         :field trainingDocuments: list of training documents
@@ -25,7 +22,7 @@ class Category(object):
         """
         self.identifier = identifier
         self.trainingDocuments = []
-        self.beloningTerms = {}
+        self.belongingTerms = {}
 
     def add_document(self, document):
         """
@@ -36,18 +33,23 @@ class Category(object):
         """
         self.trainingDocuments.append(document)
 
+        for term in document.termsWithWeights.items():
+            self.belongingTerms[term] = 0
+
     def count_local_terms_weights(self):
-        for document in self.trainingDocuments:
-            for term, weight in document.termsWithWeights:
-                self.beloningTerms[term] = 0
+        denumerator = self.trainingDocuments.termsWithWeights.get(
+            max(self.trainingDocuments.termsWithWeights)
+        )
 
         for document in self.trainingDocuments:
-            for term, weight in document.termsWithWeights:
-                self.beloningTerms[term] += document.termsWithWeights.get(term)
+            for term in document.termsWithWeights.items():
+                self.belongingTerms[term] += (document.termsWithWeights.get(term)
+                                              / denumerator)
 
 
 class CategoryManager(object):
     """
+        Keeps lists of categories and training documents.
         :field categories: list of known categories
         :type categories: list
         :field trainingDocuments: list of training documents
@@ -71,10 +73,10 @@ class CategoryManager(object):
             category.count_local_terms_weights()
 
         for trainingDocument in self.trainingDocuments:
-            for term, weight in document.termsWithWeights:
-                denumerator += document.termsWithWeights.get(term)
+            for term, weight in trainingDocument.termsWithWeights.items():
+                denumerator += trainingDocument.termsWithWeights.get(term)
 
         for category in self.categories:
             for trainingDocument in self.trainingDocuments:
-                for term, weight in document.termsWithWeights:
-                    category.beloningTerms[term] /= denumerator
+                for term in trainingDocument.termsWithWeights:
+                    category.belongingTerms[term] /= denumerator

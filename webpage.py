@@ -1,3 +1,8 @@
+"""
+.. module:: document
+    :synopsis: This module provides webpage object
+"""
+
 class WebPage(object):
     """
         Represents analized webpage.
