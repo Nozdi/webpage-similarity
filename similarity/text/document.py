@@ -95,7 +95,9 @@ class AnalizedDocument(Document):
                     category.beloningTerms[term],
                     self.termBelongness[term])
 
-                denumerator += algebraic_sum(category.beloningTerms[term],
-                 self.termBelongness[term])
+                denumerator += algebraic_sum(
+                    category.beloningTerms[term],
+                    self.termBelongness[term]
+                )
 
             self.belongnessToCategories[category] = numerator / denumerator

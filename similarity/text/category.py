@@ -3,6 +3,7 @@
     :synopsis: This module provides categories for documents
 """
 
+
 class Category(object):
     """
         Category of text
