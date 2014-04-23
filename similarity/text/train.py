@@ -14,7 +14,7 @@ from similarity.text.category import Category
 
 def create_categories_with_documents(directory="./texts/"):
     id_categories = [path.basename(path.normpath(full_dirname))
-                  for full_dirname in glob(directory + "*/")]
+                     for full_dirname in glob(directory + "*/")]
 
     categories = []
     for category_name in id_categories:
@@ -35,6 +35,7 @@ def create_categories_with_documents(directory="./texts/"):
 def dump_categories_with_documents(filename="db"):
     with open(filename, 'w') as f:
         dump(create_categories_with_documents(), f)
+
 
 def load_categories_with_documents(filename="db"):
     with open(filename) as f:
