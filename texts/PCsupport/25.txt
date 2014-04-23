@@ -1,1 +1,0 @@
-"I tried several times to download and install an updated driver for my sound card but I just couldn't get it to work. I finally realized that I was trying to install the 32-bit driver when I should have been installing the 64-bit version. I have Windows 7 Ultimate 64-bit so all the drivers I install must be 64-bit based for my 64-bit operating system."

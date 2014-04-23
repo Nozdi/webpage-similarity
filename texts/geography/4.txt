@@ -1,3 +1,0 @@
-Select the correct answer for each question and then press "Next Question" to see if you were correct and for the next question. Good luck! 
-gQuestionList.WriteHTML();
-  

@@ -1,1 +1,0 @@
-Pyramid Solitaire, also known as King Tut or Tut's Tomb, is a simple solitaire game that plays differently from the usual Klondike Solitaire. The goal is simply to remove the cards adding up to 13, which becomes easier with a few strategy tips:
