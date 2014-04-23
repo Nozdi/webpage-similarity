@@ -41,10 +41,10 @@ class Document(object):
         self.termsBelongness = {}
 
     def calculate_terms_belongness(self):
-        denumerator = self.termsWithWeights.get(max(self.termsWithWeights))
+        denumerator = self.termsWithWeights[max(self.termsWithWeights)]
 
         for term in self.termsWithWeights:
-            self.termsBelongness[term] = (self.termsWithWeights.get(term)
+            self.termsBelongness[term] = (self.termsWithWeights[term]
                                           / denumerator)
 
 
@@ -92,10 +92,10 @@ class AnalizedDocument(Document):
         for category in categories:
             for term, value in self.termBelongness:
                 numerator += algebraic_product(
-                    category.beloningTerms.get(term),
-                    self.termBelongness.get(term))
+                    category.beloningTerms[term],
+                    self.termBelongness[term])
 
-                denumerator += algebraic_sum(category.beloningTerms.get(term),
-                 self.termBelongness.get(term))
+                denumerator += algebraic_sum(category.beloningTerms[term],
+                 self.termBelongness[term])
 
             self.belongnessToCategories[category] = numerator / denumerator

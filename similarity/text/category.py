@@ -37,13 +37,13 @@ class Category(object):
             self.belongingTerms[term] = 0
 
     def count_local_terms_weights(self):
-        denumerator = self.trainingDocuments.termsWithWeights.get(
+        denumerator = self.trainingDocuments.termsWithWeights[
             max(self.trainingDocuments.termsWithWeights)
-        )
+        ]
 
         for document in self.trainingDocuments:
             for term in document.termsWithWeights.items():
-                self.belongingTerms[term] += (document.termsWithWeights.get(term)
+                self.belongingTerms[term] += (document.termsWithWeights[term]
                                               / denumerator)
 
 
@@ -74,7 +74,7 @@ class CategoryManager(object):
 
         for trainingDocument in self.trainingDocuments:
             for term, weight in trainingDocument.termsWithWeights.items():
-                denumerator += trainingDocument.termsWithWeights.get(term)
+                denumerator += trainingDocument.termsWithWeights[term]
 
         for category in self.categories:
             for trainingDocument in self.trainingDocuments:
