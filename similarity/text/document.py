@@ -41,7 +41,7 @@ class Document(object):
         self.termsBelongness = {}
 
     def calculate_terms_belongness(self):
-        denumerator = self.termsWithWeights[max(self.termsWithWeights)]
+        denumerator = max(self.termsWithWeights.values())
 
         for term in self.termsWithWeights:
             self.termsBelongness[term] = (self.termsWithWeights[term]
@@ -76,7 +76,7 @@ class AnalizedDocument(Document):
         :type belongnessToCategories: dictionary
     """
     def __init__(self, text):
-        Document.__init__(self, text)
+        super(AnalizedDocument, self).__init__(text)
         self.belongnessToCategories = {}
 
     def calculate_belongness_to_categories(self, categories):
