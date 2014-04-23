@@ -2,7 +2,7 @@
 .. module:: document
     :synopsis: This module provides all Document-like objects
 """
-
+from __future__ import division
 from topia.termextract import extract
 
 from similarity.fuzzy import (
