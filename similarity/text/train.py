@@ -33,10 +33,10 @@ def create_categories_with_documents(directory="./texts/"):
 
 
 def dump_categories_with_documents(filename="db"):
-    with open(filename, 'w') as f:
-        dump(create_categories_with_documents(), f)
+    with open(filename, 'wb') as f:
+        dump(create_categories_with_documents(), f, -1)
 
 
 def load_categories_with_documents(filename="db"):
-    with open(filename) as f:
+    with open(filename, 'rb') as f:
         return load(f)

@@ -24,6 +24,7 @@ class Document(object):
         :field uniqueTerms: set of terms appearing in text
         :type uniqueTerms: Set
     """
+    __slots__ = 'termsWithWeights', 'termsBelongness'
     extractor = extract.TermExtractor()
     extractor.filter = extract.permissiveFilter
 
@@ -32,7 +33,6 @@ class Document(object):
             :param text: content of document
             :type text: string
         """
-        self.text = text
 
         self.termsWithWeights = dict(
             [(term.lower(), quantity)
@@ -54,6 +54,7 @@ class TrainingDocument(Document):
         Degree of belongness to categories is not needed,
         only chrisp sets are used.
     """
+    __slots__ = 'name',
     def __init__(self, name, text):
         """
             :param name: document name
