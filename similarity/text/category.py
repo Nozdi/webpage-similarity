@@ -41,9 +41,9 @@ class Category(object):
         denumerator = 0.0
         for trainingDocument in self.trainingDocuments:
             candidate = max(
-                self.trainingDocument.termsWithWeights.values
+                trainingDocument.termsWithWeights.values
             )
-            if candidate > denumerator
+            if candidate > denumerator:
                 denumerator = candidate
 
         for document in self.trainingDocuments:
