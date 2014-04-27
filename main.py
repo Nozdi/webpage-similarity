@@ -27,7 +27,7 @@ print "Stopien przynaleznosci termow do dokumentu:"
 print doc.termsBelongness
 
 # cluster_documents("texts/ufo/", "[0-9]*.txt", KMeansClusterer, 2, euclidean_distance)
-# cluster_documents("texts/", "*/[0-9]*.txt", KMeansClusterer, 5, euclidean_distance)
+# cluster_documents("texts/", "*/[0-9]*.txt", KMeansClusterer, 12, euclidean_distance)
 
 categories = create_categories_with_documents()
 for category in categories:
