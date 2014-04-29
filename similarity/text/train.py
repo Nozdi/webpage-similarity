@@ -25,8 +25,8 @@ def create_categories_with_documents(directory="./texts/"):
                     name=filename,
                     text=f.read().decode("utf-8")
                 )
-                td.calculate_terms_belongness()
-                cat.add_document(td)
+            td.calculate_terms_belongness()
+            cat.add_document(td)
         cat.count_local_terms_weights()
         categories.append(cat)
     return categories

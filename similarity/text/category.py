@@ -2,6 +2,7 @@
 .. module:: document
     :synopsis: This module provides categories for documents
 """
+from __future__ import division
 
 
 class Category(object):
