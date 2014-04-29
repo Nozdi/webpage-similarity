@@ -27,7 +27,7 @@ def create_categories_with_documents(directory="./texts/"):
                 )
                 td.calculate_terms_belongness()
                 cat.add_document(td)
-        # cat.count_local_terms_weights()
+        cat.count_local_terms_weights()
         categories.append(cat)
     return categories
 

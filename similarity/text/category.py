@@ -34,14 +34,14 @@ class Category(object):
         """
         self.trainingDocuments.append(document)
 
-        for term in document.termsWithWeights.items():
+        for term in document.termsWithWeights:
             self.belongingTerms[term] = 0
 
     def count_local_terms_weights(self):
         denumerator = 0.0
         for trainingDocument in self.trainingDocuments:
             candidate = max(
-                trainingDocument.termsWithWeights.values
+                trainingDocument.termsWithWeights.values()
             )
             if candidate > denumerator:
                 denumerator = candidate
