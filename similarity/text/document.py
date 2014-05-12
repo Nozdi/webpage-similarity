@@ -91,19 +91,7 @@ class AnalizedDocument(Document):
 
 
         self.calculate_terms_belongness()
-
         for category in categories:
-            # for term in self.termsBelongness:
-            #     numerator += algebraic_product(
-            #         category.belongingTerms.get(term, default),
-            #         self.termsBelongness[term])
-
-            #     denumerator += algebraic_sum(
-            #         category.belongingTerms.get(term, default),
-            #         self.termsBelongness[term]
-            #     )
-
-            # self.belongnessToCategories[category] = numerator / denumerator
             self.belongnessToCategories[category] = jaccard(
                 self.termsBelongness,
                 category.belongingTerms,

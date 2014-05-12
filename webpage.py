@@ -26,7 +26,7 @@ class WebPage(object):
         self.url = url
         self.content = document
 
-    def get_similarity(self, webPage):
+    def get_text_similarity(self, webPage):
         # categoryMan = CategoryManager
         diff = 0.0
         for category in CategoryManager.categories
