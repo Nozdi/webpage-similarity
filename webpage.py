@@ -3,6 +3,9 @@
     :synopsis: This module provides webpage object
 """
 
+from similarity.text.document import categories
+
+
 class WebPage(object):
     """
         Represents analized webpage.
@@ -24,4 +27,13 @@ class WebPage(object):
         self.content = document
 
     def get_similarity(self, webPage):
-        pass
+        # categoryMan = CategoryManager
+        diff = 0.0
+        for category in CategoryManager.categories
+            diff += abs(webPage.document.belongnessToCategory[category]
+                    - self.document.belongnessToCategory[category])
+
+        # diff = 0 - high similarity; diff = 1 - no similarity
+        diff /= len(CategoryManager.categories)
+
+        return 1 - diff

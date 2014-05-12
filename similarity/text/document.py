@@ -8,6 +8,7 @@ from topia.termextract import extract
 from similarity.fuzzy import (
     algebraic_product,
     algebraic_sum,
+    jaccard,
 )
 
 
@@ -38,14 +39,6 @@ class Document(object):
             [(term.lower(), quantity)
              for term, quantity, words_no in Document.extractor(text)]
         )
-        self.termsBelongness = {}
-
-    def calculate_terms_belongness(self):
-        denumerator = max(self.termsWithWeights.values())
-
-        for term in self.termsWithWeights:
-            self.termsBelongness[term] = (self.termsWithWeights[term]
-                                          / denumerator)
 
 
 class TrainingDocument(Document):
@@ -55,6 +48,7 @@ class TrainingDocument(Document):
         only chrisp sets are used.
     """
     __slots__ = 'name',
+
     def __init__(self, name, text):
         """
             :param name: document name
@@ -76,29 +70,43 @@ class AnalizedDocument(Document):
         :field belongnessToCategories: key - category, value - belongness to category [0;1]
         :type belongnessToCategories: dictionary
     """
-    def __init__(self, text):
+    def __init__(self, name, text):
         super(AnalizedDocument, self).__init__(text)
+        self.termsBelongness = {}
         self.belongnessToCategories = {}
+        self.name = name
+
+    def calculate_terms_belongness(self):
+        denumerator = max(self.termsWithWeights.values())
+
+        for term in self.termsWithWeights:
+            self.termsBelongness[term] = (self.termsWithWeights[term]
+                                          / denumerator)
 
     def calculate_belongness_to_categories(self, categories):
         """
             :param categories: list of Categories
             :type categories: list
         """
-        numerator = 0.0
-        denumerator = 0.0
+
 
         self.calculate_terms_belongness()
 
         for category in categories:
-            for term, value in self.termBelongness:
-                numerator += algebraic_product(
-                    category.beloningTerms[term],
-                    self.termBelongness[term])
+            # for term in self.termsBelongness:
+            #     numerator += algebraic_product(
+            #         category.belongingTerms.get(term, default),
+            #         self.termsBelongness[term])
 
-                denumerator += algebraic_sum(
-                    category.beloningTerms[term],
-                    self.termBelongness[term]
-                )
+            #     denumerator += algebraic_sum(
+            #         category.belongingTerms.get(term, default),
+            #         self.termsBelongness[term]
+            #     )
 
-            self.belongnessToCategories[category] = numerator / denumerator
+            # self.belongnessToCategories[category] = numerator / denumerator
+            self.belongnessToCategories[category] = jaccard(
+                self.termsBelongness,
+                category.belongingTerms,
+                algebraic_product,
+                algebraic_sum
+            )

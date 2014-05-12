@@ -4,32 +4,38 @@
     :synopsis: This module shows example usage
 """
 
-from similarity.text.document import TrainingDocument
-from similarity.text.clustering import cluster_documents
-from similarity.text.train import create_categories_with_documents
-
-from nltk.cluster import (
-    KMeansClusterer,
-    GAAClusterer,
-    euclidean_distance,
+from similarity.text.document import AnalizedDocument
+from similarity.text.train import load_categories_with_documents
+from similarity.fuzzy import (
+    algebraic_product,
+    algebraic_sum,
+    jaccard,
 )
 
-doc = TrainingDocument(name="Test", text="To jest taki, a nie inny tekst. TO jest to.")
-doc.calculate_terms_belongness()
+categories = load_categories_with_documents()
 
-print "Lista termow z dokumentu:"
-print doc.termsWithWeights.keys()
-# print "Zbior termow z dokumemntu (lista bez powtorzen):"
-# print doc.uniqueTerms
-print "Wagi termow w dokumencie:"
-print doc.termsWithWeights
-print "Stopien przynaleznosci termow do dokumentu:"
-print doc.termsBelongness
+test_doc_file = open('test_doc', 'r')
+test_doc_file2 = open('test_doc', 'r')
 
-# cluster_documents("texts/ufo/", "[0-9]*.txt", KMeansClusterer, 2, euclidean_distance)
-# cluster_documents("texts/", "*/[0-9]*.txt", KMeansClusterer, 12, euclidean_distance)
+test_doc = AnalizedDocument(name="Testing", text=test_doc_file.read())
+test_doc.calculate_belongness_to_categories(categories)
 
-categories = create_categories_with_documents()
-for category in categories:
-    for td in category.trainingDocuments:
-        print(td.termsBelongness)
+test_doc2 = AnalizedDocument(name="Testing2", text=test_doc_file2.read())
+test_doc2.calculate_belongness_to_categories(categories)
+
+for cat in test_doc.belongnessToCategories.keys():
+    print cat.identifier
+    print test_doc.belongnessToCategories[cat]
+    print
+
+for cat in test_doc2.belongnessToCategories.keys():
+    print cat.identifier
+    print test_doc2.belongnessToCategories[cat]
+    print
+
+print jaccard(
+                test_doc.belongnessToCategories,
+                test_doc2.belongnessToCategories,
+                algebraic_product,
+                algebraic_sum
+            )
