@@ -56,5 +56,5 @@ def load_objects(filename="db"):
 if __name__ == '__main__':
     dump_objects(create_categories_with_documents(), "cats")
     print(load_objects("cats"))
-    dump_objects(create_terms_to_categories_relevance("db"))
+    dump_objects(create_terms_to_categories_relevance(), "db")
     print(load_objects("db"))
