@@ -3,6 +3,7 @@
     :synopsis: This module provides categories for documents
 """
 from __future__ import division
+from collections import defaultdict
 
 
 class Category(object):
@@ -24,7 +25,7 @@ class Category(object):
         """
         self.identifier = identifier
         self.trainingDocuments = []
-        self.belongingTerms = {}
+        self.termsQuantity = defaultdict(int)
 
     def add_document(self, document):
         """
@@ -35,53 +36,22 @@ class Category(object):
         """
         self.trainingDocuments.append(document)
 
-        for term in document.termsWithWeights:
-            self.belongingTerms[term] = 0
+        for term, value in document.termsQuantity.iteritems():
+            self.termsQuantity[term] += value
 
-    def count_local_terms_weights(self):
-        denumerator = 0.0
-        for trainingDocument in self.trainingDocuments:
-            candidate = max(
-                trainingDocument.termsWithWeights.values()
-            )
-            if candidate > denumerator:
-                denumerator = candidate
-
-        for document in self.trainingDocuments:
-            for key, value in document.termsWithWeights.items():
-                self.belongingTerms[key] += value / denumerator
+    def __str__(self):
+        return self.identifier
 
 
-class CategoryManager(object):
+def term_to_cat_relevance(term, category, all_categories):
     """
-        Keeps lists of categories and training documents.
-        :field categories: list of known categories
-        :type categories: list
-        :field trainingDocuments: list of training documents
-        :type trainingDocuments: list
+    mi R(t, cj)
+        :param term: term from document
+        :type type: str
+        :param category: category in which we look for
+        :type Category
+        :param all_categories: all categories
+        :type list
     """
-
-    def __init__(self, categories, documents):
-        """
-            :param categories: list of categories
-            :type categories: list
-            :param documents: list of training documents
-            :type documents: list
-        """
-        self.categories = categories
-        self.trainingDocuments = documents
-
-    def calculate_terms_belongness_to_categories(self):
-        denumerator = 0
-
-        for category in self.categories:
-            category.count_local_terms_weights()
-
-        for trainingDocument in self.trainingDocuments:
-            for term, weight in trainingDocument.termsWithWeights.items():
-                denumerator += trainingDocument.termsWithWeights[term]
-
-        for category in self.categories:
-            for trainingDocument in self.trainingDocuments:
-                for term in trainingDocument.termsWithWeights:
-                    category.belongingTerms[term] /= denumerator
+    return (category.termsQuantity[term] /
+            sum([cat.termsQuantity[term] for cat in all_categories]))

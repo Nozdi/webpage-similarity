@@ -10,6 +10,7 @@ from similarity.fuzzy import (
     algebraic_sum,
     jaccard,
 )
+from similarity.text.train import load_objects
 
 
 class Document(object):
@@ -18,14 +19,14 @@ class Document(object):
         :type text: string
         :field terms: terms extracted from text
         :type terms: list
-        :field termsWithWeights: key - term, value - weight from range: (0,1]
-        :type termsWithWeights: dictionary
+        :field termsQuantity: key - term, value - weight from range: (0,1]
+        :type termsQuantity: dictionary
         :field termsBelongness: key - term, value - term weight / max weight
         :type termsBelongness: dictionary
         :field uniqueTerms: set of terms appearing in text
         :type uniqueTerms: Set
     """
-    __slots__ = 'termsWithWeights', 'termsBelongness'
+    __slots__ = 'termsQuantity',
     extractor = extract.TermExtractor()
     extractor.filter = extract.permissiveFilter
 
@@ -35,10 +36,16 @@ class Document(object):
             :type text: string
         """
 
-        self.termsWithWeights = dict(
+        # d = {<t1, w1>, ... <tm, wm>}
+        self.termsQuantity = dict(
             [(term.lower(), quantity)
              for term, quantity, words_no in Document.extractor(text)]
         )
+
+    @classmethod
+    def from_file(cls, filename, *args, **kwargs):
+        with open(filename) as f:
+            return cls(f.read().decode("utf-8"), *args, **kwargs)
 
 
 class TrainingDocument(Document):
@@ -49,7 +56,7 @@ class TrainingDocument(Document):
     """
     __slots__ = 'name',
 
-    def __init__(self, name, text):
+    def __init__(self, text, name):
         """
             :param name: document name
             :type name: string
@@ -70,17 +77,18 @@ class AnalizedDocument(Document):
         :field belongnessToCategories: key - category, value - belongness to category [0;1]
         :type belongnessToCategories: dictionary
     """
-    def __init__(self, name, text):
+    def __init__(self, text):
         super(AnalizedDocument, self).__init__(text)
         self.termsBelongness = {}
         self.belongnessToCategories = {}
-        self.name = name
 
     def calculate_terms_belongness(self):
-        denumerator = max(self.termsWithWeights.values())
-
-        for term in self.termsWithWeights:
-            self.termsBelongness[term] = (self.termsWithWeights[term]
+        """
+        mi d(t)
+        """
+        denumerator = max(self.termsQuantity.values())
+        for term in self.termsQuantity:
+            self.termsBelongness[term] = (self.termsQuantity[term]
                                           / denumerator)
 
     def calculate_belongness_to_categories(self, categories):
@@ -88,13 +96,14 @@ class AnalizedDocument(Document):
             :param categories: list of Categories
             :type categories: list
         """
+        if not self.termsBelongness:
+            self.calculate_terms_belongness()
 
-
-        self.calculate_terms_belongness()
+        terms_revelance = load_objects('db')
         for category in categories:
             self.belongnessToCategories[category] = jaccard(
                 self.termsBelongness,
-                category.belongingTerms,
+                terms_revelance[category.identifier],
                 algebraic_product,
-                algebraic_sum
+                algebraic_sum,
             )

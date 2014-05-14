@@ -8,11 +8,14 @@ from pickle import (
     dump,
     load,
 )
-from similarity.text.document import TrainingDocument
-from similarity.text.category import Category
+from similarity.text.category import (
+    Category,
+    term_to_cat_relevance,
+)
 
 
 def create_categories_with_documents(directory="./texts/"):
+    from similarity.text.document import TrainingDocument
     id_categories = [path.basename(path.normpath(full_dirname))
                      for full_dirname in glob(directory + "*/")]
 
@@ -20,23 +23,38 @@ def create_categories_with_documents(directory="./texts/"):
     for category_name in id_categories:
         cat = Category(category_name)
         for filename in glob(directory + category_name + "/[0-9]*.txt"):
-            with open(filename) as f:
-                td = TrainingDocument(
-                    name=filename,
-                    text=f.read().decode("utf-8")
-                )
-            td.calculate_terms_belongness()
+            td = TrainingDocument.from_file(filename, filename)
             cat.add_document(td)
-        cat.count_local_terms_weights()
         categories.append(cat)
     return categories
 
 
-def dump_categories_with_documents(filename="db"):
+def create_terms_to_categories_relevance():
+    categories = create_categories_with_documents()
+    terms_revelance = {}
+    for category in categories:
+        terms_revelance[category.identifier] = {}
+        for term in category.termsQuantity:
+            terms_revelance[category.identifier][term] = term_to_cat_relevance(
+                term,
+                category,
+                categories,
+            )
+    return terms_revelance
+
+
+def dump_objects(objects, filename="db"):
     with open(filename, 'wb') as f:
-        dump(create_categories_with_documents(), f, -1)
+        dump(objects, f, -1)
 
 
-def load_categories_with_documents(filename="db"):
+def load_objects(filename="db"):
     with open(filename, 'rb') as f:
         return load(f)
+
+
+if __name__ == '__main__':
+    dump_objects(create_categories_with_documents(), "cats")
+    print(load_objects("cats"))
+    dump_objects(create_terms_to_categories_relevance("db"))
+    print(load_objects("db"))

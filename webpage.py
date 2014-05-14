@@ -3,7 +3,8 @@
     :synopsis: This module provides webpage object
 """
 
-from similarity.text.document import categories
+from similarity.text.train import load_objects
+from similarity.fuzzy import jaccard
 
 
 class WebPage(object):
@@ -15,8 +16,9 @@ class WebPage(object):
         :field url: url to a webpage
         :type url: string
     """
+    categories = load_objects('cats')
 
-    def __init__(self, document, url):
+    def __init__(self, document, url="http://google.com"):
         """
             :param document: object of Document class
             :type document: Document
@@ -26,14 +28,13 @@ class WebPage(object):
         self.url = url
         self.content = document
 
-    def get_text_similarity(self, webPage):
-        # categoryMan = CategoryManager
-        diff = 0.0
-        for category in CategoryManager.categories
-            diff += abs(webPage.document.belongnessToCategory[category]
-                    - self.document.belongnessToCategory[category])
-
-        # diff = 0 - high similarity; diff = 1 - no similarity
-        diff /= len(CategoryManager.categories)
-
-        return 1 - diff
+    def get_text_similarity(self, web_page):
+        self.content.calculate_belongness_to_categories(self.categories)
+        if not web_page.content.belongnessToCategories:
+            web_page.content.calculate_belongness_to_categories(self.categories)
+        return jaccard(
+            self.content.belongnessToCategories,
+            web_page.content.belongnessToCategories,
+            min,
+            max,
+        )
