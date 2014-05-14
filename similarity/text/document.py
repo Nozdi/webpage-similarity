@@ -10,7 +10,7 @@ from similarity.fuzzy import (
     algebraic_sum,
     jaccard,
 )
-from similarity.text.train import load_objects
+from similarity.serialization import load_objects
 
 
 class Document(object):

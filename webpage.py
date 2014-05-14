@@ -3,7 +3,7 @@
     :synopsis: This module provides webpage object
 """
 
-from similarity.text.train import load_objects
+from similarity.serialization import load_objects
 from similarity.fuzzy import jaccard
 
 

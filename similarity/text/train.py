@@ -4,18 +4,15 @@
 """
 from os import path
 from glob import glob
-from pickle import (
-    dump,
-    load,
-)
+
 from similarity.text.category import (
     Category,
     term_to_cat_relevance,
 )
+from similarity.text.document import TrainingDocument
 
 
 def create_categories_with_documents(directory="./texts/"):
-    from similarity.text.document import TrainingDocument
     id_categories = [path.basename(path.normpath(full_dirname))
                      for full_dirname in glob(directory + "*/")]
 
@@ -41,20 +38,3 @@ def create_terms_to_categories_relevance():
                 categories,
             )
     return terms_revelance
-
-
-def dump_objects(objects, filename="db"):
-    with open(filename, 'wb') as f:
-        dump(objects, f, -1)
-
-
-def load_objects(filename="db"):
-    with open(filename, 'rb') as f:
-        return load(f)
-
-
-if __name__ == '__main__':
-    dump_objects(create_categories_with_documents(), "cats")
-    print(load_objects("cats"))
-    dump_objects(create_terms_to_categories_relevance(), "db")
-    print(load_objects("db"))
