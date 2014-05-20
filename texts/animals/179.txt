@@ -1,0 +1,15 @@
+Chordates (Chordata) are a group of animals that includes more than 75,000 living species. Chordates are divided into three basic groups: vertebrates, tunicates, lancelets. Of these, the vertebrates—lampreys, mammals, birds, amphibians, reptiles and fishes—are the most familiar and are the group to which humans belong.
+
+Chordates are bilaterally symmetrical, which means there is a line of symmetry that divides their body into halves that are roughly mirror images of each other. Bilateral symmetry is not unique to chordates. Other groups of animals—arthropods, segmented worms, and echinoderms—exhibit bilateral symmetry (although in the case of echinoderms, they are bilaterally symmetrical only during the larval stage of their life cycle; as adults they exhibit pentaradial symmetry).
+
+All chordates have a notochord that is present during some or all of their life cycle. A notochord is a semi-flexible rod that provides structural support and serves as an anchor for the animal's large body muscles. The notochord consists of a core of semi-fluid cells enclosed in a fibrous sheath. The notochord extends the length of the animal's body. In vertebrates, the notochord is only present during the embryonic stage of development, and is later replaced when vertebrae develop around the notochord to form the backbone. In tunicates, the notochord remains present throughout the animal's entire life cycle.
+
+Chordates have a single, tubular nerve cord that runs along the back (dorsal) surface of the animal which, in most species, forms a brain at the front (anterior) end of the animal. They also have pharyngeal pouches that are present at some stage in their life cycle. In vertebrates, pharyngeal pouches develop into various different structures such as the middle ear cavity, the tonsils, and the parathyroid glands. In aquatic chordates, the pharyngeal pouches develop into pharyngeal slits which serve as openings between the pharyngeal cavity and the external environment.
+
+Another characteristic of chordates is a structure called the endostyle, a ciliated groove on the ventral wall of the pharynx that secretes mucus and traps small food particles that enter the pharyngeal cavity. The endostyle is present in tunicates and lancelets. In vertebrates, the endostyle is replaced by the thyroid, an endocrine gland located in the neck.
+
+Chordates are classified within the following taxonomic hierarchy:
+
+Chordates are divided into the following taxonomic groups:
+
+Shu D, Zhang X, Chen L. Reinterpretation of Yunnanozoon as the earliest known hemichordate. Nature. 1996;380(6573):428-430.
