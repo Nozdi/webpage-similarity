@@ -1,0 +1,11 @@
+Animal classification is a matter of sorting out similarities and differences, of placing animals in groups and then breaking those groups apart into subgroups. The whole endeavor creates a structure—a hierarchy in which the large high-level groups sort out bold and obvious differences, while the low-level groups tease apart subtle, almost imperceptible, variations. This sorting process enables scientists to describe evolutionary relationships, identify shared traits, and highlight unique characteristics down through the various levels of animal groups and subgroups.
+
+Among the most basic criteria by which animals are sorted is whether or not they possess a backbone. This single trait places an animal into one of just two groups: the vertebrates or the invertebrates and represents a fundamental division among all animals alive today as well as those that have long ago disappeared. If we are to know anything about an animal, we should first aim to determine whether it is an invertebrate or a vertebrate. We'll then be on our way to understanding its place within the animal world.
+
+Vertebrates (Subphylum Vertebrata) are animals that possess an internal skeleton (endoskeleton) that includes a backbone made up of a column of vertebrae (Keeton, 1986:1150). The Subphylum Vertebrata is a group within the Phylum Chordata (commonly called the 'chordates') and as such inherits the characteristics of all chordates:
+
+In addition to the traits listed above, vertebrates possess one additional trait that makes them unique among chordates: the presence of a backbone. There are a few groups of chordates that do not possess a backbone (these organisms are not vertebrates and are instead referred to as invertebrate chordates).
+
+The animal classes that are vertebrates include:
+
+Invertebrates are a broad collection of animal groups (they do not belong to a single subphylum like the vertebrates) all of which lack a backbone. Some (not all) of the animal groups that are invertebrates include:

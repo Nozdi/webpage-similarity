@@ -1,0 +1,21 @@
+Vertebrates are a well-known group of animals that includes mammals, birds, reptiles, amphibians, and fish. The defining characteristic of vertebrates is their backbone, an anatomical feature that first appeared in the fossil record about 500 million years ago, during the Ordovician period. In this article, we'll look at the various groups of vertebrates in the order in which they evolved to create a picture of how vertebrate evolution unfolded to the present day.
+
+The first vertebrates were the jawless fish (Class Agnatha). These fish-like animals had hard bony plates that covered their bodies and as their name implies, they did not have jaws. Additionally, these early fish did not have paired fins. The jawless fish are thought to have relied on filter feeding to capture their food, and most likely would have sucked water and debris from the seafloor into their mouth, releasing water and waste out of their gills.
+
+The jawless fish that lived during the Ordovician period all went extinct by the end of the Devonian period. Yet today there are some species of fish that lack jaws (such as lampreys, and hagfish). These modern day jawless fish are not direct survivors of the Class Agnatha but are instead distant cousins of the cartilaginous fish.
+
+The armored fish evolved during the Silurian period. Like their predecessors, they too lacked jaw bones but possessed paired fins. The armored fish diversified during the Devonian period but declined and fell into extinction by the end of the Permian period.
+
+Cartilaginous fish, better known as sharks, skates, and rays evolved during the Silurian period. Cartilaginous fish have skeletons composed of cartilage, not bone. They also differ from other fish in that they lack swim bladders and lungs.
+
+Members of the Class Osteichthyes first arose during the late Silurian. The majority of modern fish belong to this group (note that some classification schemes recognize the Class Actnopterygii instead of Osteichthyes). Bony fish diverged into two groups, one that evolved into modern fish, the other that evolved into lungfish, lobe-finned fish, and fleshy-finned fish. The fleshy finned fish gave rise to the amphibians.
+
+Amphibians were the first vertebrates to venture out onto land. Early amphibians retained many fish-like characteristics but during the Carboniferous period amphibians diversified. They retained close ties to water though, producing fish-like eggs that lacked a hard protective coating and requiring moist environments to keep their skin damp. Additionally, amphibians underwent larval phases that were entirely aquatic and only the adult animals were able to tackle land habitats.
+
+Reptiles arose during the Carboniferous period and quickly took over as the dominant vertebrate of the land. Reptiles freed themselves from aquatic habitats where amphibians had not. Reptiles developed hard-shelled eggs that could be laid on dry land. They had dry skin made of scales that served as protection and helped retain moisture. Reptiles developed larger and more powerful legs than those of amphibians. The placement of the reptilian legs beneath the body (instead of at the side as in amphibians) enabled them greater mobility.
+
+Sometime during the early Jurassic, two groups of reptiles gained the ability to fly and one of these groups later gave rise to the birds. Birds developed a range of adaptations that enabled flight such as feathers, hollow bones, and warm-bloodedness.
+
+Mammals, like birds, evolved from a reptilian ancestor. Mammals developed a four-chambered heart, hair covering, and most do not lay eggs and instead give birth to live young (the exception is the monotremes).
+
+The following table shows the progression of vertebrate evolution (organisms listed at the top of the table evolved earlier than those lower in the table).
