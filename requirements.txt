@@ -5,3 +5,4 @@ matplotlib
 nltk
 topia.termextract
 scrapy
+unidecode
