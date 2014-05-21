@@ -58,7 +58,7 @@ class WebSpider(BaseSpider):
                 crawledLinks.append(link)
                 yield Request(link, self.parse)
 
-        # tu trzeba zmienic po czym ma wyszukiwac na stronie, znaczniki html    
+        # tu trzeba zmienic po czym ma wyszukiwac na stronie, znaczniki html
         # paragraphs = hxs.select("//div[@id='articlebody']/p")
         # alltexts = []
 
@@ -69,13 +69,15 @@ class WebSpider(BaseSpider):
         #         pass
         #     alltexts.append(text)
 
+        # Goose dziala lepiej, niż soup, do tego może wyciągać img
+        # może wyciągać tekst, albo z url, albo z czystego html
         g = Goose()
         raw_html = response.body
         article = g.extract(raw_html=raw_html)
         text = article.cleaned_text
         if text.isspace() or not text:
             pass
-  
+
         item = Website()
         # text = ' '.join(alltexts)
         # if text.isspace() or not text:
