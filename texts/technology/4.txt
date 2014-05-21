@@ -1,2 +1,2 @@
 A dongle, in the world of computer peripherals, typically refers to the small receiver that comes with a wireless mouse or keyboard. The dongle plugs into the USB port of the computer and communicates with the peripheral. Dongles are available for use with RF and Bluetooth peripherals. Although dongles used to be roughly the size of a cigarette lighter, most are able to sit nearly flat against the side of a computer. These small dongles are most often referred to as "nano receivers."
-  
+  

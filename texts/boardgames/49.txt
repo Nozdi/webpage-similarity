@@ -43,7 +43,7 @@ Note that in the first turn (when there are no Decipher cards on the board yet) 
 
 After the cards have been played, the non-active player must "Evaluate" their hidden cards against the current player's three face-up Decipher cards. 
 
-This evaluation is done on a column by column basis. The first hidden card is compared to the Decipher card in the same column (without revealing the hidden card). If the face up card matches the hidden card’s suit or number, the player must place one of their pennies on top of his or her face down card. This indicates the active player has scored a "hit" and is closer to deciphering the code. This process is repeated for each of the hidden cards. 
+This evaluation is done on a column by column basis. The first hidden card is compared to the Decipher card in the same column (without revealing the hidden card). If the face up card matches the hidden card's suit or number, the player must place one of their pennies on top of his or her face down card. This indicates the active player has scored a "hit" and is closer to deciphering the code. This process is repeated for each of the hidden cards. 
 
 Once each column has been evaluated, and the pennies have been placed on the hidden cards, the active player's turn is over. Note that the pennies remain on the hidden cards until the Decipher card in front of them changes. This way the player can always see how many "hits" they have with the currently active Decipher cards. 
 

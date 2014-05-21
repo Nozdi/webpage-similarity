@@ -1,6 +1,6 @@
-Chordates (Chordata) are a group of animals that includes more than 75,000 living species. Chordates are divided into three basic groups: vertebrates, tunicates, lancelets. Of these, the vertebrates—lampreys, mammals, birds, amphibians, reptiles and fishes—are the most familiar and are the group to which humans belong.
+Chordates (Chordata) are a group of animals that includes more than 75,000 living species. Chordates are divided into three basic groups: vertebrates, tunicates, lancelets. Of these, the vertebrates--lampreys, mammals, birds, amphibians, reptiles and fishes--are the most familiar and are the group to which humans belong.
 
-Chordates are bilaterally symmetrical, which means there is a line of symmetry that divides their body into halves that are roughly mirror images of each other. Bilateral symmetry is not unique to chordates. Other groups of animals—arthropods, segmented worms, and echinoderms—exhibit bilateral symmetry (although in the case of echinoderms, they are bilaterally symmetrical only during the larval stage of their life cycle; as adults they exhibit pentaradial symmetry).
+Chordates are bilaterally symmetrical, which means there is a line of symmetry that divides their body into halves that are roughly mirror images of each other. Bilateral symmetry is not unique to chordates. Other groups of animals--arthropods, segmented worms, and echinoderms--exhibit bilateral symmetry (although in the case of echinoderms, they are bilaterally symmetrical only during the larval stage of their life cycle; as adults they exhibit pentaradial symmetry).
 
 All chordates have a notochord that is present during some or all of their life cycle. A notochord is a semi-flexible rod that provides structural support and serves as an anchor for the animal's large body muscles. The notochord consists of a core of semi-fluid cells enclosed in a fibrous sheath. The notochord extends the length of the animal's body. In vertebrates, the notochord is only present during the embryonic stage of development, and is later replaced when vertebrae develop around the notochord to form the backbone. In tunicates, the notochord remains present throughout the animal's entire life cycle.
 
@@ -12,4 +12,4 @@ Chordates are classified within the following taxonomic hierarchy:
 
 Chordates are divided into the following taxonomic groups:
 
-Shu D, Zhang X, Chen L. Reinterpretation of Yunnanozoon as the earliest known hemichordate. Nature. 1996;380(6573):428-430.
+Shu D, Zhang X, Chen L. Reinterpretation of Yunnanozoon as the earliest known hemichordate. Nature. 1996;380(6573):428-430.

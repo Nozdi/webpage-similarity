@@ -6,7 +6,7 @@ FACT: There are about 205 species of owls.
 
 Owls belong to a group of birds that includes about 205 species. These species are sorted into two basic groups, the barn owls and the true owls.
 
-Barn owls have a heart-shaped face, long legs and powerful talons. Barn owls are medium-sized birds with a wingspan of about 3½ feet. There are 16 species of barn owls, including the greater sooty owl, Australasian grass owl, ashy-faced owl, barn owl and Sulawesi owl.
+Barn owls have a heart-shaped face, long legs and powerful talons. Barn owls are medium-sized birds with a wingspan of about 31/2 feet. There are 16 species of barn owls, including the greater sooty owl, Australasian grass owl, ashy-faced owl, barn owl and Sulawesi owl.
 
 True owls are more diverse than barn owls, with nearly 190 species in about 23 genera. Some better known true owls include screech owls, horned owls and saw-whet owls. True owls vary in size from the tiny elf owl to the bulky Eurasian eagle owl. True owls have a round facial disc, a short tail and a large head. Their color is muted (consisting of mostly brown, rust, gray, white and black) and their pattern is mottled, helping to conceal them from both predators and prey.
 
@@ -36,6 +36,6 @@ The structure of an owl's foot is referred to as zygodactyl, which means that to
 
 In many species, the bill is partly concealed by feathers so it appears smaller than it actually is. Owls use their sharp bill to tear their food.
 
-FACT: Owls do more than just hoot—they create many different vocalizations.
+FACT: Owls do more than just hoot--they create many different vocalizations.
 
 Owls create a wide variety of sounds or vocalisations. The familiar hoot is usually a territorial declaration, though not all species are able to hoot. Other sounds owls might make include screeches, hisses, and screams. Owl vocalizations are loud and low-pitched. Their cries travel well through the night air, enabling them to locate mates and declare territories despite the darkness.

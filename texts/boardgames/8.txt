@@ -19,7 +19,7 @@ Gameplay
 
 The player to the left of the dealer goes first and play continues clockwise from there. In turn, each player takes the top card on his pile and places it, face up, in the middle of the table. 
 
-When moving a card from his pile to the middle of the table, each player should do so by turning the card away from himself. This ensures that the player does not see the card before his opponents have a chance to do the same. (The player should also turn the card quickly, so that he’s not giving himself a disadvantage.) 
+When moving a card from his pile to the middle of the table, each player should do so by turning the card away from himself. This ensures that the player does not see the card before his opponents have a chance to do the same. (The player should also turn the card quickly, so that he's not giving himself a disadvantage.) 
 
 When the card placed in the middle of the table is a Jack, players race to be the first to slap a hand on top of the Jack. The first player to do so wins the entire pile of cards. That player collects the cards and adds them to his pile. He then shuffles the entire pile and sets it down in front of him. 
 Multiple Players Slapping 
