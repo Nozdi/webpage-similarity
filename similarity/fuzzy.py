@@ -27,3 +27,8 @@ def jaccard(dictA, dictB, product_function, sum_function):
             dictB.get(term, default)
         )
     return numerator / denumerator
+
+
+def hamming(dictA, dictB, p=1):
+    absolute_sum = sum([abs(dictA[key] - dictB[key])**p for key in dictA])
+    return 1 - (1./len(dictA) * absolute_sum) ** 1./p

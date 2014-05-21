@@ -31,7 +31,7 @@ def create_terms_to_categories_relevance():
     terms_revelance = {}
     for category in categories:
         terms_revelance[category.identifier] = {}
-        for term in category.termsQuantity:
+        for term in category.terms_quantity:
             terms_revelance[category.identifier][term] = term_to_cat_relevance(
                 term,
                 category,

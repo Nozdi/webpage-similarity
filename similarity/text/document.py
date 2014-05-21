@@ -17,16 +17,10 @@ class Document(object):
     """
         :field text: content of document
         :type text: string
-        :field terms: terms extracted from text
-        :type terms: list
-        :field termsQuantity: key - term, value - weight from range: (0,1]
-        :type termsQuantity: dictionary
-        :field termsBelongness: key - term, value - term weight / max weight
-        :type termsBelongness: dictionary
-        :field uniqueTerms: set of terms appearing in text
-        :type uniqueTerms: Set
+        :field terms_quantity: key - term, value - weight from range: (0,1]
+        :type terms_quantity: dictionary
     """
-    __slots__ = 'termsQuantity',
+    __slots__ = 'terms_quantity',
     extractor = extract.TermExtractor()
     extractor.filter = extract.permissiveFilter
 
@@ -37,7 +31,7 @@ class Document(object):
         """
 
         # d = {<t1, w1>, ... <tm, wm>}
-        self.termsQuantity = dict(
+        self.terms_quantity = dict(
             [(term.lower(), quantity)
              for term, quantity, words_no in Document.extractor(text)]
         )
@@ -76,33 +70,35 @@ class AnalizedDocument(Document):
 
         :field belongnessToCategories: key - category, value - belongness to category [0;1]
         :type belongnessToCategories: dictionary
+        :field terms_membership: key - term, value - term weight / max weight
+        :type terms_membership: dictionary
     """
     def __init__(self, text):
         super(AnalizedDocument, self).__init__(text)
-        self.termsBelongness = {}
-        self.belongnessToCategories = {}
+        self.terms_membership = {}
+        self.categories_membership = {}
 
-    def calculate_terms_belongness(self):
+    def calculate_terms_membership(self):
         """
         mi d(t)
         """
-        denumerator = max(self.termsQuantity.values())
-        for term in self.termsQuantity:
-            self.termsBelongness[term] = (self.termsQuantity[term]
+        denumerator = max(self.terms_quantity.values())
+        for term in self.terms_quantity:
+            self.terms_membership[term] = (self.terms_quantity[term]
                                           / denumerator)
 
-    def calculate_belongness_to_categories(self, categories):
+    def calculate_membership_to_categories(self, categories):
         """
             :param categories: list of Categories
             :type categories: list
         """
-        if not self.termsBelongness:
-            self.calculate_terms_belongness()
+        if not self.terms_membership:
+            self.calculate_terms_membership()
 
         terms_revelance = load_objects('db')
         for category in categories:
-            self.belongnessToCategories[category] = jaccard(
-                self.termsBelongness,
+            self.categories_membership[category] = jaccard(
+                self.terms_membership,
                 terms_revelance[category.identifier],
                 algebraic_product,
                 algebraic_sum,
