@@ -17,6 +17,9 @@ def remove_unicode():
             f.truncate()
             f.write(new_text)
 
+def count_all():
+    return len(get_all_files())
 
 if __name__ == '__main__':
     remove_unicode()
+    print(count_all())
