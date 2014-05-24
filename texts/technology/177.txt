@@ -1,0 +1,33 @@
+While it supports no third-party apps, the ODIN VI Talking Mobile Phone does have menu settings that can make it more accessible to visually impaired users, including seniors.
+
+To access "Settings," press "OK" on the Home screen to enter the Main Menu. Use the navigation arrows to highlight Settings, and press OK. Then use the arrows to highlight items in the Settings submenu and press OK to select them.
+
+Date: Enter the day, month and year by scrolling with the navigation arrows or enter the information using the keypad. Press OK. ODIN VI will read the date you've set.
+
+Time: Use the same steps for entering the date to enter the time. When prompted, use the navigation arrows to select AM or PM, and press OK. ODIN VI will read the time you've set.
+
+Voice Guide: Use the navigation arrows to select either a male or female voice. Highlight your choice and press OK to confirm. There will be a delay of approximately 5 seconds after which ODIN VI will confirm your selection. You will then return to the previous menu and hear "voice guide" in the chosen voice.
+
+Voice Speed: Use the navigation arrows to adjust voice speed from 85 % to 120 %. Adjust the speed between 85% and 120%. The speed can be increased or decreased by 1% at a time. Press OK to confirm.
+
+Contrast: Use the navigation arrows to choose between black on white (standard) or white on black (high contrast) for onscreen menu text. Press OK to save.
+
+Brightness: Use the navigation arrows to select among the 5 levels of screen brightness. Press OK to save. Tip: If you don't use the screen, set brightness at 1 to maximize battery life.
+
+Language: Use the navigation arrows to select from 9 languages: English (British voice), US English (American voice), Dutch, Flemish, French, German, Italian, Spanish, or Russian. Press OK to select.
+
+S.O.S.: SOS enables you to set up to 3 emergency contact numbers to be called automatically by pressing any button (except End) for 5 seconds or more. The phone will call each number in turn until one is answered. Note: S.O.S. only works if you have a positive account balance; 911 is always accessible.
+
+Ringtones: Use the navigation arrows to select any of ODIN VI's 3 ringtones, the first of which it automatically assigns to each added contact. If you select ringtone 2 or 3, you have the option to assign contacts to it.
+
+Vibrate: The vibrate function alerts you to incoming calls. Use to navigation arrows to select among the 3 settings: Always, Never and Silent Mode and press OK to confirm.
+
+Talking Watch: This function -- on by default --  announces the time when you slide open the phone. Turn it off using the navigation arrow.
+
+Alarms: You can set up to 30 alarms, e.g. for waking up or taking medication. Use the navigation arrows to select an alarm. Each has the following elements you can set:
+
+Repeat: You must select frequency option (once, daily, or weekly) or the alarm won't sound. Select using the navigation arrows and press OK. For daily, select weekly and turn each day of the week to On.
+
+Reminder: Enter text-based reminders up to 16 characters long using the keypad. When the alarm sounds, you'll hear, "Please remember..." followed by your typed words.
+
+In-Phone Help: Highlight a Main Menu item and press OK to hear an overview of its function. When you've heard enough, or it's finished talking, press End to exit.

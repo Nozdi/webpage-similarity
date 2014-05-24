@@ -1,0 +1,17 @@
+The arrival of the BlackBerry Torch has prompted a lot of BlackBerry fans to consider a device upgrade, even if they have newer BlackBerrys. If you have a perfectly good BlackBerry lying around, you can make quite a bit of money by selling it. Still, there are a few things you need to think about before you sell your old BlackBerry, because you do not want to accidentally hand over your personal information to the new device owner.
+
+If you are on a GSM network (T-Mobile or AT&T in the U.S.), remove your SIM card before you hand your device over to someone else. Your SIM card contains your International Mobile Subscriber Identity (IMSI), which is unique to your mobile account. The buyer will need to go to their own carrier to get a new SIM card linked to their own mobile account.
+
+Virtually all BlackBerry devices sold by American carriers are locked to the carrier. This means that the device can only be used on the carrier it was purchased through. Carriers do this because they subsidize the cost of devices purchased by new customers and existing customers who upgrade. When customers purchase phones at a subsidized cost, the carrier does not start to make money on that customer until the customer has used the phone for several months.
+
+Unlocked BlackBerry devices can work on different networks (e.g., an unlocked AT&T BlackBerry will work on T-Mobile). An unlocked GSM BlackBerry will also work on foreign networks. If you are abroad, you could purchase a prepaid SIM from a foreign carrier (e.g., Vodafone or Orange), and use your BlackBerry while you are travelling.
+
+Unlocking your BlackBerry will allow you to sell it for a slightly higher price than a device locked to a specific carrier. Use a reputable unlocking software or service to unlock your device, because it is possible to damage your device in the unlocking process.
+
+Always remember to remove your microSD card from your BlackBerry before selling it. Over time you accumulate pictures, mp3s, videos, files, and even archived applications on your microSD card. Some of us even save sensitive data to microSD cards. Even if you erase the data on your microSD card, someone may be able to recover it with the right software.
+
+The most crucial step before selling your BlackBerry is to wipe your personal data from the device. An identity thief could do a great deal of harm with the personal data most people save on their BlackBerrys.
+
+On OS 5, choose Options, Security Options, and then choose Security Wipe. On BlackBerry 6, choose Options, Security, and then Security Wipe. From the Security Wipe screen on either OS, you can choose to erase your application data (including email and contacts), User Installed Applications, and the Media Card. Once you have chosen the items you want to erase, enter blackberry in the Confirmation field and click the Wipe button (Wipe Data on BlackBerry 6) to erase your data.
+
+Performing these simple steps only takes a few minutes, but you are protecting your own privacy and security. You are also saving the new device owner the trouble of having to remove your personal data from the device, and giving them the freedom to use it on their choice of carrier. Once you are done, you can sell your device with the confidence that no one else will be able to recover your data or access your wireless account information.

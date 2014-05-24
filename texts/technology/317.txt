@@ -1,0 +1,1 @@
+: library for displaying messages - runtime This is Sverre H. Huseby's library for displaying messages in terminal based programs. It can treat the verbosity level and prepend the program name if necessary. This package contains what you need to run programs that use this library.

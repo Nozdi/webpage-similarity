@@ -1,0 +1,25 @@
+Since it is most likely that you are in the graphical desktop environment now, the underlying shell that is available is not displayed. To access a shell, try the following key combination,
+
+Where F1 can be replaced by F2, F3, and so on. The graphical desktop tends to run in F7 or F8, so to go back to your graphical desktop screen, just hit Control + Alt + F7. These are virtual terminals.
+
+Alternatively, you could get to a Terminal application, so you can have a shell while your in the graphical desktop environment (this is much preferred, and will be used throughout this Chapter). To do this, go to:
+
+Or right-click on the desktop, and click on the Open Terminal option. This terminal is equivalent to the virtual terminals mentioned earlier, except now you don't have to switch screens - you can just minimize or maximize the terminal (or if you're done, you can close it).
+
+--------------------------------------- 
+
+You are reading 
+
+ Tutorial: The Shell 
+
+1. Getting to a shell 
+
+2. Some useful commands 
+
+3. A Few More Concepts and Shortcuts 
+
+4. Input/output Redirection and Pipes 
+
+5. Where do I get help? 
+
+6. Conclusion and Exercises

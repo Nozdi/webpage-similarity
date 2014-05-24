@@ -1,0 +1,11 @@
+Try all the mouse buttons in different regions (terminal, background, task bar).
+
+Use the mouse buttons to copy and paste text from one terminal to another.
+
+Find out how to configure your window manager; try different workspaces (virtual screens).
+
+Add an applet, such as a load monitor, to the task bar.
+
+Enable the so-called sloppy focus - this is when a window is activated by just moving the mouse over it, so that you do not need to click the window in order to be able to use it.
+
+Log out and select a different session type, like KDE if you were using Gnome before. Repeat the previous steps.

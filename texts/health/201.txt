@@ -1,0 +1,59 @@
+Profiles of Medications Commonly Used By Seniors
+
+This directory of information about many medications commonly taken by seniors looks at the uses, actions, precautions and side effects that can occur when taking these medications. Includes both brand and generic names.
+
+Actonel(r)
+
+Information about the drug Actonel (generic name risendronate) used in the treatment of osteoporosis.
+
+Coumadin
+
+Information about the blood thinnning drug coumadin, also known as warfarin.
+
+Rogaine
+
+Information about the drug Rogaine (Minoxidil) used for treating certain types of hair loss in both men and women.
+
+Previcid
+
+Profile of the medication Previcid, used for treating GERD (gastroesophageal reflux disease) that include infomation about adverse effects and precauctions.
+
+Norvasc Drug Profile
+
+Information about the cardiac medication Norvasc used for treating angina and high blood pressure.
+
+Fosamax
+
+Information about Fosamax, a medication for treatment of postmenopausal women and men with osteoporosis.
+
+PLAVIX Profile
+
+Information about the drug Plavix used to help prevent blood clots that can lead to stroke and heart attack.
+
+Digoxin
+
+Information about the medication Lanoxin(digoxin) used by many older adults who have heart disease.
+
+Aricept
+
+Information about the drug Aricept - presently used to help treat the symptoms of Alzheimers disease and slow the pregression of alzheimer's disease.
+
+Tenormin
+
+Profile of the antihypertensive drug used for treating high blood pressure.
+
+Lipitor
+
+Profile of the drug Lipitor used for treating high cholesterol.
+
+Namenda
+
+Profile of the drug Namenda used for reducing the effects of Alzheimer's disease on the brain functions.
+
+Cozaar
+
+Profile of the antihypertensive drug Cozaar, used for treating high blood pressure.
+
+Heparin
+
+Profile of the anticoagulent drug Heparin, used for treating blood clots that may block arteries.

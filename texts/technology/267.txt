@@ -1,0 +1,25 @@
+Word count, count how many words you have in a text document. Can also be used to count the lines or bytes within the file. Use the options -w for words, -l for lines and -c for bytes. Or simply run wc with no options to get all three.
+
+To run various readability tests on a particular text file. Will output scores on a number of different readability tests (with no options).
+
+This command is part of the diction package and does not appear to be used too often these days
+
+Determines whether or not two files differ, works on any type of file. Very similar to diff only it compares on the binary level instead of just the text.
+
+Compares two text files and output a difference report (sometimes called a "diff") containing the text that differs between two files.
+
+Can be used to create a 'patch' file (which can be used by patch ).
+
+diff will output a '>' (followed by the line) for each line that isn't in the first file but is in the second file, and it will output a '<' (followed by the line) for each line that is in the first file but not in the second file.
+
+Instead of giving a difference report, it outputs the files in two columns, side by side, separated by spaces.
+
+Same as diff except for three files.
+
+Compares two files, line-by-line and prints lines that are unique to file1 (1st column), unique to file2 (2nd column) and common to both files (3rd column).
+
+Use comm with the -1, -2, or -3 to suppress the printing of those particular lines. Simply run comm to have all three listed (ie. unique to files 1 and 2 and common to both).
+
+To output a list of words in the system dictionary that begin with a given string -- this is useful for finding words that begin with a particular phrase or prefix.
+
+Give the string as an argument; it is not case sensitive.

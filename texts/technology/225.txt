@@ -1,0 +1,13 @@
+List the contents of the current directory. The command dir is an alias to ls so these two commands do exactly the same thing. The file listing is normally color-coded: dark blue= directories, light grey = regular files, green = executable files, magenta = graphics files, red = compressed (zipped) files, light blue = symbolic links, yellow = device files, brown = FIFO ("First-In First-Out" named pipes).
+
+List the content of the current directory, all files (also those starting with a dot), and in a long form. Pipe the output through the "more" command, so that the display pauses after each screen-full. The ls command has several very useful options. Some of these may have shortcuts (aliases) to avoid clumsy typing. Try ll (="long ls", an alias to ls -l). Another option I use quite often is ls -ad (list all the subdirectories in my current directory, but don't list their contents).
+
+Change directory. Using "cd" without the directory name will take you to your home directory. "cd - " will take you to your previous directory and is a convenient way to toggle between two directories. "cd .." will take me one directory up (very useful).
+
+Run an executable in the current directory. The ./ is needed when the executable is not on my PATH. An executable which is on my PATH is simply run using: program_name
+
+(as root) Shut down the system to a halt. Mostly used for a remote shutdown. Use <Ctrl><Alt><Del> for a shutdown at the console (which can be done by any user).
+
+(as root, three commands) Halt or reboot the machine. Used for remote shutdown, simpler to type than the previous command. Also great if the computer "hangs" (I lose control over the keyboard)--I telnet to it from another machine on the network and remotely reboot it. I use <Ctrl><Alt><Del> for normal shutdown at the console of a local computer.
+
+(Not present on older versions of RedHat.) Lock a local (text mode) terminal. I can also use vlock -a to lock all terminals (probably not a good idea). The best is probably to log out. You don't use vlock in GUI--the windows managers come with password-protected screensaver and a locking utility (the small icon with padlock in KDE, the keyboard shortcut <Ctrl><Alt><l>).

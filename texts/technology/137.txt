@@ -1,0 +1,5 @@
+Question: Does the iPad Support Near Field Communication?
+
+The iPad does not currently support Near Field Communication. Instead of support for Near Field Communication, iOS 7.0 introduced iBeacon, which works through Bluetooth and provices similar benefits to Near Field Communication. Similar to Near Field Communication, iBeacon can pinpoint the location of the device and kick of specific tasks based on the location of the device.
+
+iBeacon has been rolled out to Apple Stores and began its first non-Apple rollout early in 2014, with some Giant Eagle and Safeway stores participating in a limited rollout.

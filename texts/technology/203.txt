@@ -1,0 +1,7 @@
+Book Port DT is a desktop-style Digital Talking Book player and recorder produced by the American Printing House for the Blind.
+
+Like other book players such as the Victor Reader Stream, the Book Port DT supports a range of audio formats, including DAISY books.
+
+The device also enables users to record or edit their own content in digital audio format, listen to Internet radio stations, and download podcasts.
+
+The Book Port DT has a large speaker, easy-to-use tactile controls, features both computer and Internet connectivity, and supports Bluetooth technologies.

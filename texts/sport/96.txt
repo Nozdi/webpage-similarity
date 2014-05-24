@@ -1,0 +1,19 @@
+When you come screaming in and tumble halfway down the landing area at a new dropzone, it's unlikely that you would chalk your misery up to "pressure altitude corrected for nonstandard temperature and humidity." Maybe, however, you should - and if you know a little more about how it works, maybe you won't find yourself in that grass-stained position.
+
+Air density refers to the number of air molecules in a given volume of space. High-density air has more molecules. Low-density air has less. You can think of that aforementioned "given volume of space" as a ball pit in an indoor playground: high-density air is full of colorful little balls. Low-density air has a few rolling around the bottom.
+
+Skydivers (as the little children we are) tend to prefer the filled-up version for our skyborne playgrounds. Why? Well, the density of the air greatly affects a skydiving canopy's flight dynamics. To put it simply, low-density air doesn't slow down the wing as much as high-density air does, making the system fly faster - sometimes, much faster - than normal.
+
+As you might imagine from the term, altitude has a lot to do with the density of air. It's inversely proportionate, so higher altitudes have lower density altitude - fewer air molecules in a given volume - than lower altitudes. This makes sea-level landings more docile than those at, say, Mile-Hi Skydiving in Denver.
+
+Altimeters work based on the same principle: they indicate the altitude based on the pressure and density of the air on their sensors. (Make a little more sense now?)
+
+Altitude density is not another name for air density. It's affected by a few more factor. Altitude density combines the effects of temperature, humidity and weather systems with altitude to measure the altitude at which your airfoil behaves as though it's flying. If you travel for boogies, you may have experienced this in your skydiving career: with a few temperature and pressure changes, your canopy might behave as though it's flying at Mile-Hi when you're jumping at Skydive Moab.
+
+If you're a little confused by that, you're not alone.
+
+The key to understanding is to know that density altitude tells you where your canopy "thinks" it's flying under standard temperature and pressure conditions, that highly evasive moment of total equilibrium. The "standard" comes from the fact that temperature and pressure decrease predictably as altitude increases. As such, a "standard" temperature and pressure can be assigned to any given spot on the altitude scale, dropping proportionally with altitude from the standard 15 degrees Celsius at sea level.
+
+Take a weather system through that same point, however, and you'll need to start making some adjustments. a high-pressure area pushes more air density into the equation, and a low-pressure system does the opposite. Heat it up, and the molecules spread apart, lessening the pressure/density; cool it down, and the molecules snuggle in together, increasing the pressure/density.
+
+Humidity is a little more complicated, but super-interesting. When the weather is humid, we tend to describe the air as "heavy." That description is utterly (and somewhat surprisingly) unscientific, as water vapor weighs almost half as much as dry air. When it's humid, heavy dry-air molecules such as oxygen and nitrogen are replaced by much lighter water molecules, greatly decreasing the density of the air.

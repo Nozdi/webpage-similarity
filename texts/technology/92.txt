@@ -1,0 +1,19 @@
+Among other major announcements at Google's annual developers' conference, it rolled out the details of its upcoming new Maps service. The new Google Maps features a more visual interface, a higher level of customization for logged-in users, and new ways to explore and to get information. My first impression is that Google has made some well-thought-out changes and has significantly improved the appearance and usability of Maps.
+
+The Maps process, as ever with Google, begins with a search box query. A query for a specific museum in a city map, for example, will display the location of the museum you seek, but - unlike the current Maps - it will also display new info-dots for every other museum in the surrounding area. Clicking on any info-dot calls up more detailed information about the destination, including image thumbnails and reviews. Further, if you are logged in, Google applies additional intelligence from your Google ratings and reviews, and those of you friends to customize information and to make additional recommendations.
+
+The new Google Maps is "fully interactive and tailored to you," states Google. "When you search, star-favorite places, and enter reviews, the map makes recommendations just for you. The more you use the map, the more it adapts to you."
+
+The new Google Maps also makes much stronger use of images as navigation, exploration, and coordinates tools. For example, a "carousel" of the best available images for your searched destination appears at the bottom of the screen (see image with this story). Clicking on an image provides you with more information and access to all available additional images. Building on this theme, Google also provides access to user-contributed photos, denoted by a camera icon.
+
+Also leveraging the power of images in new Google Maps are beautiful, immersive photo tours for more than 60,000 popular travel locations worldwide. As with current Google Maps, you may also explore the interior of selected public buildings with an intuitive and easy to use "see inside" feature.
+
+On a more practical level, the new Google Maps provides a cleaner and more info-rich environment for navigation and turn-by-turn directions. A dialogue box in the upper left of the screen gives you all you need for selecting starting and end points and queueing up turn-by-turn directions. As with current Maps, you may choose navigation for car, public transportation, walking, or bicycling. The new Maps public transportation mode includes more detailed information about number of trips, transfer times, and walking distances to and from stops. Kudos to Google for doing the incredible amount of research and updating involved in building and maintaining this nuts 'n bolts type of information.
+
+The new Google Maps also provides a more seamless integration of Google Earth, which shows 3D renderings of the environment. With Google Earth, you may swoop in and out of the scene, view it from the side from all angles, and even see accurate 3D renderings of entire cityscapes.
+
+Speaking of swooping in for a closer look, the little drag-and-drop guy icon, long used in Google Maps to get down to Google Street View level is gone in the New Maps. I don't miss him. It could be difficult to get him positioned where you wanted to get a Street View, and the new mode is much more elegant and precise.
+
+Google will be offering seamless syncing of all of your personalized information across all devices, including desktop, laptop, tablets and smartphones, as long as you are logged in.
+
+Overall, the new Google Maps is a strong step forward for the service, and further solidifies Google as the company willing to invest huge resources to build and maintain detailed, and for the most part, accurate global info-maps and geo-centric image search resources.

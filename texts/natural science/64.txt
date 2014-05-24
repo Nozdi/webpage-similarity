@@ -1,0 +1,11 @@
+In 1931, William J. Reilly was inspired by the law of gravity to create an application of the gravity model to measure retail trade between two cities. His work and theory,, allows us to draw trade area boundaries around cities using the distance between the cities and the population of each city.
+
+Reilly realized that the larger a city the larger a trade area it would have and thus it would draw from a larger hinterland around the city. Two cities of equal size have a trade area boundary midway between the two cities. When cities are of unequal size, the boundary lies closer to the smaller city, giving the larger city a larger trade area.
+
+Reilly called the boundary between two trade areas the breaking point (BP). On that line, exactly half the population shops at either of the two cities.
+
+The formula (above right) is used between two cities to find the BP between the two. The distance between the two cities is divided by one plus the result of dividing the population of city b by the population of city a. The resulting BP is the distance from city a to the 50% boundary of the trade area.
+
+One can determine the complete trade area of a city by determining the BP between multiple cities or centers.
+
+Of course, Reilly's law presumes that the cities are on a flat plain without any rivers, freeways, political boundaries, consumer preferences, or mountains to modify an individual's progress toward a city.

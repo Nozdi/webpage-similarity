@@ -1,0 +1,7 @@
+Relatively Simple to Difficult (see step 3)5-10 minutes (or more based on step 3)Screwdriver
+
+This guide was developed to instruct readers on the proper procedures for installing memory modules into a desktop computer. It includes step-by-step instructions for the physical installation of a memory module into a desktop computer case along with photographs to help demonstrate the procedures.
+
+For additional information about installing computer memory into your computer system, it is recommended that you read any user manuals that came with your computer or motherboard for specific procedures that may be required. For more information for purchasing memory upgrades for a computer, please refer to the Before You Buy Memory Upgrades article.
+
+The first step whenever you work on a computer system is to fully power down the computer system. Shut down the computer. Once the operating system has safely shut down, flip the switch on the back of the power supply to the off position and remove the AC Power Cord

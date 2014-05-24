@@ -1,0 +1,23 @@
+This is the power of Linux and UNIX command lines. There is much more to learn, as there are different shells, and different shell syntaxes available. Also, regular expressions are useful, and there are plenty more utilities available, and if a liking towards the shell is taken, shell scripts can be written to perform a lot of tasks, including backing up directories and more!
+
+1. Open up a shell on your Desktop and perform the following:
+
+2. Change directory to your home directory and make a new sub-directory there named Temp11 and change directory to it
+
+--------------------------------------- 
+
+You are reading 
+
+ Tutorial: The Shell 
+
+1. Getting to a shell 
+
+2. Some useful commands 
+
+3. A Few More Concepts and Shortcuts 
+
+4. Input/output Redirection and Pipes 
+
+5. Where do I get help? 
+
+6. Conclusion and Exercises

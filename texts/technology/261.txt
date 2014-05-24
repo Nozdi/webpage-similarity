@@ -1,0 +1,21 @@
+The xargs command is typically used in a command line where the output of one command is passed on as input arguments to another command.
+
+In many cases no special command such as xargs is needed to accomplish that, since the "pipe" and "redirection" operators perform the same type transaction. However, sometimes there are issues with the basic piping and redirection mechanism, e.g., if arguments contain spaces, that xargs overcomes.
+
+Additionally, xargs executes the specified command repeatedly, if necessary, to process all the arguments given to it. In fact you can specify how many arguments should be read off the standard input stream each time the xargs executes the specified command.
+
+In general the xargs command should be used if the output of one command is to be used as part of the options or arguments of a second command to which the data are streamed (using the pipe operator "|"). Regular piping is sufficient if the data are intended to be the (standard) input of the second command.
+
+For example if you use the ls command to generate a list of file names and directories, and then pipe this list into the xargs command executing echo, you can specify how many file names or directory names are processed by echo on each iteration as follows:
+
+In this case echo receives five file or directory names at a time. Since echo adds a new-line character at the end, five names are written on each line.
+
+If you execute a command that returns a large and unpredictable number items (e.g. file names) which are passed on to another command for further processing it is a good idea to control the maximum number of arguments that second command receives to avoid overload and crashing.
+
+The following command line partitions the stream of file names produced by find int the groups of 200 before passed on to the cp command, which copies them to the backup directory.
+
+The "./" element in the find command specifies the current directory for searching. The "-type f" argument restricts the search to files, and the "-name "*.txt" flag further filters out anything that doesn't have a ".txt" extension. The -i flag in xargs signals that the {} notation represents each file name of the steam.
+
+The following command finds files named core in or below the directory /tmp and deletes them.
+
+Note that this will work incorrectly if there are any filenames containing newlines, single or double quotes, or spaces. The following version processes the filenames in such a way that file or directory names containing single or double quotes, spaces or newlines are correctly handled.Instead of the -i option you can also use the -I flag which specifies the string that that is replaced by the input line in the command arguments as in this example:The replacement string is defined as "{}". This means, any occurrences of "{}" in the command arguments is replaced by the input element forwarded to args through the pipe operation. This enables you to place the input elements at specific positions in the arguments of the command to be (repeatedly) executed.

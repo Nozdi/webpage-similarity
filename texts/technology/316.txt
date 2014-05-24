@@ -1,0 +1,1 @@
+: The Readline library provides a set of functions that allow users to edit command lines. Both Emacs and vi editing modes are available. The Readline library includes additional functions for maintaining a listof previously-entered command lines for recalling or editing thoselines, and for performing csh-like history expansion on previous commands.

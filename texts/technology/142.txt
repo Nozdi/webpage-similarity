@@ -1,0 +1,25 @@
+On January 27, 2010, Steve Jobs introduced us to a vision of the future. In 2013, Tim Cook delivered on that vision. It's easy to imagine the iPad Air as the iPad of Steve Jobs dreams. As he sat on that comfortable chair, showing off Apple's newest device, the super-light, super-thin iPad Air with eight times the processing power, a 64-bit architecture, dual-facing cameras and access to the fastest mobile data connections must have seemed like a great finish line.
+
+For Apple, it may only be the beginning.
+
+On the one hand, it is an incremental upgrade over the previous generation. The biggest change was the move to the 64-bit A7 processor, which is about twice as fast as the iPad 4's A6X. The newest iPad also gains better Wi-Fi technology with support for Multiple-Input-Multiple-Output (MIMO) and an M7 motion co-processor, which is dedicated to processing signals from the various motion-detection devices within the iPad. The upgrade lacks any surprises other than the name change, and the iPad Air doesn't even have the fingerprint sensor released on the iPhone 5S.
+
+On the other hand, the new design fulfills the original dream of a lightweight, thin tablet that seemed more like holding a piece of paper in your hand rather than a very capable touch-based computer. The iPad Air may not really be as thin as a piece of a paper, but it is no thicker than the average notepad, and that's plenty impressive considering it has a screen with more detail than most laptop computers and the iPad Air still offers about 10 hours of battery life.
+
+The first day of using the iPad Air saw me constantly glancing over at my desk, where my iPad Mini rested. No, I wasn't missing the Mini. I was verifying it truly was still on my desk and I hadn't accidentally picked it up instead of the Air. Yes, that's what the Air feels like: a bigger Mini. A bigger, faster, graphically superior Mini. Tips to Save iPad Battery Life
+
+This feeling harkens back to the early days of the original iPad, when simply sitting on the couch holding it in my hand made me want to use it and keep using it, even if I didn't have any real agenda. The iPad Mini recaptured this feeling, and now the iPad Air cranks it up to 11. The iPad air really begs to be used.
+
+So what's it like to use? Fast. The new A7 chip provides a noticeable performance increase, and for those with dual-band routers, the MIMO support will lead to faster downloads from the web. I pitted my iPad Air against my iPhone 5 using a dual-band router, and the iPad Air consistently came out the winner by a margin of 5-10%. This was using a 50 Mbps down/25 Mbps up connection. For those with higher end Internet connection, the MIMO support will provide even a greater boost in speed.
+
+The new M7 motion co-processor should provide some interesting uses later, when apps can really take advantage of it, but for now, the M7 chip helps bring all of this performance without sacrificing battery life. The iPad has always had great battery life, and it is incredible that Apple continues to up the processing power without sacrificing battery life. I just wish my laptop could go half as long between recharges as the iPad Air.
+
+One of the biggest advantages of the iPad Air may not even be showcased for a while. The move to a 64-bit architecture creates a modest jump in performance for 64-bit apps, which means any app that is simply recompiled and submitted to the App Store will see a little speed boost. But some of the other benefits of the 64-bit architecture, such as tighter encryption -- important for business- will come later.
+
+Despite near perfection from a hardware standpoint, the iPad Air does have one major flaw: It comes with iOS 7. I'm a big fan of the iOS 7 upgrade, but there is no denying that it is very un-Apple-like in the number of bugs it presents. I haven't had any problems with the tablet freezing, but I have had more apps crash in the few days I've used it than I had all year with my iPad 4 running iOS 6.
+
+I really wanted to give the iPad Air a 5-star rating. I have yet to hand out 5 stars to a tablet, and the iPad Air definitely stands head and shoulders above all other tablets I have reviewed. But a tablet is only so good as the software that runs on it, and while I know Apple will have iOS 7 running smoothly in the future, it's hard to hand out 5-stars in the present.
+
+So instead of the iPad Air becoming my first 5-star tablet, it becomes my first 5-star tablet not to receive 5 stars.
+
+If you have an iPad 4, it is tough to recommend an upgrade at this time. But all other iPad owners are fair game, and for anyone still using the original iPad, the iPad Air presents a great excuse. Find out more on if it is time to upgrade

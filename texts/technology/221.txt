@@ -1,0 +1,9 @@
+Want to become a Linux guru, or just look like one? Though developing the Linux Kernel may earn you bona-fide status, familiarizing yourself with command lines and programming simple Linux applications using one of the "guru" editors will send you on your way to becoming a Linux guru (or look like one).
+
+Compare the Linux Command Line Interface (CLI) and the Linux Graphical User Interfaces, and decide when to use which.
+
+Man pages are manuals for functions and usage of commands. Linux commands may vary in syntax and usage from one distribution of Linux to another. The command library here provides general references for both Shell commands and Linux commands.
+
+Usually the fastest way to get things done is using the keyboard only if possible. If you take the time to memorize commands and keyboard short-cuts you are often able to do your work with quick keystrokes rather that aiming the mouse pointer at buttons and menu items. That is way experts often prefer editors like Emacs and VI.
+
+Linux is a robust, efficient, and light-weight operating system. As such it is well suited for embedded applications. That is, it can be used as operating system on devices other than conventional computers, such as mobile phones, household appliances, cars, airplanes, etc.

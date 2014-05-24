@@ -1,0 +1,27 @@
+Apple's latest iPod Touch doesn't have a GPS chip, but you may get GPS to work on it, and use it for mapping and navigation tasks.
+
+December, 2013 update: Bad Elf has released an Apple Lightning connector version of its compact and lightweight GPS accessory. This makes it easy to add GPS to the iPod Touch, or to iPads without GPS.
+
+January, 2013 update: The latest version of the iPod Touch, announced last fall, has a lot of great features, but still no GPS chip. Its mapping and location services rely on WiFi positioning only, described below, which can work fairly well in metro regions with ample WiFi hotspots. Some of the solutions I proposed below for adding GPS to a Touch no longer work, due to Apple's switch to the new Lightning connector. If you want to add GPS to a Touch, be sure the device can fit a 30-pin to Lightning adapter. Lightning-compatible GPS accessories will no doubt soon be offered, and I'll review them when available.
+
+When the new iPod Touch was announced, fans were thrilled with the upgrades, including a thinner profile, a move to the super-high-resolution "Retina" display, front and back cameras, A4 processor, and improved multi-player gaming. But a GPS chip, seemingly so essential in today's portable electronics, was missing. Why leave it out? Apple doesn't say, but it likely has to do with the fact that the iPod Touch doesn't have Internet connectivity when it's away from a WiFi signal.
+
+Why does that matter? In order for many of the current crop of GPS navigation apps to function, they need always-on, or nearly always-on connectivity. Many pull down map information on-the-fly as you roll down the highway or along the trail. Many navigation and location-aware apps also depend on connectivity to pull down an array of information from search queries and databases. These apps are effectively "broken" without 3G connectivity, which is not available on the iPod Touch (but is of course required with the iPhone).
+
+But there are a number of ways to use the iPod Touch for navigation and location-aware services. And you can even GPS-enable the iPod Touch with the right accessories.
+
+Out of the box, the iPod Touch is capable of significant location-aware functionality. As long as you're within range of a usable WiFi signal, you can use real-time mapping, and get turn-by-turn directions from point A to point B. And the Maps function on the iPod Touch lets you switch between views of Google maps, satellite images, and a hybrid of both. Maps of course works with multi-touch, letting you tap to zoom, pan, and change your view. Maps will even show you current traffic conditions as a street overlay (fairly accurately, also, I've observed in my tests).
+
+The Touch can also take advantage of a slew of location-aware apps that can draw on Wifi connectivity to locate you and your friends (if they're using location-aware apps) and show you views and reviews of businesses and services around you.
+
+Adding GPS to the iPod Touch
+
+ All that said, it is possible to add GPS functionality to the iPod Touch. The easiest way, especially if you plan to use the Touch for in-car, turn-by-turn directions, is to purchase a car mount with a built-in GPS chip. This is offered by major GPS maker Magellan. The Magellan Premium Car Kit for iPhone and iPod Touch is a terrific solution. It charges your Touch as you drive, and includes a built-in speaker to amplify spoken turn-by-turn directions. It also has a line out jack for music, and a volume dial. You can rotate it to horizontal or vertical positions. Use it with the Magellan RoadMate app ($39) or another app that keeps maps in memory (the app takes up 1.3 GB) rather than downloading maps and points of interest data on the fly. The Magellan Premium Car Kit is compatible with the iPhone 4 also, by the way.
+
+Portable GPS for the iPod Touch
+
+ If you want something more portable than a car mount, consider the Magellan ToughCase for iPod Touch. This rather amazing device is a rugged and waterproof case for the Touch or the iPhone (3G or 3Gs, no 4 yet) that includes a high-sensitivity GPS chip, supplemental battery that doubles battery life, and compatibility with GPS apps. I've used the ToughCase, and found it to be very well-engineered, ultra-tough, and durable. Definitely the case for someone who wants to add portability, GPS capability, and major protection from the elements to a Touch.
+
+Another easy-to-use GPS solution for the Touch is the Dual GPS Cradle by Dual Electronics ($199). Still one more option is the compact Bad Elf GPS receiver, which plugs into the docking port..
+
+Overall, the Apple iPod Touch can work well as a navigation device with supplemental GPS, as long as you keep in mind its limitation of not being able to pull down data when it's out of range of WiFi.

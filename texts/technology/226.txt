@@ -1,0 +1,15 @@
+A software package for Linux systems that makes it possible to install and run software written for Microsoft Windows.
+
+Developers have released version 4.0 of the OpenELEC Linux distro that is specifically designed for run the XBMC media player. Compared to alternative solutions, OpenELEC is quick and easy to setup and consumes little resources. With a footprint of 100MB it installs instantly and boots up in about 20 seconds.
+
+ Read More...
+
+Version 17 of the popular distro Linux Mint is expected by the end of the month. Release candidates are already available for download for the Cinnamon and MATE desktop versions.
+
+ Read More...
+
+One of the most popular utilities for connecting to Linux servers from computers running a Microsoft Windows operating system is the open source program PuTTY. It works great as remote terminal for text-based interaction, but is also frequently used to set up SSH connections for supporting remote graphical displays and remote desktop systems. Read more...
+
+The Apache Software Foundation has announced the release of OpenOffice Version 4.1. Highlights of this update include a function for annotating text segments, support for iAccessible2, the ability to edit input fields in place, and improved cropping of graphics objects.
+
+ Read More...

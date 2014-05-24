@@ -1,0 +1,23 @@
+The su command is commonly used to temporarily login in to another account. The command name is short for "substitute user". However, it is often also referred to as the "super user" command, since most often it is used to temporarily log into the root account, which has full access to all system administration functions. In fact, if you don't specify which account you want to log in to, su assumes you want to log into the root account. This of course requires that you know the root password. In order to fall back to the regular user account, after login in to another account, you simply type exit and hit return.
+
+So the basic use of su is to simply enter "su" at the command prompt:
+
+The system will then ask you for the root password. After you enter that correctly, you are in "root mode", which is dangerous since you may unintentionally perform actions that that affect user accounts, file permissions, software installations, etc. So you should stay logged in as root only as long as necessary to perform the functions you cannot do with your regular user account, which by default prevents you from performing system administration operations.
+
+Instead of actually loging in to another account you can specify the command you want to execute in the other account along with su command. That way you are immediately back to you regular account. For example:
+
+You can execute multiple commands in the other account by separating the them with semicolons and enclosing it with single quotes, as in this example:
+
+In the following example the commands ls (list files), grep, and copy are executed in sequence in the account jdoe:
+
+The sudo command is a variant of su designed minimize the number of operations you would preform in the other account. It is also typically used to execute a command that requires root privileges. For example, if you want to run a shell script setup.sh that installs a program into a directory that only the user "root" can modify, you would use sudo as follows:
+
+You may be prompted to enter the root password before the command is executed.
+
+After you have log in, you can continue to execute commands through the sudo command for a few minutes without having to specify the login (-u root) with every command.
+
+If possible, it is better to do your regular work using an account with restricted privileges to avoid causing serious damage to the system by accident.
+
+The following example shows how you can list the files of a protected directory with the following command:
+
+The following command line will reboot the system in 20 minutes and send out a broadcast message to all users:

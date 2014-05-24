@@ -1,0 +1,17 @@
+You type these commands after the prompt, in a terminal window in graphical mode or in text mode, followed by Enter .
+
+Commands can be issued by themselves, such as ls . A command behaves different when you specify an option , usually preceded with a dash (-), as in ls -a . The same option character may have a different meaning for another command. GNU programs take long options, preceded by two dashes (--), like ls --all . Some commands have no options.
+
+The argument(s) to a command are specifications for the object(s) on which you want the command to take effect. An example is ls /etc , where the directory /etc is the argument to the ls command. This indicates that you want to see the content of that directory, instead of the default, which would be the content of the current directory, obtained by just typing ls followed by Enter . Some commands require arguments, sometimes arguments are optional.
+
+You can find out whether a command takes options and arguments, and which ones are valid, by checking the online help for that command, see Section 2.3 .
+
+In Linux, like in UNIX, directories are separated using forward slashes, like the ones used in web addresses (URLs). We will discuss directory structure in-depth later.
+
+The symbols . and .. have special meaning when directories are concerned. We will try to find out about those during the exercises, and more in the next chapter.
+
+Try to avoid logging in with or using the system administrator's account, root . Besides doing your normal work, most tasks, including checking the system, collecting information etc., can be executed using a normal user account with no special permissions at all. If needed, for instance when creating a new user or installing new software, the preferred way of obtaining root access is by switching user IDs, see Section 3.2.1 for an example.
+
+Almost all commands in this book can be executed without system administrator privileges. In most cases, when issuing a command or starting a program as a non-privileged user, the system will warn you or prompt you for the root password when root access is required. Once you're done, leave the application or session that gives you root privileges immediately.
+
+Reading documentation should become your second nature. Especially in the beginning, it is important to read system documentation, manuals for basic commands, HOWTOs and so on. Since the amount of documentation is so enormous, it is impossible to include all related documentation. This book will try to guide you to the most appropriate documentation on every subject discussed, in order to stimulate the habit of reading the man pages.

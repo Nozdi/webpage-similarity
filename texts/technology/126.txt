@@ -1,0 +1,3 @@
+This guide was developed to instruct users on the proper method to install an ATA based optical drive into a desktop computer system. These instructions are valid for any form of optical based drive such as CD-ROM, CD-RW, DVD-Rom or DVD burners. It is a step-by-step instruction guide with photographs detailing the individual steps.
+
+The very first thing to do whenever working on a computer system is to make sure there is no power. Shut down the computer if it is running. Once the computer has safely shut down, turn the internal power off by slipping the switch on the back of the power supply and removing the AC power cord.

@@ -1,0 +1,5 @@
+perlutil - utilities packaged with the Perl distribution   Along with the Perl interpreter itself, the Perl distribution installs a range of utilities on your system. There are also several utilities which are used by the Perl distribution itself as part of the install process. This document exists to list all of these utilities, explain what they are for and provide pointers to each module's documentation, if appropriate.   To help you convert legacy programs to Perl, we've included three conversion filters:
+
+As well as these filters for converting other languages, the pl2pm utility will help you convert old-style Perl 4 libraries to new-style Perl5 modules.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

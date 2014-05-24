@@ -1,0 +1,5 @@
+ul - do underlining   [-] [-] [reads the named files (or standard input if none are given) and translates occurrences of underscores to the sequence which indicates underlining for the terminal in use, as specified by the environment variableThe terminfo database is read to determine the appropriate sequences for underlining. If the terminal is incapable of underlining, but is capable of a standout mode then that is used instead. If the terminal can overstrike, or handles underlining automatically,degenerates to cat (1). If the terminal cannot underline, underlining is ignored.
+
+The following options are available:
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

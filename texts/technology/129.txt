@@ -1,0 +1,7 @@
+Moderate to complex based on computer case30 minutes or morePhilips screwdriver and possibly a hex driver
+
+This guide was developed to instruct users on the proper installation of a motherboard into a computer case. It includes step-by-step instructions for properly preparing the case, installing and connecting and necessary wires to the motherboard inside of the case. The guide is based upon a standard ATX board layout being installed into a mid-sized tower case. The case happens to have a removable motherboard tray to make it easier to photograph the necessary steps. The amount of time and ease of the motherboard installation will be very dependent upon the design of the case it is being installed into.
+
+All modern ATX motherboard have a variety of connectors and jumpers that must be set for proper operation of the computer system. The location and pin layout of these will vary from case and motherboards. It is recommended that you fully read and have available all motherboard and case instructions which should include pin and jumper layouts.
+
+The first step will be to open the case up. The method for opening the case will vary depending upon how the case was manufactured. Most new cases have either a side panel or door while older ones require the whole cover be removed. Remove any screws hold the cover to the case and set them aside in a safe place.

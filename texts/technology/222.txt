@@ -1,0 +1,9 @@
+After you have started using Linux, you will want to continue exploring the unlimited potentials of Linux -- its desktop environments, software repositories, games, devices, and yes, more distribution options. Continue your adventure into the Linux world with material included in this path.
+
+The vast majority of Linux users selected one of a few popular distributions, such as Ubuntu, Fedora, SuSE, or Mandriva. However there are many more distributions that have been developed specialized applications. Developing a distribution is actually not that difficult. You can even build and distribute your own Linux distro.
+
+Introducing two major Linux desktop environments -- KDE and GNOME. Important differences are also highlighted.
+
+Whether you need software to perform office, business, or scientific tasks on your Linux computer, storing data, or making graphics, you can select your choices here, from both freeware and commercial options.
+
+There are thousands of great games that you can play on the Linux platform. Here are some of the most popular ones.

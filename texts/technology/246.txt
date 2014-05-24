@@ -1,0 +1,7 @@
+The simplest use of ls iswhich prints a list of the files in the current directory to the terminal. Without any parameters, the files are written out in columns, such that several files names appear on each line.
+
+In general it is easier to scan the contents of a directory if only one file is listed per line along with some information about that file. This is accomplished with the -l flag. For example:
+
+If you also want to see files whose names start with a period, you would include an "a":
+
+You can now use the alias commandwhich defines "l" as "ls -al", so that entering "l" will have the same effect as entering "ls -al".

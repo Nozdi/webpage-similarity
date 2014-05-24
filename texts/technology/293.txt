@@ -1,0 +1,5 @@
+Tremulous is a fast-paced FPS (first person shooter) game. However, the gameplay is unlike most other FPS games because not only do you get to pick whether you want to be a human or an alien, but there are also other customizations allowed. If you are a human, you can upgrade your armor, improving both your looks and your battle skills. If you are an alien, you can upgrade your body, starting out as a small innocent looking spider, and later becoming a huge 10-foot tall and 8-legged horror. Read more...
+
+- On screen instructions tell you how to switch between observer mode and joining a team.
+
+ - You can move in the three-dimensional space using the mouse to change your orientation (turning left, right, up, or down), and the arrow keys to move left, right, forward, backward, up, or down.

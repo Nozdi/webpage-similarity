@@ -1,0 +1,21 @@
+Normally, these characters have special meaning to the shell:
+
+Here is the meaning of some of them:
+
+\ ' " and ' are used for quoting and were described before. < and > are used for input/output redirection and were described before. | pipes the output of the command to the left of the pipe symbol "|" to the input of the command on the right of the pipe symbol. ( ) enclose command(s) to be launched in a separate shell (subshell). E.g. ( dir ). { } enclose a group of commands to be launched by the current shell. E.g. { dir }. It needs the spaces. & causes the preceding command to execute in the background (i.e., asynchronously, as its own separate process) so that the next command does not wait for its completion. * when a filename is expected, it matches any filename except those starting with a dot (or any part of a filename, except the initial dot). ? when a filename is expected, it matches any single character. [ ] when a filename is expected, it maches any single character enclosed inside the pair of [ ]. && is an "AND" connecting two commands. command1 && command2 will execute command2 only if command1 exits with the exit status 0 (no error). For example: cat file1 && cat file2 will display file2 only if displaying file1 succeeded. || is an "OR" connecting two commands. command1 || command2 will execute command2 only if command1 exits with the exit status of non-zero (with an error). For example: cat file1 || cat file2 will display file2 only if displaying file1 didn't succeed. = assigns a value to a variable. Example. The command:
+
+assigns the value "blahblah" to the variable called "me". I can print the name of the variable using:
+
+$ preceeds the name of a variable to be expanded. The variables are either assigned using "=" or are one of the pre-defined variables (which cannot be assigned to):
+
+$0 name of the shell or the shell script being executed.
+
+$# number of the positional parameters to the command
+
+$1 the value of the first positional parameter passed to the command. $2 is the second positional parameter passed to the command. etc. up to $9.
+
+$* expands to all positional parameters passed to the command
+
+$@ expands to all positional parameters passed to the command, but individually quoted when "$@" is used.
+
+See man bash if you really need more.

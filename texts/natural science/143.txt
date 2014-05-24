@@ -1,0 +1,13 @@
+Definition: The principles that govern heredity were discovered by a monk named Gregor Mendel in the 1860's. One of these principles, now called 
+
+
+
+ There are four main concepts related to this principle. They are as follows: A gene can exist in more than one form.
+
+ Organisms inherit two alleles for each trait.
+
+ When gametes are produced (by meiosis), allele pairs separate leaving each cell with a single allele for each trait.
+
+ When the two alleles of a pair are different, one is dominant and the other is recessive. The principles that govern heredity were discovered by a monk named Gregor Mendel in the 1860's. One of these principles, now called Mendel's law of segregation , states that allele pairs separate or segregate during gamete formation, and randomly unite at fertilization There are four main concepts related to this principle. They are as follows:
+
+The gene for seed color in pea plants exists in two forms. There is one form or allele for yellow seed color (Y) and another for green seed color (y). In this example, the allele for yellow seed color is dominant and the allele for green seed color is recessive. When the alleles of a pair are different ( heterozygous ), the dominant allele trait is expressed and the recessive allele trait is masked. Seeds with the genetic makeup of (YY) or (Yy) are yellow, while seeds that are (yy) are green.

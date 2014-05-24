@@ -1,0 +1,13 @@
+Many nervous trips to the ER or doctor's office end with reassuring words following a quick Q&A and check of vital signs. 
+
+ Better safe than sorry, to be sure, but even better staying put, when possible.
+
+Technology enabling people to monitor vital signs and consult from home via video chat is becoming more prevalent -- great news for persons with mobility impairments.
+
+One product and platform in development is InstaMD: a dual-purpose headset and app for tracking and sharing vital signs with healthcare providers via the web.
+
+The headset attaches to a home stethoscope and amplifies sound up to 20x. You can upload recorded clips of heart, lung, or GI tract sounds and video chat with providers in real time. Clips are automatically archived and you can email links to the audio files.
+
+The web app works on any computer with Chrome, Firefox, or Internet Explorer. The mobile app currently works on iOS devices and will eventually support Android devices.
+
+According to InstaMD, the headset and app should be available this fall.

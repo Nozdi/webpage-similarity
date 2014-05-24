@@ -1,0 +1,7 @@
+Developers have released version 4.0 of the OpenELEC Linux distro that is specifically designed for run the XBMC media player. Compared to alternative solutions, OpenELEC is quick and easy to setup and consumes little resources. With a footprint of 100MB it installs instantly and boots up in about 20 seconds.
+
+
+
+OpenELEC stands for Open Embedded Linux Entertainment Center. It was build from scratch and is not based on another Linux distribution. Highlights for version 4.0 include a build system and support for UEFI hardware. Besides a generic build, customs builds are available for NVIDIA and ION2, Intel GMA HD chipsets, AMD Fusion, Apple TV 1, and Raspberry Pi.
+
+For more information see, the OpenELEC project web site.

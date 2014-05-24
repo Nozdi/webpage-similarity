@@ -1,0 +1,9 @@
+The symptom of a hung terminal is where what you type doesn't display on the terminal (or in some cases displays but doesn't do anything). If what you type is invisible (or does nothing) type ^Q to restart flow (if flow control stopped it). Hanging may also be due to:
+
+ Sent terminal binary or Abnormally exited a program
+
+ If you didn't do any of these two, then the program you're running could by buggy or you interaction with it fatally illegal.
+
+If you want to quit the program you were running and you can't do it by the usual methods (some programs have special keys you must hit to exit) then try killing it from another terminal using "top" or "kill". If the process refuses to die, then kill it with signal 9 from top (or use "kill" on the command line). The "9" type of forced exit may leave some temporary files lying around as well as a corrupted interface. If this doesn't work, killing the login shell should result in a startup of getty with a new login prompt. If all else fails, you may need to reboot the computer or even power it down. Just rebooting may not alter the possibly corrupted content of the serial port hardware registers.
+
+People new to Linux may unintentionally press Ctrl-S (^S) (or the "No Scroll" key) which mysteriously freezes the screen (although that is what this key is supposed to do if you use software flow-control). To restore normal screen interaction, press Ctrl-Q (^Q). Note that everything typed during the "freeze" gets executed but you don't see any report of this until you hit ^Q. Thus when it's frozen, don't type anything drastic that might destroy files, etc. One argument for using hardware flow-control is to prevent such freezes.

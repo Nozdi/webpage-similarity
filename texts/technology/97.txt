@@ -1,0 +1,29 @@
+One of the best features of some dedicated car GPS models is the ability to pair with your mobile phone using wireless Bluetooth technology to enable hands-free calling and contact management. When connected, you are able to use the GPS's speaker, microphone, and touchscreen to take and make calls. This enhances your GPS investment, puts you in compliance with traffic laws that permit hands-free-only calling while you drive, and gives you a convenient touchscreen interface for calling.
+
+In order to enable the Bluetooth GPS connection, you need a car GPS that has Bluetooth, a compatible phone with Bluetooth, and completion of the setup procedure for GPS and phone.
+
+Bluetooth and hands-free calling are generally available on higher-end GPS models, and we'll cover specific Garmin and TomTom examples here. However, the setup routines for most brands are similar.
+
+Here's the process for Bluetooth-enabled TomTom GPS models:
+
+ 1. Establish a connection between your mobile phone and your TomTom GO. Touch "mobile phone" in the GPS main menu, then follow the instructions on the screen. This needs to be done only once, the GPS will remember your phone.
+
+2. Here are some additional tips from TomTom: "Make sure that you switch on Bluetooth on your phone. Make sure that your phone is set to discoverable or visible to all. You may have to enter the password '0000' on your phone in order to connect to your TomTom GO. Make your TomTom GO a trusted device on your phone. Otherwise you will have to enter '0000' every time."
+
+3. You may copy your mobile phone's contact list into your TomTom in order to access it from the touchscreen. In the case of TomTom, you set your hands-free calling for auto-answer, as well. You may also setup as many as five different phones.
+
+Bluetooth GPS with Garmin
+
+ Bluetooth-enabled Garmin models (see links below) use a similar setup routine:
+
+ 1. Enable Bluetooth on your mobile phone.
+
+2. Initiate a search for Bluetooth devices, and select "nuvi" from the list. Enter the nuvi Bluetooth PIN (1234) into your phone.
+
+3. To enable the Bluetooth GPS connection on your nuvi, go to "tools" - "settings" - "Bluetooth" - "Add" in the Garmin menu.
+
+After your phone is connected, you are ready to make hands-free calls. Garmin hands-free calling features include automatic phone contact list import, points-of-interest dialing, and in some high-end models, voice-command dialing from your contact list.
+
+These features work great, after the somewhat fussy setup procedures. Hands-free, Bluetooth GPS calling is well worth implementing if you need to communicate safely while on the go. Speaking of safety, please read my piece on how to be a safer driver with GPS.
+
+For up-to-date lists of Bluetooth GPS compatible models and phones, see the links below.

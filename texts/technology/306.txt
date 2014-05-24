@@ -1,0 +1,17 @@
+To say that UUCP configuration is difficult would be an understatement. It is really a hairy subject, and the sometimes terse format of the configuration files doesn't make things easier (although the Taylor format is almost easy reading compared to the older formats in HDB or Version 2).
+
+To give you a feel for how all the configuration files interact, we will introduce you to the most important ones and have a look at sample entries from these files. We won't explain everything in detail now; a more accurate account is given in separate sections that follow. If you want to set up your machine for UUCP, you had best start with some sample files and adapt them gradually. You can pick either those shown below or those included in your favorite Linux distribution.
+
+All files described in this section are kept in /etc/uucp or a subdirectory thereof. Some Linux distributions contain UUCP binaries that have support for both HDB and Taylor configuration enabled, and use different subdirectories for each configuration file set. There will usually be a README file in /usr/lib/uucp .
+
+For UUCP to work properly, these files must be owned by the uucp user. Some of them contain passwords and telephone numbers, and therefore should have permissions of 600. Note that although most UUCP commands must be setuid to uucp , you must make sure the uuchk program is not . Otherwise, users will be able to display system passwords even though the files have mode 600.
+
+The central UUCP configuration file is /etc/uucp/config , which is used to set general parameters. The most important of them (and for now, the only one) is your host's UUCP name. At the Virtual Brewery, they use vstout as their UUCP gateway:
+
+The sys file is the next important configuration file. It contains all the system-specific information of sites to which you are linked. This includes the site's name and information on the link itself, such as the telephone number when using a modem link. A typical entry for a modem-connected site called pablo would look like this:
+
+time specifies the times at which the remote system may be called. chat describes the login chat scripts--the sequence of strings that must be exchanged to allow uucico to log into pablo . We will get back to chat scripts later. The port keyword simply names an entry in the port file. (Refer to Figure 16-1 .) You can assign whatever name you like as long as it refers to a valid entry in port .
+
+The port file holds information specific to the link itself. For modem links, it describes the device special file to be used, the range of speeds supported, and the type of dialing equipment connected to the port. The following entry describes /dev/ttyS1 (a.k.a. COM 2), to which the administrator has connected a NakWell modem capable of running at speeds up to 38,400 bps. The port's name is chosen to match the port name given in the sys file:
+
+The information pertaining to the dialers is kept in yet another file called--you guessed it--dial . For each dialer type, it basically contains the sequence of commands that are issued to dial up a remote site, given the telephone number. Again, this is specified as a chat script. For example, the entry for NakWell might look like this:

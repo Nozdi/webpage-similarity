@@ -1,0 +1,11 @@
+Some of the most popular and valued remote sensing images of the earth are obtained from the Landsat satellites which have been orbiting the earth for over thirty years. Landsat is a joint venture between NASA and the U.S. Geological Survey.
+
+On April 15, 1999, NASA launched Landsat 7 from Vandenberg Air Force Base in California, the last Landsat to be deployed since 1984. Prior to the launch of Landsat 7, two Landsats were in operation - Landsat 4 (operating from 1982 to decommission in June 2001) and Landsat 5 (operating since March 1984). Landsat 6 was launched in 1993 but it failed to attain proper orbit.
+
+The Landsat satellites make loops around the earth and are constantly collecting images of the surface through the use of a variety of sensing devices. Since the beginning of the Landsat program in 1972, the images and data have been available to all countries around the world. Images are used to measure rain forest loss, assist with mapping, determine urban growth, and population change.
+
+The different Landsats each have different remote sensing equipment. Each sensing device records radiation from the surface of the earth in different bands of the electromagnetic spectrum. Landsat 7 has more sensing equipment than any other Landsat. It even includes a new panchromatic scanner with an impressive resolution of 15 meters (the highest resolution until Landsat 7 was 30m). This means that buildings or other objects which are 15 meters across will show up on the Landsat images.
+
+The Landsats orbit the earth from the north to south poles and vice versa. Landsat 7 completes a full orbit of the earth in about 99 minutes, allowing the satellite to achieve over 14 orbits per day. The satellites make a complete coverage of the earth every 16 days.
+
+Landsat 5 and 7 collect images from a swath of land about 183-185 kilometers wide. The ground path of the satellites is from east to west with each subsequent pass. About five passes cover the entire United States, from Maine and Florida to Hawaii and Alaska.

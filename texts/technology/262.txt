@@ -1,0 +1,193 @@
+There are two kinds of commands used in Linux: Built-in Shell Commands and Linux Commands.
+
+12 essential Linux commands for newbies
+
+Introduction to the basic set of commands needed to find your way around the Linux file system.
+
+Example uses of the Linux Command "mv"
+
+Examples of typical uses of the command mv
+
+Example uses of the Linux Command scp
+
+Examples of typical uses of the command scp
+
+Check Disk Space with the Commands df and du
+
+How to quickly find out how much disk space is used and how much disk space is still available.
+
+The Command less
+
+Introduction to the GNU/Linux command "less"
+
+Named Pipes
+
+Brief introduction and tutorial to using named pipes.
+
+Example uses of the Linux Command du
+
+Examples of typical uses of the command du
+
+Five Essential Linux Operators for Newbies
+
+Introduction to the basic set of operators needed to work efficiently in the Linux file system.
+
+Example uses of the Linux Command rm
+
+Examples of typical uses of the command rm
+
+Example uses of the Linux Command ssh
+
+Examples of typical uses of the command ssh
+
+Example uses of the command "rsync"
+
+Examples of typical uses of the command rsync
+
+Example uses of the command "newgrp"
+
+Examples of typical uses of the command newgrp
+
+Example uses of the command "chmod"
+
+Examples of typical uses of the command chmod
+
+Example uses of the command "df"
+
+Examples of typical uses of the command df
+
+Example uses of the command "ping"
+
+Examples of typical uses of the command ping
+
+Example uses of the command "less"
+
+Examples of how to use the program "less".
+
+Example uses of sed
+
+Examples of how to use the command "sed"
+
+Example uses of the command "head"
+
+Examples of typical uses of the command head
+
+Example uses of the command "ifconfig"
+
+Examples of typical uses of the command ifconfig
+
+Example uses of the command "netstat"
+
+Examples of typical uses of the command netstat
+
+Example uses of the command "wget"
+
+Examples of typical uses of the command wget
+
+Example uses of the command "sudo"
+
+Examples of typical uses of the command sudo
+
+Example uses of the command "time"
+
+Examples of typical uses of the command time
+
+Example uses of the command "sort"
+
+Examples of typical uses of the command sort
+
+Example uses of the command "alias"
+
+Examples of typical uses of the command alias
+
+Example uses of the command "rcp"
+
+Examples of typical uses of the command rcp
+
+Example uses of the command "ls"
+
+Examples of typical uses of the command ls
+
+Example uses of the command "cd"
+
+Examples of typical uses of the command cd
+
+Example uses of the command "sg"
+
+Examples of typical uses of the command sg
+
+Example uses of the command "groups"
+
+Examples of typical uses of the command groups
+
+Example uses of the command "top"
+
+Examples of typical uses of the command top
+
+Example uses of the command "ps"
+
+Examples of typical uses of the command ps
+
+Example uses of the command "gunzip"
+
+Examples of typical uses of the command gunzip
+
+Example uses of the command "gzip"
+
+Examples of typical uses of the command gzip
+
+Example uses of the command "bzip2"
+
+Examples of typical uses of the command bzip2
+
+Example uses of the command "ssh"
+
+Examples of typical uses of the command ssh
+
+Example uses of the command "more"
+
+Examples of typical uses of the command more
+
+Example uses of the command "curl"
+
+Examples of typical uses of the command curl
+
+Example uses of the command "awk"
+
+Examples of typical uses of the command awk
+
+Example uses of the command "apropos"
+
+Examples of typical uses of the command apropos
+
+The Linux / Unix Command: expect
+
+Instructions and examples for using the command expect
+
+How to Temporarily Change Accounts and Privileges
+
+Instructions and examples for changing the current account using the su and sudo commands
+
+System Shutdown and Restart
+
+How to properly shut down a Linux machine
+
+Example uses of the command "tar"
+
+Examples of typical uses of the command tar
+
+Example uses of the commands "nice" and "renice"
+
+Examples of typical uses of the commands nice and renice
+
+Example Uses of the "xargs" command
+
+Description and examples of the command xargs.
+
+Example Uses of the diff Command
+
+Introduction and examples of the Linux command diff.
+
+The set Command
+
+Description and examples for the Linux command set

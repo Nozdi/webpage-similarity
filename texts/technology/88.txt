@@ -1,0 +1,13 @@
+Update: See my current article on the top ten GPS navigation apps for iPhone.
+
+There are a number of turn-by-turn GPS navigation apps available for the iPhone, so how to decide on which one is best for your needs? Below you'll find a summary of key features, plus a head-to-head comparison chart featuring the leading apps, offered by TomTom, AT&T, Navigon, and Gokivo.
+
+Pricing for turn-by-turn GPS navigation apps with deep databases of roads and points-of-interest accompanying them is high compared with most iPhone apps. You'll pay about $90 up front, or $9.99 per month. See the chart below for pricing details.
+
+There are two different approaches to map databases, as well. TomTom, with its TomTom for iPhone, and Navigon chose to include complete mapsets and points-of-interest databases with their apps, resulting in 1.2 and 1.3 gigabyte downloads respectively. The advantage of downloaded maps that reside on your iPhone - you'll never be without a map when you're out of cell tower or WiFi range. The disadvantage of downloaded maps is that they take up a lot of memory on your iPhone, and you will need to buy updates every year or two. Maps downloaded on the fly, per AT&T and Navigon, are always the latest versions, and you won't need to pay for updates.
+
+These four leading iPhone GPS apps have many features in common, including: turn-by-turn directions; 3D maps that help you visualize upcoming turns; ability to run iPod music in the background, and directions that resume where you left off if you take a call.
+
+The iPhone GPS buyer's guide chart below highlights additional features that set these iPhone apps apart from each other. For example, text-to-speech is a key feature that is offered in the AT&T and Gokivo apps, but not in the TomTom and Navigon apps.
+
+Also, in the chart below, "contacts integrated" means that you can get directions from addresses in your iPhone's main contacts list. Units that don't offer "landscape mode" operate only in the vertical, portrait mode. The rest of the chart categories are self-explanatory. Take a look, and find the iPhone GPS navigation app just right for your needs.

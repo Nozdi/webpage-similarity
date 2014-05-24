@@ -1,0 +1,7 @@
+This guide was developed to instruct readers on the proper procedures for installing a power supply unit (PSU) into a desktop computer case. It includes step-by-step instructions with photographs for the physical installation of the PSU into a computer case.
+
+IMPORTANT: Many name brand manufacturer PCs use specially designed power supplies that have been built specifically for their systems. As a result, it is generally not possible to buy a replacement power supply and install it into these systems. If your power supply is having problems, you will likely need to contact the manufacturer for repairs.
+
+CAUTION: All power supplies contain various capacitors inside of them that retain power even after the power supply had all power turned off. Never open up or insert any metal objects into the vents of the power supply as you can risk electrical shock.
+
+To start with installing a power supply, it is necessary to open up the case. The method for opening the case will vary depending upon its design. Most new cases use either a panel or door while older systems require the whole cover be removed. Be sure to remove any screws fastening the cover to the case and set them aside.

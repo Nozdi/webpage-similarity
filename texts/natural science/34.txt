@@ -1,0 +1,31 @@
+The acronym GIS refers to Geographic Information Systems - a tool that allows geographers and analysts to visualize data in several different ways in order to see patterns and relationships in a given area or subject. These patterns generally appear on maps but they can also be found on globes or in reports and charts.
+
+The first truly operational GIS appeared in Ottawa, Ontario in 1962 and was developed by Roger Tomlinson of Canada's Department of Forestry and Rural Development in an effort to use map overlays for analysis of various areas in Canada. This early version was called CGIS.
+
+The more modern version of GIS used today emerged in the 1980s when ESRI (Environmental Systems Research Institute) and CARIS (Computer Aided Resource Information System) created a commercial version of the software that incorporated the methods of CGIS, but also included newer "second generation" techniques. Since then it has undergone a number of technological updates, making it an efficient mapping and informational tool.
+
+GIS is important today because it is able to bring together information from multiple sources so that various types of work can be done. In order to do this though, the data must be tied to a specific location on the Earth's surface. Latitude and longitude are usually used for this and the locations to be viewed are attached to their points on the geographic grid.
+
+In order to then do an analysis, another set of data is layered on top of the first one to show spatial patterns and relationships. For example, elevation at specific locations can show up in the first layer and then rates of precipitation at various places in the same area can be in the second. Through a GIS analysis patterns about elevation and the amount of precipitation then arise.
+
+Also important to the functionality of GIS is the use of rasters and vectors. A raster is any type of digital image, such as an aerial photograph. The data itself however is depicted as rows and columns of cells with each cell having a single value. This data is then transferred into GIS for use in making maps and other projects.
+
+A common type of raster data in GIS is called the Digital Elevation Model (DEM) and is simply a digital representation of topography or terrain.
+
+A vector is the most common way data is shown in GIS however. In ESRI's version of GIS, called ArcGIS, vectors are referred to as shapefiles and are made up of points, lines, and polygons. In GIS, a point is the location of a feature on the geographic grid, such as a fire hydrant. A line is used to show linear features like a road or river and a polygon is a two dimensional feature that shows an area on the earth's surface such as the property boundaries around a university. Of the three, the points show the least amount of information and the polygons the most.
+
+The TIN or Triangulated Irregular Network is a common type of vector data that is capable of showing elevation and other such values that change consistently. The values are then connected as lines, forming an irregular network of triangles to represent the land's surface on a map.
+
+In addition, GIS is capable of translating a raster to a vector in order to make analysis and data processing easier. It does this by creating lines along the raster cells that have the same classification to create the vector system of points, lines, and polygons which make up the features shown on the map.
+
+In GIS, there are three different ways in which data can be viewed. The first is the database view. This consists of the "geodatabase" otherwise known as the data storage structure for ArcGIS. In it, data is stored in tables, is easily accessed, and is able to be managed and manipulated to fit the terms of whatever work is being completed.
+
+The second view is the map view and is the most familiar to many people because it is essentially what many see in terms of GIS products. GIS is in fact a set of maps that show features and their relationships on the earth's surface and these relationships show up most clearly in the map view.
+
+The final GIS view is the model view which consists of tools that are able to draw new geographic information from existing datasets. These functions then combine the data and create a model that can provide answers for projects.
+
+GIS has many applications in various fields today. Some of which include traditional geographically related fields like urban planning and cartography, but also environmental impact assessment reports and natural resource management.
+
+In addition, GIS is now finding its place in business and related fields. Business GIS as it has come to be known is usually the most effective in advertising and marketing, sales, and the logistics of where to locate a business.
+
+Whichever way it's used though, GIS has had a profound influence on geography and will continue to be used in the future as it allows people to efficiently answer questions and solve problems by looking at easily understood and shared data in the form of tables, charts, and most importantly, maps.

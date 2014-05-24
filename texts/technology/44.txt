@@ -1,0 +1,5 @@
+4G wireless is the term used to describe the fourth-generation of wireless service. 4G is a step up from 3G, which is currently the most widespread, high-speed wireless service. 4G is only available in limited areas.
+
+While all 4G service is called "4G," the underlying technology is not the same. Sprint, for example, uses WiMax technology for its 4G network, while Verizon Wireless uses a technology called Long Term Evolution, or LTE.
+
+No matter what technology is behind it, 4G wireless is designed to deliver speed. On average, 4G wireless is supposed to be anywhere from four to ten times faster than today's 3G networks. Sprint says its 4G WiMax network can offer download speeds that are ten times faster than a 3G connection, with speeds that top out at 10 megabits per second. Verizon's LTE network, meanwhile, can deliver speeds between 5 mbps and 12 mbps.

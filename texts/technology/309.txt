@@ -1,0 +1,5 @@
+Working at the command line is not as daunting a task as you would think. There is no special knowledge needed to use the command line as it is a program like everything else. Most things in Linux can be done using the command line. Although there are graphical tools for most programs, sometimes they are just not enough. This is where the command line comes in handy.
+
+The terminal is often called the command prompt or the shell. In days gone by, this was the way the user interacted with the computer; however, Linux users have found that the use of the shell can be quicker than a graphical method and still holds some merit today. Here you will learn how to use the terminal.
+
+The original use of the terminal was as a file browser, and indeed it is still used as a file browser. You can use the terminal as a file browser to navigate your files and undo the changes that have been made.

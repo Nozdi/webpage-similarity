@@ -1,0 +1,5 @@
+The following are categories of Linux software applications. Click on a link to view information and resources for software in that category, including both freeware and commercial products.
+
+Parted Magic
+
+Overview of the Parted Magic set of disk utility tools.

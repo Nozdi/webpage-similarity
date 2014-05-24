@@ -1,0 +1,7 @@
+Absurd as it may sound, using UUCP to transfer data over TCP is not that bad an idea, especially when transferring large amounts of data such as Usenet news. On TCP-based links, news is generally exchanged using the NNTP protocol, through which articles are requested and sent individually without compression or any other optimization. Although adequate for large sites with several concurrent newsfeeds, this technique is very unfavorable for small sites that receive their news over a relatively slow connection such as ISDN. These sites will usually want to combine the qualities of TCP with the advantages of sending news in large batches, which can be compressed and thus transferred with very low overhead. A common way to transfer these batches is to use UUCP over TCP.
+
+In sys , you would specify a system to be called via TCP like this:
+
+The address command gives the IP address of the host or its fully qualified domain name. The corresponding port entry would read:
+
+The entry states that a TCP connection should be used when a sys entry references tcp-conn , and that uucico should attempt to connect to the TCP network port 540 on the remote host. This is the default port number of the UUCP service. Instead of the port number, you may also give a symbolic port name to the service command. The port number corresponding to this name will be looked up in /etc/services . The common name for the UUCP service is uucpd .

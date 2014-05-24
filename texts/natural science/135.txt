@@ -1,0 +1,7 @@
+Learn what Le Chatelier's Principle is and how it can be applied to predict the effect of a change in conditions on chemical equilibrium.Le Chatelier's Principle is the name given to the principle in which a change in a chemical system prompts an opposing reaction. In chemistry, this principle was discovered independently by Henry Louis Le Chatelier and Karl Ferdinand Braun, so it is sometimes called the Le Chatelier-Braun Principle. The principle can be stated as follows:
+
+If the temperature, concentration, volume, or partial pressure of a chemical system at equilibrium changes, then the equilibrium shifts to compensate for the change.
+
+The more general form of the principle applies to other disciplines. Homeostasis and Lenz's law are examples. Le Chatelier's Principle is known by the same name when applied to economic equilibrium.
+
+Le Chatelier's Principle is used to predict how a change in pressure, volume, concentration, or temperature will affect chemical equilibrium. Knowing the impact on equilibrium allows chemists to manipulate the chemical reaction. For example, a chemist might apply Le Chatelier's Principle to maximize yield from a reaction.

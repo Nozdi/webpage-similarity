@@ -1,0 +1,67 @@
+Chromatin
+
+Chromatin is a mass of genetic material composed of DNA and proteins that condense to form chromosomes.
+
+Chromosome
+
+A chromosome is a long, stringy aggregate of genes that carries heredity information and is formed from condensed chromatin.
+
+Diploid Cell
+
+A diploid cell is a cell that contains two sets of chromosomes.
+
+DNA
+
+DNA is a type of nucleic acid that contains the genetic information necessary for the production of other cell components and for the reproduction of life.
+
+Gametes
+
+Gametes are reproductive cells. These cells unite to form a new cell called a zygote.
+
+Gene Theory
+
+The Gene Theory is one of the basic principles of biology. The main concept of this theory is that traits are passed from parents to offspring through gene transmission.
+
+Genetics Glossary
+
+This genetics glossary is a good resource for finding succinct, practical, and meaningful biology definitions for various genetics terms.
+
+Haploid Cell
+
+A haploid cell is a cell that contains one complete set of chromosomes.
+
+Mendel's Law of Segregation
+
+Mendel's Law of Segregation states that allele pairs separate during gamete formation, and randomly unite at fertilization.
+
+Genetic Variation
+
+In genetic variation, the alleles of organisms within a population change.
+
+Endoreduplication
+
+Endoreduplication is a process whereby cells grow and enlarge, but do not go through the process of dividing called mitosis.
+
+Genes
+
+Genes are segments of DNA located on chromosomes. Genes contain the codes for the production of specific proteins.
+
+Nucleus
+
+The nucleus is a cell structure that contains hereditary information, or DNA, and controls cellular growth and reproduction.
+
+Parthenogenesis
+
+Parthenogenesis is type of asexual reproduction in which a female a female gamete or egg cell develops into an individual without fertilization.
+
+Mendel's Law of Independent Assortment
+
+Mendel's law of independent assortment states that allele pairs separate independently during the formation of gametes.
+
+True-breeding Plant
+
+A true-breeding plant is one that, when self-fertilized, only produces offspring with the same traits.
+
+Phenotype
+
+Phenotype is defined as an organism's expressed physical traits. It is determined by an individual's genotype and expressed genes, random genetic variation, and environmental influences.

@@ -1,0 +1,7 @@
+This guide was developed to instruct readers on the proper procedures for installing a CPU onto a motherboard and properly attaching the heat sink fan on top of the processor. It includes step-by-step instructions for the physical installation of the CPU onto the motherboard along with the cooling solution. The guide is based upon the pin-grid array processor design used by most companies. It is meant to instruct on how to install a processor onto a new motherboard rather than replacing an existing processor. The steps for an upgrade are similar to that of installing but require that a processor be removed first by reversing the installation instructions.
+
+Motherboards only support specific brands and types of processors. Please read all documentation for your motherboard and processor before proceeding. In addition, please refer to the documentation for the motherboard, processor and cooling solution for the proper location of the processor slot, heat sink mounting clips and CPU fan header locations.
+
+These instructions assume that you are installing the CPU onto the motherboard before installing the motherboard into the computer case.
+
+Locate the processor socket on the motherboard and open the processor slot by lifting the lever on the side of the slot to the open position.

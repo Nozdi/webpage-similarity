@@ -1,0 +1,25 @@
+Assume you use a direct line to connect your system vstout to tiny . Much like in the modem case, you have to write a system entry in the sys file. The port command identifies the serial port tiny is hooked up to:
+
+In the port file, you have to describe the serial port for the direct connection. A dialer entry is not needed because there's no need for dialing:
+
+If you're just going to try out UUCP, get the number of an archive site near you. Write down the login and password--they're public to make anonymous downloads possible. In most cases, they're something like uucp/uucp or nuucp/uucp .
+
+The only limitation is that it shouldn't be longer than seven characters, so as to not confuse UUCP implementations that run on an operating system that imposes a narrow limit on filenames. Names that are longer than seven characters are often truncated by UUCP. Some versions even limit the name to six characters.
+
+The UUCP Mapping Project registers all UUCP hostnames worldwide and makes sure they are unique.
+
+Older Version 2 UUCPs don't broadcast their name when being called; however, newer implementations often do, and so does Taylor UUCP.
+
+For instance, most companies' private installations require you to dial a 0 or 9 to get a line to the outside.
+
+The bit rate of the tty must be at least as high as the maximum transfer speed.
+
+If the remote system runs Taylor UUCP, it will obey.
+
+Some modems don't seem to like this and occasionally hang.
+
+
+
+ Prev Home Next 
+
+ UUCP Transfers and Remote Execution Up Controlling Access to UUCP Features

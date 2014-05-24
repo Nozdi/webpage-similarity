@@ -1,0 +1,9 @@
+New to Linux? We'll help you choose your first Linux computer, download and install this alternative operating system, and get going with some basic applications. It's not as hard as you might think.
+
+First, you need to decide if Linux is for you. Knowing the differences among Windows, Linux, and Unix, and hardware requirements will help you make the decision. Then, for new Linux users, help is available for customizing your new Linux desktop and accessing basic applications.
+
+What is a Linux distro or distribution? Why do some experts say: Whichever distribution you decide to install, you will end up with essentially the same Linux? But having over a hundred to choose from, how can one decide? The following advice and comparisons will help you find the right distro for you.
+
+Besides the operating system Linux, which performs the basic computer functions like file access and network connections, you also need a graphical desktop environment that provides a friendly user interface for you to interact with the computer. KDE is a good choice for people familiar with Microsoft Windows. GNOME on the other hand makes it easy even for computer novices to use Linux.
+
+OpenOffice.org is a set of applications that has similar functionality as MicroSoft Office. It includes a word processor, spread sheet, presentation software, and database system. Evolution is a popular email and calendar program similar to Microsoft Outlook.

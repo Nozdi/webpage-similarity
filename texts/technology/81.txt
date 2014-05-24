@@ -1,0 +1,35 @@
+There are dozens of good turn-by-turn navigation apps on the market for iPhones and Android smartphones, and their feature sets keep expanding. How can you tell which one will be perfect for you, and what features do you want and need?
+
+Maps On-Board vs. On-the-Fly
+
+ One of the best ways to narrow down your search is to choose between apps that retain the full set of maps of roads of North America in the phone's memory, or those that download maps on-the-fly. There are pros and cons to each type. The big distinguishing point here is that apps that keep all maps on board require approximately 1.4GB of your phone's memory, while apps that download on-the-fly require only about 15MB of phone memory. The apps that require that big chunk of memory also take quite a while to update - you literally need to download and install 1.4GB of data.
+
+There's a significant upside to keeping all maps on board, though: You won't ever find yourself mapless when you are driving out of cellular data range, which happens more often than you may think. Even if you are within a zone where you can make calls, you may not have the 3G or 4G speeds that can keep the maps coming into your phone. Some apps work around this by letting you pre-download maps for chosen routes, so watch for that feature in the specs.
+
+Spoken Turn-by-Turn Directions
+
+ The next major feature to watch for is text-to-speech, or spoken turn-by-turn directions. One of the best things about having any type of GPS in the car is hearing the directions, so you don't have to take your eyes off the road. It's the difference between hearing simply "turn right in .5 miles," vs. "turn right on Oak Lane in .5 miles." Obviously it's better to hear street and route names, so make sure the app you're considering has spoken directions.
+
+Lane Guidance
+
+ Lane guidance was introduced as a premium feature on dedicated car GPS devices, and eventually found its way to more budget-priced models and now to many smartphone navigation apps. It's one of my favorite features, and well worth having. Lane guidance is very useful on busy multi-lane highways, especially when you are not familiar with the area and which lane to be in. Lane guidance generally works by presenting a set of arrows representing the number of lanes, and showing you which lane to be in well in advance of an upcoming off-ramp or on-ramp. Many of the lane guidance features even include a 3D-ish visual model of the upcoming split, complete with an advance look at the signs you'll be seeing.
+
+Voice Commands
+
+ The more things you can do hands-free, the safer you'll be. Many apps now include voice commands for functions such as entering addresses, volume control, and more.
+
+Traffic Detection & Avoidance
+
+ I've watched traffic detection & avoidance steadily improve in both dedicated GPS devices and smartphone apps over the years. It's at the point now where I can say that it is truly useful. App and GPS makers have pushed to get all sorts of real-time data into their traffic feeds to both give you advance warning of jams, and also to provide you with the best route around backups.
+
+And here are a few more features you may want to put onto your must-have list as you shop for a GPS navigation app:
+
+ - iPod/music integration: are there easy-to-use controls for your music that don't require you to leave the navigation app?
+
+ - Can you place a call directly from search results?
+
+ - Can you invoke turn-by-turn directions to a destination directly from you smartphone's address book?
+
+ - Can you share your arrival time automatically with your Facebook friends and/or Twitter followers?
+
+When you put it all together, you'll have the perfect iPhone or Android app for your GPS turn-by-turn navigation needs.

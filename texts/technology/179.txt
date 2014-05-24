@@ -1,0 +1,27 @@
+Text to speech, large, tactile buttons, and simple navigation make orientation on the ODIN VI Talking Mobile Phone quick and easy for blind and visually impaired persons.
+
+To get started, lay the closed ODIN VI flat on a desk or table with the buttons closest to you. Slide the top half away from you to open it and reveal the number keypad.
+
+You'll use the keypad to enter contact details and write text messages. Each number has letters, punctuation marks, and symbols associated with it. The number 5, for example, includes the letters J, K, and L. To type an L, press the 5 button 3 times.
+
+Between the keypad and the screen are 5 buttons which you'll use to perform most of the phone's functions. These are:
+
+The Call and End buttons also have small braille markings underneath. The earpiece jack is located midway up the left side edge.
+
+The phone's right edge has 3 buttons:
+
+The rocker buttons adjust speech volume when not in a call and earpiece volume when in a call.
+
+On the top left edge is the earpiece jack, a small round hole. Below this, midway down the left edge under a small plastic flap, is a USB socket that can be used to charge the phone directly, i.e.  instead of the charging stand whose port (two small, rectangular recesses) is located on the phone's bottom edge.
+
+Behind is the battery compartment, whose cover takes up two-thirds of the back of the phone. The opening, located near the top, is a recessed area with a tactile ridge. The speaker cover, the thin recess with a metal grill, is located just above the opening.
+
+To turn the phone on, press and hold the End key till you hear the old-fashioned ring. You'll hear a welcoming message and the phrase, "Odin is ready." To check the provider, signal strength, and battery charge, press the Repeat Speech button on the top of the phone's right edge.
+
+In addition to the visual display, the ODIN VI provides several keypad shortcuts to hear onscreen information:
+
+A Quick Look at the Menus
+
+Once the ODIN VI is activated and your on the Home screen, you can enter the phone's six Main Menu items by pressing the OK button and the navigation arrows. The items are:
+
+As the ODIN Mobile supports no third-party apps, most user actions will focus on placing calls, texting, and entering contacts -- topics covered in a separate article.

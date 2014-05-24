@@ -1,0 +1,19 @@
+The Apple iPhone comes with a built-in GPS chip and the ability to also determine your location relative to WiFi hotspots with a capability called WiFi positioning. These technologies power the iPhone's basic location functionality, as well as thousands of powerful applications that may be easily and inexpensively downloaded onto the iPhone. In addition to GPS and WiFi positioning, your iPhone has a compass, and an accelerometer, which precisely tracks even the smallest movements of the phone (this feature is included mostly for gaming control purposes).
+
+Basic iPhone Location Functionality
+
+ To see and manage your iPhone GPS settings, tap the "Settings" icon and then go to "Location Services." There is a toggle switch to turn Location Services on or off. You should generally leave Location Services on, unless you have a specific reason for not associating location with your phone. Below the Location Services toggle, you will see a complete list of all of the apps that tap into your location. You may toggle them on or off. You can be selective in which apps you permit to know your location. Twitter is a good example. I don't use location services with Twitter, so I leave it turned off. On the other hand, my car navigation and golf GPS rangefinder apps certainly need to know my location, so I leave them turned on.
+
+Map, compass, and directions: The Maps icon on your iPhone is a gateway to a suite of powerful and useful services. Tap on maps, and you'll see your current location as a blue dot on a map that can be toggled between map, satellite, and hybrid views. Tap on the blue dot to see your current location by nearest address, and tap the human form icon at the left of the address popup for a street view photo of your location (if available). Double-tap on the arrow icon in the lower left to engage the built-in compass and orient the map. Tap on "Directions" to enter start and end points of your trip, and tap on the book icon in the bottom entry field to invoke your address book for auto-entry from the address book.
+
+You may initiate a search for just about anything by typing into the "search" text box. Get directions to a destination, and see any traffic delays on the route (road highlighted in red). Tap the arrow icon in the lower left corner to orient the map relative to your position.
+
+If you are interested in special uses of the compass feature, there are hundreds of free or inexpensive compass apps in the App Store, including digital, sailing, spyglass, and orienteering versions.
+
+Using Location-Based Apps for the iPhone
+
+ The major categories of location-based applications for the iPhone include car navigation, such as Motion X and the Garmin StreetPilot; sports & fitness apps, such as Adidas MiCoach; golf rangefinders, aviation and sailing navigators, and more.
+
+Location is also used by various social media apps, including Facebook and Foursquare, and user-review services such as Yelp. LocalScope uses your iPhone's camera to provide an "augmented reality" view (shows location/business name and additional information) of your surroundings.
+
+Drive a car, fly a plane, pilot a boat, walk a city street and see an augmented reality view of your surroundings, check into a social media service with your location... Your iPhone provides an incredible selection of tools and toys based on precise location information.

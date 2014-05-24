@@ -1,0 +1,37 @@
+The NLS cartridge works as a thumb drive for transferring BARD downloads to an NLS digital Talking Book player
+
+BARD (Braille and Audio Reading Download) is an online collection of digital Talking Books and magazines maintained by the National Library Service for the Blind and Physically Handicapped (NLS).
+
+Users download BARD content to their computer and play it by unzipping and copying files onto a blank NLS digital Talking Book cartridge, thumb drive, or to an authorized player such as the Victor Reader Stream.
+
+The BARD collection has over 20,000 books on a wide range of subjects, including classic literature, history, music, popular fiction, and travel. Periodicals include Consumer Reports, Ellery Queen's Mystery Magazine, People, and Sports Illustrated.
+
+To use BARD, you must be a registered NLS borrower. Once your application is approved, you'll create a username and password to access to the BARD website.
+
+Users can search for magazines by title and books by keyword, or alphabetically by author or title.
+
+The NLS cartridge is small plastic rectangle (a bit smaller than a standard cassette) with a finger hole at one end and a USB connector at the other. The cartridge slides into a slot on the front of the NLS digital Talking Book player.
+
+The end of the cartridge with the USB connector has bevels slanting toward the center, so that there is only one way for it to fit into the player.
+
+The cartridge is essentially a thumb drive that attaches to a computer through a USB cable.
+
+A blank cartridge and cable cost $16.99. You can purchase both from sources such as Perkins Products and the American Printing House for the Blind.
+
+BARD search results present brief descriptions of relevant works. To download a title to your computer, click the link at the bottom of the annotation.
+
+A dialogue box will prompt you to save or open the .zip file. Always save BARD files to your desktop or designated folder.
+
+Once the .zip file finishes downloading, double-click to unzip it. This process will open a new folder containing all the DAISY files necessary to play and navigate through the work.
+
+Download and extraction times may vary from a few seconds to several minutes depending on your system, device, and Internet connection.
+
+Once file extraction is complete, click and drag the file folder to the NLS cartridge device folder that should appear on your desktop when you plug in the USB cable.
+
+When the folder is transferred to the cartridge, you can eject and immediately listen to the book or magazine on an NLS player.
+
+To play the cartridge, insert it into the slot at the bottom of the player just below the tactile controls. Then press the large square green button.
+
+If you're using an NLS machine, its Bookshelf mode enables you to store multiple titles on one cartridge, so long as each one is in a separate folder.
+
+To enter Bookshelf mode, press and hold the Play button till you the audio prompt. Use the arrow keys to the right and left of the Play button to cycle through titles. Hit Play when you hear the desired title.

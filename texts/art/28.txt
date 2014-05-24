@@ -1,0 +1,11 @@
+(term) - The Golden Ratio is a term (with an astounding number of aliases, including Golden Section and Golden Mean) used to describe aesthetically pleasing proportioning within a piece. However, it is not merely a term -- it is an actual ratio.
+
+In its most simple form, the Golden Ratio is 1:phi. (Not pi / p / 3.14... / "pie," but phi [pronounced "fie"].) Phi is represented by the lower-case Greek letter ph. Its numeric equivalent is 1.618... which means its decimal stretches to infinity and never repeats (much like pi). The DaVinci Code had it wrong when the protagonist assigned an "exact" value of 1.618 to phi.
+
+Phi also performs amazing feats of derring-do in Trigonometry and quadratic equations, and can even be used to write a recursive algorithm when programming software. But let's get back to aesthetics.
+
+The easiest way to picture the Golden Ratio is by looking at a rectangle with a width of 1, and a length of 1.168... . If you were to draw a line in this plane so that one square and one rectangle resulted, the square's sides would have the ratio of 1:1. And the "leftover" rectangle? It would be exactly proportionate to the original rectangle: 1:1.618. You could draw another line in this smaller rectangle, again leaving a square and a rectangle whose proportions were 1:1.618. You can keep doing this until you're left with an indecipherable blob; the ratio continues on in a downward pattern regardless.
+
+Rectangles and squares are the most clear example, but the Golden Ratio can be applied to any number of geometric forms including circles, triangles, pyramids, prisms, and polygons. It's just a question of applying the correct math. Some artists -- especially architects -- are very good at this, while others are not.
+
+All math aside, an unknown genius figured out millennia ago that, in a work of art or architecture, if one maintained a ratio of small elements to larger elements that was the same as the ratio of larger elements to the whole, the end result was extraordinarily pleasing to the eye. (Indeed, we now have scientific evidence that our brains are hard-wired to recognize this pattern.) It worked when the Egyptians built their pyramids, it has worked in sacred geometry throughout history, and it continues to work today.

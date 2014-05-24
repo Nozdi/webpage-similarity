@@ -1,0 +1,65 @@
+perlfaq1 - General Questions About Perl ($Revision: 1.10 $, $Date: 2002/08/29 03:34:00 $)   This section of theanswers very general, high-level questions about Perl.   Perl is a high-level programming language with an eclectic heritage written by Larry Wall and a cast of thousands. It derives from the ubiquitous C programming language and to a lesser extent from sed, awk, the Unix shell, and at least a dozen other tools and languages. Perl's process, file, and text manipulation facilities make it particularly well-suited for tasks involving quick prototyping, system utilities, software tools, system management tasks, database access, graphical programming, networking, and world wide web programming. These strengths make it especially popular with system administrators andscript authors, but mathematicians, geneticists, journalists, and even managers also use Perl. Maybe you should, too.   The original culture of the pre-populist Internet and the deeply-held beliefs of Perl's author, Larry Wall, gave rise to the free and open distribution policy of perl. Perl is supported by its users. The core, the standard Perl library, the optional modules, and the documentation you're reading now were all written by volunteers. See the personal note at the end of thefile in the perl source distribution for more details. See perlhist (new as of 5.005) for Perl's milestone releases.
+
+In particular, the core development team (known as the Perl Porters) are a rag-tag band of highly altruistic individuals committed to producing better software for free than you could hope to purchase for money. You may snoop on pending developments via the archives at http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ and http://archive.develooper.com/perl5-porters@perl.org/ or the news gateway nntp://nntp.perl.org/perl.perl5.porters or its web interface at http://nntp.perl.org/group/perl.perl5.porters , or read the faq at http://simon-cozens.org/writings/p5p-faq , or you can subscribe to the mailing list by sending perl5-porters-request@perl.org a subscription request (an empty message with no subject is fine).
+
+While the project includes Perl in its distributions, there's no such thing as `` Perl''. Perl is not produced nor maintained by the Free Software Foundation. Perl's licensing terms are also more open than software's tend to be.
+
+You can get commercial support of Perl if you wish, although for most users the informal support will more than suffice. See the answer to ``Where can I buy a commercial version of perl?'' for more information.
+
+The 5.0 release is, essentially, a ground-up rewrite of the original perl source code from releases 1 through 4. It has been modularized, object-oriented, tweaked, trimmed, and optimized until it almost doesn't look like the old code. However, the interface is mostly the same, and compatibility with previous releases is very high. See ``Perl4 to Perl5 Traps'' in perltrap.
+
+To avoid the ``what language is perl5?'' confusion, some people prefer to simply use ``perl'' to refer to the latest version of perl and avoid using ``perl5'' altogether. It's not really that big a deal, though.
+
+See perlhist for a history of Perl revisions.
+
+If you want to learn more about Perl6, or have a desire to help in the crusade to make Perl a better place then peruse the Perl6 developers page at http://dev.perl.org/perl6/ and get involved.
+
+Perl6 is not scheduled for release yet, and Perl5 will still be supported for quite awhile after its release. Do not wait for Perl6 to do whatever you need to do.
+
+``We're really serious about reinventing everything that needs reinventing.'' --Larry Wall
+
+Larry and the Perl development team occasionally make changes to the internal core of the language, but all possible efforts are made toward backward compatibility. While not quite all perl4 scripts run flawlessly under perl5, an update to perl should nearly never invalidate a program written for an earlier version of perl (barring accidental bug fixes and the rare new keyword).
+
+Most tasks only require a small subset of the Perl language. One of the guiding mottos for Perl development is ``there's more than one way to do it'' ( , sometimes pronounced ``tim toady''). Perl's learning curve is therefore shallow (easy to learn) and long (there's a whole lot you can do if you really want).
+
+Finally, because Perl is frequently (but not always, and certainly not by definition) an interpreted language, you can write your programs and test them without an intermediate compilation step, allowing you to experiment and test/debug quickly and easily. This ease of experimentation flattens the learning curve even more.
+
+Things that make Perl easier to learn: Unix experience, almost any kind of programming experience, an understanding of regular expressions, and the ability to understand other people's code. If there's something you need to do, then it's probably already been done, and a working example is usually available for free. Don't forget the new perl modules, either. They're discussed in Part 3 of this , along with , which is discussed in Part 2.
+
+Probably the best thing to do is try to write equivalent code to do a set of tasks. These languages have their own newsgroups in which you can learn about (but hopefully not argue about) them.
+
+Some comparison documents can be found at http://language.perl.com/versus/ if you really can't stop yourself.
+
+If you have a library that provides an , you can make any component of it available as just another Perl function or variable using a Perl extension written in C or C and dynamically linked into your main perl interpreter. You can also go the other direction, and write your main program in C or C , and then link in some Perl code on the fly, to create a powerful application. See perlembed.
+
+That said, there will always be small, focused, special-purpose languages dedicated to a specific problem domain that are simply more convenient for certain kinds of problems. Perl tries to be all things to all people, but nothing special to anyone. Examples of specialized languages that come to mind include prolog and matlab.
+
+Actually, one good reason is when you already have an existing application written in another language that's all done (and done well), or you have an application language specifically designed for a certain task (e.g. prolog, make).
+
+For various reasons, Perl is probably not well-suited for real-time embedded systems, low-level operating systems development work like device drivers or context-switching code, complex multi-threaded shared-memory applications, or extremely large applications. You'll notice that perl is not itself written in Perl.
+
+The new, native-code compiler for Perl may eventually reduce the limitations given in the previous statement to some degree, but understand that Perl remains fundamentally a dynamically typed language, not a statically typed one. You certainly won't be chastised if you don't trust nuclear-plant or brain-surgery monitoring code to it. And Larry will sleep easier, too---Wall Street programs not withstanding. :-)
+
+Originally, a script was a canned sequence of normally interactive commands---that is, a chat script. Something like a or chat script or an expect script fits the bill nicely, as do configuration scripts run by a program at its start up, such .cshrc or .ircrc, for example. Chat scripts were just drivers for existing programs, not stand-alone programs in their own right.
+
+A computer scientist will correctly explain that all programs are interpreted and that the only question is at what level. But if you ask this question of someone who isn't a computer scientist, they might tell you that a program has been compiled to physical machine code once and can then be run multiple times, whereas a script must be translated by a program each time it's used.
+
+Perl programs are (usually) neither strictly compiled nor strictly interpreted. They can be compiled to a byte-code form (something of a Perl virtual machine) or to completely different languages, like C or assembly language. You can't tell just by looking at it whether the source is destined for a pure interpreter, a parse-tree interpreter, a byte-code interpreter, or a native-code compiler, so it's hard to give a definitive answer here.
+
+Now that ``script'' and ``scripting'' are terms that have been seized by unscrupulous or unknowing marketeers for their own nefarious purposes, they have begun to take on strange and often pejorative meanings, like ``non serious'' or ``not real programming''. Consequently, some Perl programmers prefer to avoid them altogether.
+
+If you have a project which has a bottleneck, especially in terms of translation or testing, Perl almost certainly will provide a viable, quick solution. In conjunction with any persuasion effort, you should not fail to point out that Perl is used, quite extensively, and with extremely reliable and valuable results, at many large computer software and hardware companies throughout the world. In fact, many Unix vendors now ship Perl by default. Support is usually just a news-posting away, if you can't find the answer in the comprehensive documentation, including this .
+
+See http://www.perl.org/advocacy/ for more information.
+
+If you face reluctance to upgrading from an older version of perl, then point out that version 4 is utterly unmaintained and unsupported by the Perl Development Team. Another big sell for Perl5 is the large number of modules and extensions which greatly reduce development time for any given task. Also mention that the difference between version 4 and version 5 of Perl is like the difference between awk and C . (Well, , maybe it's not quite that distinct, but you get the idea.) If you want support and a reasonable guarantee that what you're developing will continue to work in the future, then you have to run the supported version. As of August 2002 that means running either 5.8.0 (released in July 2002), or one of the older releases like 5.6.1 (released in April 2001) or 5.005_03 (released in March 1999), although 5.004_05 isn't that bad if you absolutely need such an old version (released in April 1999) for stability reasons. Anything older than 5.004_05 shouldn't be used.
+
+Of particular note is the massive bug hunt for buffer overflow problems that went into the 5.004 release. All releases prior to that, including perl4, are considered insecure and should be upgraded as soon as possible.
+
+In August 2000 in all Linux distributions a new security problem was found in the optional 'suidperl' (not built or installed by default) in all the Perl branches 5.6, 5.005, and 5.004, see http://www.cpan.org/src/5.0/sperl-2000-08-05/ Perl maintenance releases 5.6.1 and 5.8.0 have this security hole closed. Most, if not all, Linux distribution have patches for this vulnerability available, see http://www.linuxsecurity.com/advisories/ , but the most recommendable way is to upgrade to at least Perl 5.6.1.
+
+This documentation is free; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+Irrespective of its distribution, all code examples here are in the public domain. You are permitted and encouraged to use this code and any derivatives thereof in your own programs for fun or for profit as you see fit. A simple comment in the code giving credit to the would be courteous but is not required.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

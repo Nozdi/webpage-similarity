@@ -1,0 +1,43 @@
+BARD Mobile controls are similar to those of the NLS Digital Talking Book player.
+
+BARD Mobile is an iOS app that gives qualified borrowers access to NLS Braille and Audio Reading Download (BARD), a website of the National Library Service for the Blind and Physically Handicapped (NLS), Library of Congress.
+
+Through BARD, users can download any of the collection's 50,000 books, magazines, and music scores as braille or digital Talking Books.
+
+Readers play audio books on their iPad, iPhone, or iPod touch and access braille through a refreshable display connected to their device, such as the Focus 14 Blue, via Bluetooth.
+
+Increased access via refreshable braille was a key talking point at the first-ever Braille Summit held in June 2013 at the Perkins School for the Blind (Watertown, MA) co-sponsored by Perkins and NLS.
+
+With BARD Mobile, braille users will be able to receive their reading materials faster and won't have to be weighted down with bulky volumes or playback equipment.
+
+To use the BARD app, you must be registered with an NLS network library. Membership is free to persons with a documented print disability such as dyslexia or a visual impairment. Visit the NLS website or call 800.NLS.READ (657.7323) for more information on eligibility and to apply for service.
+
+ You then need to create a BARD account and download the app from iTunes or the App Store.
+
+
+
+Using BARD Mobile
+
+Once downloaded, tap the BARD Mobile icon to launch the app and enter your username and password. You only have to login to your account  the first time you use the app.
+
+ The home screen features four tabs at the bottom:
+
+The Bookshelf lists all books you've downloaded. Under "Get Books," you'll find your Wish list -- where you download books from -- as well as Recently added in the two main types of available content and their respective formats:
+
+There is also a tab for searching the entire BARD website.
+
+When you find a title you wish to read, tap the entry to add it to your Wish List, then download it from the Wish List section of the "Get Books" tab.
+
+If you're using an iPhone, NLS recommends connecting to the Internet via Wi-Fi (under "Settings") to save on data charges.
+
+Once the book is downloaded, go to "Bookshelf" and tap to select it. The "Now Reading" tab will automatically open.
+
+If it's an audio book, BARD Mobile displays basically the same layout and controls found on the NLS Digital Talking Book Player, including the "Bookmark," "Menu," and "Play/Stop" buttons. There are also sliders for adjusting reading speed and tone.
+
+If it's a braille book, you'll find the controls, including "Previous" and "Next" a "Menu" button which enables you to skip through the book by page, volume, bookmark, and line, and a "Bookmark" button.
+
+If you're using VoiceOver, listen to the the prompts spoken each time you touch a control to help learn the various gestures you can use with the app. You can also find the BARD Mobile Online User Manual on your Bookshelf, which offers more in-depth help.
+
+BARD Mobile 1.0 is compatible with iPad, iPhone, and iPod touch, requires iOS 4.3 or later, and is optimized for iPhone 5. The file size is 11.4 MB.
+
+The National Library Service for the Blind and Physically Handicapped (NLS), Library of Congress, administers the braille and talking-book program, a free library service available to residents of the United States and its territories and American citizens living abroad whose low vision, blindness, or physical disability makes reading regular print difficult. Through its national network of cooperating libraries, NLS mails digital audio players and books and magazines--in audio and in braille--directly to enrollees at no cost. Music instructional materials are available in large-print, braille, and recorded formats. Select materials are also available online for download.

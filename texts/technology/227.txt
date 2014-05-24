@@ -1,0 +1,25 @@
+Change directory. Use " cd .." to go up one directory.
+
+One dot '.' represents the current directory while two dots '..' represent the parent directory.
+
+" cd -" will return you to the previous directory (a bit like an "undo").
+
+You can also use cd absolute path or cd relative path (see below):
+
+For example to get to /boot/grub you would type:
+
+This is an absolute path because you start at the top of the hierarchy and go downwards from there (it doesn't matter where in the filesystem you were when you typed the command).
+
+A A A  A " relative path" doesn't have a preceding slash. Use a relative path when you start from a directory below the top level directory structure. This is dependent on where you are in the filesystem. For example if you are in root's home directory and want to get to /root/music, you type:
+
+Please note that there is no / using the above cd command. Using a / would cause this to be an absolute path, working from the top of the hierarchy downward.
+
+List files and directories. Typing "ls" will list files and directories, but will not list hidden files or directories that start with a leading full stop ".".
+
+This simply lists everything in the current directory, the options are not required (options such as -l , -a et cetera).
+
+This lists files using a certain string. The string can contain standard wildcards to list multiple files, to learn more about standard wildcards please read Section 20.4.1
+
+You can use ls -d to show directories that match an exact string, or use standard wildcards. Type " ls -d */" to list all subdirectories of the current directory. Depending on the setup of your aliases (see Chapter 4 ) you may simply be able to type lsd as the equivalent to ls -d */ .
+
+Lists all directories that are two levels below the /usr/ directory

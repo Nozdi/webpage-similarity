@@ -1,0 +1,17 @@
+Under X-windows, use your mouse: highlight the text to be copied, switch to the location where to copy, and press the middle mouse button to paste. This works nice and fast, as long as during the switching you don't disselect the original text. If your mouse has only two buttons (no middle button), use "both buttons together" or perhaps the right button (which combination works depends on your setup). This is the traditional "X-Windows style" copying.
+
+Many GUI applications (but not all) also support the Mac/MS-Windows-style "copy-paste": Select the text. Use the menu item "edit"-"copy" (either from the pull-down menu, or a local menu activated with the <RightMouseButton>). Switch to the location where to copy to. Use the menu item "edit"-"paste". This works fine for applications which use the same toolkit (e.g. KDE or GNOME) but does not always work across toolkits (e.g., from a GNOME application to the KDE application).
+
+As a keyboard shortcut for the last method, I can use <Ctrl><c> for copying the highlighted text and <Ctrl><v> for pasting. Text can be highlighted without mouse using <Ctrl><Shift><RightArrow>.
+
+You may also use the cut-paste history. Try running klipper (in X-terminal, KDE).
+
+The two copying methods are supposed to be separate; therefore, they should not mutually interfere.
+
+To capture the content of a window or the entire screen to a graphics file, I use knapshot. Alternatively, I can use <Alt><PrintScreen> to take a snapshot of the current window into the clipboard, and <Ctrl><Alt><PrintScreen> to take a snapshot of the entire desktop into the clipboard.
+
+To catch contents of a text console (outside of the GUI console), I could use in X terminal (probably as root):
+
+and then copy and paste whatever I need from the X terminal with a mouse. I need to adjust the number in "vcs1" if my terminal to capture is not terminal 1.
+
+The text-based consoles support the mouse if you run the gpm daemon. Type gpm to test it--it will run fine if your mouse is appropriately configured. (You may want to run mouseconfig to configure your mouse.) To have gpm start automatically on the system startup and stay running, select the gpm daemon using the ntsysv utility. Use gpm exactly the same as the GUI cut-paste: highlight the text to be copied, move the text cursor to the "copy to" location, and then press the middle mouse button (or both buttons at once for a two-button mouse) to paste.

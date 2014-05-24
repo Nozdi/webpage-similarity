@@ -1,0 +1,7 @@
+system - execute a shell command   executes a command specified inby calling, and returns after the command has been completed. During execution of the command,will be blocked, andandwill be ignored.   The value returned is -1 on error (e.g. fork failed), and the return status of the command otherwise. This latter return status is in the format specified in(2). Thus, the exit code of the command will be. In casecould not be executed, the exit status will be that of a command that does
+
+If the value of string is NULL, system() returns nonzero if the shell is available, and zero if not.
+
+system() does not affect the wait status of any other children.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

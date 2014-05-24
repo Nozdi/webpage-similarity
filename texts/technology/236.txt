@@ -1,0 +1,35 @@
+Evolution can be launched either from the icon on the panel or from the Main Menu: Main menu --> Internet --> Evolution Email
+
+The first time you run Evolution, you will be placed in the welcome/setup screen to configure Evolution to send and receive email using your email account. Follow the onscreen instructions to fill in the information required about your email account. Some of the important items to fill in are: described below.
+
+For the identity screen the following have to be entered:
+
+Email name: (fill in your name) 
+
+Email address: (fill in your email address)
+
+For the receiving mail screen, the following have to be entered:
+
+Server type: POP 
+
+Host: (fill in name of your POP3 server) 
+
+Username: (fill in username of your POP3 email account)
+
+For the sending mail screen the following have to be entered:
+
+Server type: SMTP 
+
+Host: (fill in name of your SMTP server)
+
+Ensure that you select the correct time zone.
+
+After successfully filling in the configuration screens, click on the Apply button at the confirmation screen, Evolution will be started and the main Evolution screen is displayed.
+
+Only a very brief description of the functionalities and features of Evolution are given here. The user should refer to the Help button on the menu bar for more details.
+
+The Inbox houses the email sent to you which you have downloaded from the POP3 server. To see what is in your Inbox click on the Inbox icon. If you have emails in your Inbox, they will be displayed here. To read an email select it by clicking on it in the Subject Window.
+
+To compose an email, from the Inbox screen, click on the New button.
+
+Enter the email address of the recipient as well as the subject. The latter should be a few words describing the contents of the mail but it should also not be too long. If you need to CC the mail to another email address, click on the View button on the top Menu bar and select CC field which will be displayed. After composing the email, you can send it.

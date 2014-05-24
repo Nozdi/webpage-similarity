@@ -1,0 +1,31 @@
+This day begins summer in the Northern Hemisphere and winter in the Southern Hemisphere. This day is the longest in the year for the Northern Hemisphere and the shortest for the Southern Hemisphere.
+
+North Pole: The North Pole (90 degrees north latitude) receives 24 hours of daylight, as it has been daylight at the North Pole for the last three months (since the March Equinox). The sun is 66.5 degrees off of the zenith or 23.5 degrees above the horizon.
+
+Arctic Circle: It is light 24 hours a day north of the Arctic Circle (66.5 degrees north) on the June Solstice. The sun at noon is 43 off zenith.
+
+Tropic of Cancer: On the June Solstice the sun is directly overhead the Tropic of Cancer (23.5 degrees north latitude) at noon.
+
+Equator: At the equator (zero degrees latitude), the day is always 12 hours long. At the equator, sun rises daily at 6 a.m. local time and sets at 6 p.m. local time. The sun at noon at the equator is 23.5 degrees off the zenith.
+
+Tropic of Capricorn: The sun is low in the sky, at 47 degrees from zenith (23.5 plus 23.5).
+
+Antarctic Circle: At the Antarctic Circle (66.5 degrees south), the sun makes the briefest of appearances at noon, peeking at the horizon and then instantaneously disappearing. All areas south of the Antarctic Circle are dark on the June Solstice.
+
+South Pole: By June 21, it has been dark for three months at the South Pole (90 degrees south latitude. The sun set at the South Pole on The September Equinox.
+
+This day begins fall in the Northern Hemisphere and spring in the Southern Hemisphere. There are twelve hours of daylight and twelve hours of darkness at all points on the earth's surface on the two equinoxes. Sunrise is at 6 a.m. and sunset is at 6 p.m. local (solar) time for most points on the earth's surface.
+
+North Pole: The sun is on the horizon at the North Pole on the September Equinox in the morning. The sun sets at the North Pole at noon on the September Equinox and the North Pole remains dark until the March Equinox.
+
+Arctic Circle: Experiences 12 hours of daylight and 12 hours of darkness. The sun is 66.5 degrees off of the zenith or 23.5 degrees above the horizon.
+
+Tropic of Cancer: Experiences 12 hours of daylight and 12 hours of darkness. The sun is 23.5 degrees off of the zenith.
+
+Equator: The sun is directly overhead the equator at noon on the equinox. On both equinoxes (which means "equal nights" in Latin), the sun is directly over the equator at noon.
+
+Tropic of Capricorn: Experiences 12 hours of daylight and 12 hours of darkness. The sun is 23.5 degrees off of the zenith.
+
+Antarctic Circle: Experiences 12 hours of daylight and 12 hours of darkness.
+
+South Pole: The sun rises at the South Pole after the Pole having been dark for the past six months (since the March Equinox). The sun rises to the horizon and it remains light at the South Pole for six months. Each day, the sun appears to rotate around the South Pole at the same declination angle in the sky.

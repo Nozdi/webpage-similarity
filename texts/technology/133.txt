@@ -1,0 +1,17 @@
+The Photon Flash Player is a full-fledge web browser and Flash player that allows you to view Flash video and play Flash games on the iPad. And because the iPad doesn't natively support Flash, it is one of the few ways to get Flash working on your iPad.
+
+To play Flash within the browser, you will need to tap the Lightning bolt button at the top of the screen. This puts the browser in Flash mode.  You should put the browser in Flash mode before visiting the website with Flash.  This will keep the page for redirecting you to another page if it detects you are on an iPad.
+
+One you have the Flash playing on your iPad, the three buttons at the top of the screen determine the operating mode of the interface.  The browser can be in touch mode, which is the button with the finger pointing up, mouse  mode, which is the button with the mouse pointer, or grab mode, which has a button with a hand grabbing.
+
+It may take a little experimentation to find out which mode will work best with the particular Flash you are playing browser.  For videos and most websites, the default touch mode should be fine.  This mode acts much like the normal iPad browser, allowing you to simply tap on buttons and swipe the screen to navigate.
+
+Some games may require you to move to mouse mode.  This allows you to manipulate a virtual mouse pointer on the screen and tap to click the mouse.  This allows for more precision than touch mode provides.
+
+The grab mode is designed for manipulating maps or for any Flash where you would drag part of the screen to move it around the display.   This is also required for many games.
+
+More Flash Browsers for the iPad
+
+The settings button will let you tailor the browser to a particular type of Flash: video, web or games.  If you find the text on the screen too blurry, the web mode should help clear it up.   The bandwidth setting can be adjusted if you still find the screen blurry.  The higher the bandwidth setting, the more data being transferred, so this setting can be important for those on a data plan. It's a good idea to put the bandwidth up to 6 for games, around 3 or 4 for video and 1 or 2 for the web.
+
+You also have the option of turning on a game keyboard. The on-screen keyboard on the iPad differs from a standard keyboard in that holding down a key doesn't continually send that keystroke, which means you won't be able to play most Flash games using it. The game keyboard takes up much less of the screen and is designed to make playing Flash games much easier.

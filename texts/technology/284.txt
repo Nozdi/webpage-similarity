@@ -1,0 +1,3 @@
+The port and speed options are used to select the device used for calling the remote system and the maximum speed to which the device should be set.[6] A system entry may use either option alone or both options in conjunction. When looking up a suitable device in the port file, only ports that have a matching port name and/or speed range are selected.
+
+Generally, using the speed option only should suffice. If you have only one serial device defined in port , uucico always picks the right one anyway, so you only have to give it the desired speed. If you have several modems attached to your systems, you still often don't want to name a particular port, because if uucico finds that there are several matches, it tries each device in turn until it finds an unused one.

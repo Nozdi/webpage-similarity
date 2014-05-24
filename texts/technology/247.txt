@@ -1,0 +1,7 @@
+In the early days of computing, when a workstation consisted solely of a bulky CRT monitor and a clunky keyboard, when a mouse was still a rodent and a window something to get fresh air, the only way to interact with a computer was to type in commands and read the response produced by the software on the screen.
+
+This means people were doing a lot typing and programmers tried to make it easy on themselves by making commands that are frequently used as short as possible. The most frequently used command is 'ls', since it lists the content of the current directory, a concept now called "folder". All files and programs on a computer are organized in a directory tree, and you can move around in this tree using the 'cd' (change directory) command.
+
+Whenever you are not sure where you are in the directory tree, you can use the 'pwd' (present working directory) command to show the branch in the tree you are on, and you use the 'ls' command to list the files or links in the current directory. By now you have probably guessed that 'ls' stands for "list". As you can see, the more frequently used a command is the fewer letters you need to type.
+
+More information about the ls commands can be found on the ls man page ('man' is short of manual, and is the command to display a man page).

@@ -1,0 +1,6 @@
+Researchers have discovered the mechanism behind the change of appearance and shape in cancer cells. Cancer cells undergo changes to avoid immune system defenses, as well as to guard against radiation and chemotherapy treatment. These cells go from resembling epithelial cells with a defined shape, to resembling loose connective tissue. The researchers relate this process to that of a snake that sheds its skin. They attribute the change to the inactivation of molecular switches called microRNAs.
+
+According to lead researcher Manel Esteller, "We have discovered that some microRNAs, a group called microRNA-200S, undergoes a chemical inactivation and inhibit their expression. When these cellular appearance drivers are not present, tumor cells change, stretch, stop their inhibition and thus the tumor progresses." It was also discovered that the process could be reversed by changing environmental circumstances. The researchers believe that it is possible that drug treatments could be developed that would reverse advanced tumor development and inhibit the progression of the disease.
+
+Learn more about this study:
+

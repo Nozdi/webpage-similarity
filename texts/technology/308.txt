@@ -1,0 +1,3 @@
+Each terminal is connected to a serial port on the host computer (often just a PC). The ports have names/numbers. The first few are: tts/0 (or ttyS0), tts/1 (or ttyS1), tts/2 (or ttyS2) etc.
+
+These are represented by special files found in the /dev (device) directory. tts/0 (or ttyS0) corresponds to COM1 in DOS or Windows. tts/1 (or ttyS1) is COM2, etc. See Terminal Special Files for details on these and related "devices".

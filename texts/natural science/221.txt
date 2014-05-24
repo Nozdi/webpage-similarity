@@ -1,0 +1,11 @@
+Scientists at the University of North Carolina at Chapel Hill announced that tumors could be markedly reduced and in some cases eliminated, by simply inhibiting a key protein. The protein, called NF-kappa B, was successfully inhibited in mice using a natural inhibitor protein aptly called I-kappa B.
+
+Researchers had previously discovered that NF-kappa B allows cancerous cells to survive chemotherapy and radiation. Until these recent findings, researchers were not sure why. NF-kappa B attaches to the DNA in cells and turns certain genes on and off. Once the cells develop resistance to the chemotherapy and radiation, no lasting damage is observed in the cells. It now appears that NF-kappa B is a "defender" of both healthy and cancerous cells from chemical attack.
+
+Using the natural inhibitor, I-kappa B, scientists found that the tumor cells were much less likely to develop resistance to treatment. The cells became susceptible to the treatment and either shrank markedly or were eliminated entirely.
+
+The researchers focused on colorectal and fibrosarcoma tumors. The tumors were grown in mice, and the inhibitor was introduced via a virus that was able to enter the cells of the tumor.
+
+Researchers hope to begin tests in humans late this year or early next year. They are optimistic about the potential for the natural inhibitor in the treatment of tumors. Although there is no guarantee of success going from mice to humans, the researchers believe that in this case the underlying mechanisms point to probable success. They believe that several models for trials that have been submitted to the US Food and Drug Administration will be approved.
+
+What do you think? Will this line of research result in an eventual cure? Might it be better suited for management than a cure? Come over to the Biology Forum and share your thoughts, opinions, and feelings.

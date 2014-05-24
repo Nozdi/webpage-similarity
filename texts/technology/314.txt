@@ -1,0 +1,29 @@
+<string> is sent to the modem. It is followed by a '\r'. <string> can be: 
+
+  - regular text, eg 'send hello' 
+
+  - text enclosed in quotes, eg 'send "hello world"' 
+
+    
+
+ - newline 
+
+    \r - carriage return 
+
+    \a - bell 
+
+    \b - backspace 
+
+    \c - don't send the default '\r'. 
+
+    \f - formfeed 
+
+    \o - send character o (o is an octal number) 
+
+ Also $(environment_variable) can be used, for example $(TERM). Minicom passes three special environment variables: $(LOGIN), which is the username, $(PASS), which is the password, as defined in the proper entry of the dialing directory, and $(TERMLIN) which is the number of actual terminal lines on your screen (that is, the statusline excluded). Prints <string> to the local screen. Default followed by '\r
+
+'. See the description of 'send' above. Declares a label (with the name 'label') to use with goto or gosub. Jump to another place in the program. Jumps to another place in the program. When the statement 'return' is encountered, control returns to the statement after the gosub. Gosub's can be nested. Runs a shell for you in which 'command' is executed. On return, the variable '$?' is set to the exit status of this command, so you can subsequently test it using 'if'. Exit from "runscript" with an optional exit status. (default 1) Sets the value of <variable> (which is a single letter a-z) to the value <value>. If <variable> does not exist, it will be created. <value> can be a integer value or another variable. Increments the value of <variable> by one. Decrements the value of <variable> by one. if <value> <operator> <value> <statement> Conditional execution of <statement>. <operator> can be <, >, != or =. Eg, 'if a > 3 goto exitlabel'. Sets the global timeout. By default, 'runscript' will exit after 120 seconds. This can be changed with this command. Warning: this command acts differently within an 'expect' statement, but more about that later. By default, this is 'on'. That means that anything that is being read from the modem by 'runscript', gets echoed to the screen. This is so that you can see what 'runscript' is doing. The most important command of all. Expect keeps reading from the input until it reads a pattern that matches one of the specified ones. If expect encounters an optional statement after that pattern, it will execute it. Otherwise the default is to just break out of the expect. 'pattern' is a string, just as in 'send' (see above). Normally, expect will timeout in 60 seconds and just exit, but this can be changed with the timeout command. Break out of an 'expect' statement. This is normally only useful as argument to 'timeout' within an expect, because the default action of timeout is to exit immediately. Transfers control to another scriptfile. When that scriptfile finishes without errors, the original script will continue.
+
+runscript - script interpreter for minicom   scriptname [logfile [homedir]]   is a simple script interpreter that can be called from within the minicom communications program to automate tasks like logging in to a unix system or your favorite bbs.   The program expects a script name and optionally a filename and the user's home directory as arguments, and it expects that it's input and output are connected to the "remote end", the system you are connecting to. All messages fromment for the local screen are directed to theoutput. All this is automatically taken care of if you run it from. The logfile and home directory parameters are only used to tell the log command the name of the logfile and where to write it. If the homedir is omitted, runscript uses the directory found in the $HOME environment variable. If also the logfile name is omitted, the log commands are ignored.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

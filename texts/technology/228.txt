@@ -1,0 +1,13 @@
+List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuSUX nor --sort.
+
+Mandatory arguments to long options are mandatory for short options too.
+
+SIZE may be (or may be an integer optionally followed by) one of following: kB 1000, K 1024, MB 1,000,000, M 1,048,576, and so on for G, T, P, E, Z, Y.
+
+By default, color is not used to distinguish types of files. That is equivalent to using --color=none. Using the --color option without the optional WHEN argument is equivalent to using --color=always. With --color=auto, color codes are output only if standard output is connected to a terminal (tty).
+
+The full documentation foris maintained as a Texinfo manual. If theandprograms are properly installed at your site, the command
+
+should give you access to the complete manual.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

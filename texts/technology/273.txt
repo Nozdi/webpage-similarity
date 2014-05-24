@@ -1,0 +1,5 @@
+Sometimes there are commands that one wants to execute at start-up only for a certain type of terminal. To do this for the stty command is no problem since one uses the redirection operator < to specify which terminal the command is for. But what about shell aliases or functions? You may want to make a function for the ls command so it will color-code the listing of directories only on color terminals or consoles. For monochrome terminals you want the same function name (but a different function body) which will use symbols as a substitute for color-coding. Where to put such function definitions that are to be different for different terminals?
+
+You may put them inside an "if" statement in /etc/profile which runs at startup each time one logs on. The conditional "if" statement defines certain functions, etc. only if the terminal is of a specified type.
+
+While much of what this if statement does could be done in the configuration file for dircolors, here's an example for the case of the bash shell:

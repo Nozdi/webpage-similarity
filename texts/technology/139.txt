@@ -1,0 +1,53 @@
+With AirPlay and display mirroring, Apple TV is a great way to connect your iPad to your HDTV. (Image (c) Apple, Inc.)
+
+The iPad is a great device for laying in bed and watching a movie on Netflix or laughing at videos from Funny or Die, but sometimes you want to see them on the big screen. So how do you connect your iPad to your TV? Whether you have an old television set from the dark ages or the newest HDTV on the market, it's actually rather simple to get your iPad connected to your TV. And these methods work with both the iPad and the iPad Mini.
+
+Connecting the iPad to Your TV With Apple TV and AirPlay
+
+Apple TV is the best way to connect your iPad to your TV. In addition to streaming Netflix, YouTube and your iTunes collection, Apple TV supports AirPlay, which means you can stream apps like Crackle, a free app with movies and TV shows from Sony Pictures Entertainment Company. And even with apps that don't directly support AirPlay, you can use Display Mirroring to replicate your iPad's display on your TV.
+
+Apple TV is more expensive than some of the other options, but it is also the only solution that is wireless. And being wireless will really come in handy for games like Real Racing 2, which fully supports AirPlay to deliver a console-like experience.
+
+Apple TV also works great with the iPhone and iPod Touch, allowing you to both stream video through AirPlay or just use your entertainment system's speakers to play music.
+
+Find the best price for Apple TV
+
+Connect the iPad to your HDTV through HDMI
+
+Apple's Digital AV Adapter will allow you to connect the iPad to your TV through an HDMI cable, which transfers both HD-quality video and sound. The original iPad is capable of 720p video with the Digital AV Adapter, and the iPad 2 and iPad 3 support up to 1080p.
+
+Like connecting with Apple TV, hooking up an iPad with the Digital AV Adapter supports Display Mirroring, which means you'll see your iPad's display even if the individual app doesn't support video output. This is great for watching Hulu Plus on your HDTV.
+
+You can also stream your movie collection from you PC to your iPad to your HDTV using home sharing. This is a great way to finally switch from DvD and Blu-Ray to digital video without losing the ability to see it on your big screen TV.
+
+The Digital AV Adapter is also a great solution for the iPhone 4, iPhone 4S and 4th Generation iPod Touch.
+
+Find the best price for the Apple Digital AV Adapter
+
+Remember: When buying accessories, make sure the accessory fits the adapter on your iPad.  Newer iPads including the iPad Mini, iPad Mini 2, iPad 4 and iPad 4 use the Lightning connector, while older iPads use the 30-pin connector.  The Digital AV Adapter comes in both varieties.
+
+If your television doesn't support HDMI, or if you are simply running low on HDMI outputs on your HDTV, you can also opt for connecting the iPad to your TV with composite or component cables. The composite adapters break the video into red, blue and green, while the component adapters break it convert it to the single 'yellow' cable compatible with older television sets.
+
+The component and composite cables will not support the Display Mirroring mode on the iPad, so they will only work with apps like Netflix and YouTube that support video out. They also fall short of 720p video, so the quality will not be as high as the Digital AV Adapter or Apple TV.
+
+Unfortunately, these accessories may not be available for the newer Lightning connector, so you may need a Lightning to 30-Pin adapter.
+
+Find the best price for the composite adapter or the component adapter.
+
+By using Apple's VGA adapter, you can hook your iPad up to a television equipped with an VGA input, a computer monitor, a projector and other display devices that support VGA. This can be great if you have a space computer monitor. And because many newer monitors support multiple display sources, you could even switch between using your monitor for your desktop and using it for your iPad.
+
+The VGA adapter will also support the Display Mirroring mode. However, it does not transfer sound, so you either need to listen through the iPad's built-in speakers or through external speakers hooked up through the iPad's headphone jack.
+
+If you are planning on watching through you television, the HDMI adapter or the component cables are the best solutions. But if you plan on using a computer monitor or want to use your iPad for large presentations with a projector, the VGA adapter may be the best solution.
+
+Shop for an Apple Dock Connector-to-VGA Adapter for the iPad
+
+My iPad is connected to my TV. What now?
+
+Once you have your iPad linked up to your TV, you can really start to do some cool things. The iPad can be a great way to watch Netflix, Crackle or Hulu Plus movies, and if you are using Apple TV to connect the devices, gaming on the big screen is very cool. But did you know you can gain access to your entire movie collection on your PC? Learn how to set up home sharing to stream movies from your PC to your iPad.
+
+Did you know you can watch live TV on your iPad? There are several accessories designed to allow you to watch live TV on your iPad, gaining access to your cable channels and even your DVR from any room in the house and while away from home through your data connect. Find out how to watch TV on your iPad.
+
+Looking for more help buying accessories for the iPad? The options for cases, keyboards, speakers and other fun accessories can seem daunting. Check out the best of the best in our iPad accessories guide.
+
+Go to the About iPad Home Page

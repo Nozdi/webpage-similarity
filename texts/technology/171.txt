@@ -1,0 +1,49 @@
+For blind computer users, JAWS for Windows is the most popular screen reader -- a program that speaks aloud what's displayed on the monitor and provides audible prompts to aid navigation and application use.
+
+After braille, no invention has enabled blind and visually impaired people to communicate as effectively as the assistive technologies that make computers and the Internet accessible. Digital technology has also given blind people ever-expanding opportunities for personal and professional growth.
+
+To make such a highly visual environment accessible to those unable to see a computer monitor, assistive technology must do two things:
+
+The two technologies that make this possible are screen access- and magnification software programs.
+
+Screen readers give voice to computers through applications that synthesize written words and keyboard commands into human-sounding speech-the sort you might hear on automated phone and voicemail systems.
+
+The most popular screen access program is JAWS for Windows, developed by Freedom Scientific, which supports all Microsoft and IBM Lotus Symphony applications.
+
+JAWS reads aloud what's onscreen, beginning the with installation instructions, and provides key command equivalents to mouse functions so blind computer users can launch programs, navigate their desktop, read documents, and surf the web using just their keyboard.
+
+For example, rather than double-clicking on the Internet Explorer icon, a blind person might press in succession:
+
+It sounds painstaking, but screen readers speed navigation by providing shortcuts and audible cues.
+
+For example, the arrow keys enable users to quickly cycle around desktop items or section headings on a website. Pressing Insert + F7 displays a list of all links on that page.
+
+On Google, or on any site with forms, JAWS sounds to indicate the cursor is in the search box or has advanced to the next text field.
+
+In addition to converting text to speech, another crucial function JAWS and similar programs provide is output in braille. This function enables braille readers to view documents on refreshable braille displays or download them onto popular portable devices such as BrailleNote.
+
+The main drawback with screen readers is price: JAWS Standard costs $895. One can, however, download free Windows accessibility software, or purchase an all-in-one PC accessibility solution such as CDesk.
+
+Serotek offers System Access to Go, a free, web-resident version of its flagship screen reader. After creating an account, users can make any computer connected to the Internet accessible by simply logging in and pressing Enter.
+
+Screen magnification programs enable visually impaired computer users to enlarge and/or clarify what's displayed on their monitor. In most programs, users can zoom in and out with a keyboard command or flick of the mouse wheel.
+
+HumanWare's ZoomText Magnifier ($395), one of the most popular products, magnifies screen contents from 1x to 36x while maintaining image integrity. Users can zoom in and out at any time with a turn of the mouse wheel.
+
+To further enhance clarity, ZoomText provides controls so users can adjust:
+
+ZoomText users wishing to use two open applications at the same time can magnify portions of the screen by opening one of eight "Zoom" windows. An enlarged viewing area can also be expanded onto two adjacent monitors.
+
+Degree of vision loss usually determines which solution a blind person uses. People with no or severely limited vision use screen readers. Those with sufficient vision to read print use magnification programs.
+
+Not long ago, all the assistive computer technology for the blind was PC-based. No longer.
+
+Apple has built both screen reading and magnification into its Mac OS X operating system used in the latest versions of its iPad, iPhone, and iPod. The screen reader is called VoiceOver; the magnification program is called Zoom.
+
+VoiceOver 3 includes a standard set of hand gestures that can be used to navigate among different windows, menus, and applications. It can also integrate more than 40 popular braille displays via Bluetooth.
+
+Zoom, activated using keyboard commands, onscreen buttons, and via mouse or track pad, can magnify text, graphics, and motion video up to 40 times without loss of resolution.
+
+No matter which technology one chooses, a blind person cannot simply purchase a computer and screen reader and expect to use it effectively without training. The sheer number of commands within JAWS constitutes a new language. You could figure out a few things, but likely wouldn't get as far as you want. Training sources include:
+
+Training and product prices vary. One should contact state agencies, including vocational rehabilitation, commissions for the blind, and special education departments to explore assistive technology funding options.

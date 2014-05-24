@@ -1,0 +1,3 @@
+Definition: A diploid cell is a A diploid cell is a cell that contains two sets of chromosomes . One set of chromosomes is donated from each parent.
+
+The diploid number of a cell is the number of chromosomes in the cell. This number is commonly abbreviated as 2n, where n stands for the number of chromosomes. For humans this equation would be 2n=46.Humans have 2 sets of 23 chromosomes for a total of 46 chromosomes:

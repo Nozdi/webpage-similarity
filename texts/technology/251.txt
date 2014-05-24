@@ -1,0 +1,15 @@
+As promised in the previous chapter, we will now discuss the special modes SUID and SGID in more detail. These modes exist to provide normal users the ability to execute tasks they would normally not be able to do because of the tight file permission scheme used on UNIX based systems. In the ideal situation special modes are used as sparsely as possible, since they include security risks. Linux developers have generally tried to avoid them as much as possible. The Linux ps version, for example, uses the information stored in the /proc file system, which is accessible to everyone, thus avoiding exposition of sensitive system data and resources to the general public. Before that, and still on older UNIX systems, the ps program needed access to files such as /dev/mem and /dev/kmem , which had disadvantages because of the permissions and ownerships on these files:
+
+With older versions of ps , it was not possible to start the program as a common user, unless special modes were applied to it.
+
+While we generally try to avoid applying any special modes, it is sometimes necessary to use an SUID. An example is the mechanism for changing passwords. Of course users will want to do this themselves instead of having their password set by the system administrator. As we know, user names and passwords are listed in the /etc/passwd file, which has these access permissions and owners:
+
+Still, users need to be able to change their own information in this file. This is achieved by giving the passwd program special permissions:
+
+When called, the passwd command will run using the access permissions of root , thus enabling a common user to edit the password file which is owned by the system admin.
+
+SGID modes on a file don't occur nearly as frequently as SUID, because SGID often involves the creation of extra groups. In some cases, however, we have to go through this trouble in order to build an elegant solution (don't worry about this too much - the necessary groups are usually created upon installation). This is the case for the write and wall programs, which are used to send messages to other users' terminals (ttys). The write command writes a message to a single user, while wall writes to all connected users.
+
+Sending text to another user's terminal or graphical display is normally not allowed. In order to bypass this problem, a group has been created, which owns all terminal devices. When the write and wall commands are granted SGID permissions, the commands will run using the access rights as applicable to this group, tty in the example. Since this group has write access to the destination terminal, also a user having no permissions to use that terminal in any way can send messages to it.
+
+In the example below, user joe first finds out on which terminal his correspondent is connected, using the who command. Then he sends her a message using the write command. Also illustrated are the access rights on the write program and on the terminals occupied by the receiving user: it is clear that others than the user owner have no permissions on the device, except for the group owner, which can write to it.

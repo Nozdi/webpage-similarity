@@ -1,0 +1,99 @@
+Introduction to the Ubuntu Desktop Guide
+
+Ubuntu Desktop Guide: Introduction to the Ubuntu Desktop Guide
+
+Mount/unmount CD/DVD-ROMs manually
+
+Ubuntu Desktop Guide: Mount/unmount CD/DVD-ROMs manually, and show all hidden and associated files/folders
+
+Getting More Help
+
+Ubuntu Desktop Guide: Getting More Help
+
+Change the Computer Name
+
+Ubuntu Desktop Guide: Change the Computer Name
+
+Check disk space usage and view the partition table
+
+Ubuntu Desktop Guide: Check disk space usage and view the partition table
+
+Make partitions available from Ubuntu
+
+Ubuntu Desktop Guide: Make partitions available from Ubuntu
+
+Preventing the Ctrl-Alt-Backspace shortcut keys from restarting X
+
+Ubuntu Desktop Guide: Preventing the Ctrl-Alt-Backspace shortcut keys from restarting X
+
+Restart GNOME without rebooting the computer
+
+Ubuntu Desktop Guide: Restart GNOME without rebooting the computer
+
+Change my preferred email client to Mozilla Thunderbird
+
+Ubuntu Desktop Guide: Change my preferred email client to Mozilla Thunderbird
+
+Show the Computer, Home, and Trash desktop icons in GNOME
+
+Ubuntu Desktop Guide: Show the Computer, Home, and Trash desktop icons in GNOME
+
+Hide Recent Documents in the Places menu
+
+Ubuntu Desktop Guide: Hide Recent Documents in the Places menu
+
+Open files with administrative privileges from the file manager
+
+Ubuntu Desktop Guide: Open files with administrative privileges from the file manager
+
+Change the default "Open with" program for a file type
+
+Ubuntu Desktop Guide: Change the default "Open with" program for a file type
+
+View remote SSH, FTP, and SFTP servers using Nautilus
+
+Ubuntu Desktop Guide: View remote SSH, FTP, and SFTP servers using Nautilus
+
+Open the Location Bar in Nautilus
+
+Ubuntu Desktop Guide: Open the Location Bar in Nautilus
+
+Show hidden files and folders in Nautilus
+
+Ubuntu Desktop Guide: Show hidden files and folders in Nautilus
+
+Login automatically to GNOME when the computer starts
+
+Ubuntu Desktop Guide: Login automatically to GNOME when the computer starts
+
+Viewing Online Audio and Video in Firefox
+
+Ubuntu Desktop Guide: Viewing Online Audio and Video in Firefox
+
+Connecting to the Internet
+
+Ubuntu Desktop Guide: Connecting to the Internet
+
+Ubuntu - The Name
+
+Ubuntu Desktop Guide: Ubuntu - The Name
+
+What is Linux?
+
+Ubuntu Desktop Guide: What is Linux?
+
+What is GNU?
+
+Ubuntu Desktop Guide: What is GNU?
+
+Disable the beep sound in Terminal mode
+
+Ubuntu Desktop Guide: Disable the beep sound in Terminal mode
+
+What are Repositories?
+
+Ubuntu Desktop Guide: What are Repositories?
+
+Using your Ipod
+
+Ubuntu Desktop Guide: Using your Ipod

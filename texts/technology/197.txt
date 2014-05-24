@@ -1,0 +1,23 @@
+QuickTime Player in Mac OS X Snow Leopard enables deaf people to record messages in sign language that they can send as an email attachment or post to a blog.
+
+The latest version of Apple's iOS X and OS X operating systems have built-in features to help make its iPad, iPhone, iPod, and Mac OS X accessible to persons with disabilities.
+
+This article outlines the assistive technology features Apple developed to aid users who are deaf or hard hearing. The first section lists features common to the iPad, iPhone, and Mac OS X; the second profiles device-specific features.
+
+Apple's OS X and iOS X operating systems support captioning (both open and closed) and subtitles included in dynamic content such as movies, videos, and podcasts. On the Mac (using QuickTime, Front Row, and DVD Player), closed captions appear in high-contrast-a white san serif font against a black background similar to line 21-style television captions.
+
+Captioned movies downloaded from iTunes (and podcasts from iTunes U.) can be played on the iPhone, iPad, iPod classic, iPod nano (4th and 5th generation), iPod touch, and Apple TV. Users can also create and caption their own content using SCC files with Apple's Final Cut (sold separately).
+
+Stereo recordings have separate tracks that play in either the left or right speaker, which means a person with hearing loss in one ear can miss out on music or audio content. Apple augments sound by playing both right and left audio channels in both ears-through earbuds or external speakers. The iPhone and iPad have a checkbox for selection this option.
+
+The iPhone supports Multimedia Message Service (MMS), which enables users to send text messages and multimedia simultaneously to one or more people. Apps avail both iPhone and iPad users of web-based messaging services such as AIM, Facebook, Google Talk, ICQ, MobileMe, MSN, Twitter, and Yahoo!
+
+In addition to vibrating in silent mode, the iPhone can be set to display a full screen image or photo for incoming calls, text messages, emails, and calendar items. The Mac OS X can flash the entire screen (translating the standard beep) when an application needs attention. iPad users can create visual alerts for calendar items and push notifications. Mail and App Store apps can display visual badges to indicate updates and number of unread messages.
+
+The iPad 2 features FaceTime video calling via Wi-Fi, with video quality and frame rate sufficient for effective communication using American Sign Language, i.e. clear detail on hand and finger gestures. You can use FaceTime to place and receive video relay and text relay calls using services like zVRS.com and HOVRS.com. Some of these services can also connect you to others using instant messaging or videophones.
+
+With Apple's TTY Adapter, iPhone users can switch to TTY (text telephone) mode and communicate with all standard text telephones. Visual Voicemail displays all voicemail messages in succession and enables users to put them in their preferred order and (using the scrubber) to replay portions of messages that are hard to understand. The TTY Adapter is sold separately.
+
+Using iChat, a text, audio, and video conferencing application for the Mac OS X, American Sign Language speakers can communicate as clearly as if talking in person. High video quality and fast frame rate help capture hand and finger gesture in detail. You can also place and receive video- and text-relay calls using HOVRS.com-a service that connects AIM and videophone users. HOVRS (Hands-On Video Relay Service) places the call and provides a Video Interpreter (VI) or Call Assistant (CA) to facilitate conversations. The application also supports AIM, MobileMe, Google Talk, and Jabber users on a Mac or PC.
+
+The QuickTime Player in Mac OS X Snow Leopard enables users to record sign language messages the can email, post, or play later. A QuickTime Player menu also supports direct video sharing with iTunes, YouTube, and MobileMe. An iSight video camera is also built into new iMac and MacBook computers; compatible desktop video conferencing camera can also be used.

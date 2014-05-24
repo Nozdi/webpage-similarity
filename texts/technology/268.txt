@@ -1,0 +1,21 @@
+The sys file describes the systems that your machine knows about. An entry is introduced by the system keyword; the subsequent lines up to the next system directive detail the parameters specific to that site. Commonly, a system entry defines parameters such as the telephone number and login chat.
+
+Parameters before the very first system line set default values used for all systems. Usually, you set protocol parameters and the like in the defaults section.
+
+The most prominent fields are discussed in detail in the following sections.
+
+The system command names the remote system. You must specify the correct name of the remote system, not an alias you invented, because uucico will check it against what the remote system says it is called when you log on.[4]
+
+Each system name can appear only once. If you want to use several sets of configurations for the same system (such as different telephone numbers uucico should try in turn), you can specify alternates , which we'll describe after the basic configuration options.
+
+If the remote system is to be reached over a telephone line, the phone field specifies the number the modem should dial. It may contain several tokens interpreted by uucico 's dialing procedure. An equal sign (=) means wait for a secondary dial tone, and a dash (-) generates a one-second pause. Some telephone installations choke when you don't pause between dialing a special access code and the telephone number.[5]
+
+It is often convenient to use names instead of numbers to describe area dialing codes. The dialcode file allows you to associate a name with a code that you may subsequently use when specifying telephone numbers for remote hosts. Suppose you have the following dialcode file:
+
+With these translations, you can use a phone number such as Bogoham7732 in the sys file, which will probably make things a little more legible and a whole lot easier to update should the dialing code for Bogoham ever change.
+
+The port and speed options are used to select the device used for calling the remote system and the maximum speed to which the device should be set.[6] A system entry may use either option alone or both options in conjunction. When looking up a suitable device in the port file, only ports that have a matching port name and/or speed range are selected.
+
+Generally, using the speed option only should suffice. If you have only one serial device defined in port , uucico always picks the right one anyway, so you only have to give it the desired speed. If you have several modems attached to your systems, you still often don't want to name a particular port, because if uucico finds that there are several matches, it tries each device in turn until it finds an unused one.
+
+We already encountered the login chat script, which tells uucico how to log in to the remote system. It consists of a list of tokens specifying strings expected and sent by the local uucico process. uucico waits until the remote machine sends a login prompt, then returns the login name, waits for the remote system to send the password prompt, and sends the password. Expect and

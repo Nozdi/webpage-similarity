@@ -1,0 +1,27 @@
+Most of us never need to use numerical GPS coordinates to take advantage of the many location-based services that are available to us. We simply input an address, or click through from an Internet search, or automatically geotag photos, and our electronic devices take care of the rest. But dedicated outdoors-people, geocachers, pilots, sailors, and more do often need to use and understand numerical GPS coordinates. And some of us technophiles are interested in the workings of the GPS systems just out of curiosity. Here then is your guide to GPS coordinates.
+
+The global GPS system actually doesn't have a coordinates system of its own. It uses "geographic coordinates" systems that already existed before GPS, including:
+
+Latitude and Longitude
+
+ GPS coordinates are most commonly expressed as latitude and longitude. This system divides the earth into latitude lines, which indicate how far north or south of the equator a location is, and longitude lines, which indicate how far east or west of the prime meridian a location is.
+
+In this system, the equator is at 0 degrees latitude, with the poles being at 90 degrees north and south. The prime meridian is at 0 degrees longitude, extending east and west.
+
+Under this system, an exact location on the earth's surface can be expressed as a set of numbers. The latitude and longitude of the Empire State Building, for example is expressed as N40deg 44.9064', W073deg 59.0735'. The location may also be expressed in a numbers-only format, per: 40.748440, -73.984559. With the first number indicating latitude, and the second number representing longitude (the minus sign indicates "west"). Being numeric-only, the second means of notation is the most commonly used for inputting positions into GPS devices.
+
+UTM
+
+ GPS devices may also be set to show position in "UTM" or Universal Transverse Mercator. UTM was designed to be used with paper maps, helping to remove the effects of the distortion created by the curvature of the earth. UTM divides the globe into a grid of many zones. UTM is less commonly used than latitude and longitude and is best for those who need to work with paper maps.
+
+Obtaining Coordinates
+
+ If you use a popular GPS app, such as MotionX, obtaining your exact GPS coordinates is simple. Just call up the menu and select "my position" to see your latitude and longitude. Most handheld GPS devices will provide you with location from simple menu selection as well.
+
+In Google Maps, simply right-click on your selected spot on the map, to call up a menu. Select "What's here" from the menu, and a green arrow will appear on the map on your spot. Click on the green arrow to see the numeric latitude and longitude for the location. You may easily copy and paste these coordinates.
+
+Apple's Maps app does not provide a way to obtain GPS coordinates. However, there are a number of inexpensive iPhone apps that will do the job for you. I recommend, however, going with a full-featured outdoor GPS hiking app that provides you with coordinates for best overall usefulness and value.
+
+Car GPS units often have menu items that let you display GPS coordinates. From the main menu of a Garmin car GPS, for example, simply select "Tools" from the main menu. Then select "Where Am I?" This option will show you your latitude and longitude, elevation, nearest address, and nearest intersection.
+
+The ability to understand, obtain, and input GPS coordinates is also useful in the high-tech treasure hunt known as geocaching. Most of the apps and devices designed to support geocaching let you select and find caches without inputting coordinates, but most also permit direct input of cache locations.

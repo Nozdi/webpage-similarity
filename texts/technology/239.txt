@@ -1,0 +1,19 @@
+OpenOffice.org (OOo) is a complete office suite, featuring a word processor (Writer), a spreadsheet application (Calc), and presentation software (Impress). Besides these fundamental office applications OOo also includes a vector drawing tool (Draw), allows database access, allows the publishing of documents in the Portable Document Format (PDF) and presentations in the Flash (SWF) format!
+
+The OOo package is fully inter-operable with the Microsoft Office suite.
+
+Tutorial: Using the OpenOffice.org Suite 
+
+1. Getting around the package 
+
+2. Writer 
+
+3. Calc 
+
+4. Impress
+
+---------------------------------------------- 
+
+This tutorial is based on the "User Guide to Using the Linux Desktop", originally published by United Nations Development Programmes, Asia-Pacific Development Information Programme (UNDP-APDIP). The guide is licensed under the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0/). This material may be reproduced, republished and incorporated into further works provided acknowledgment is given to UNDP-APDIP. 
+
+Please note that the screen shots in this tutorial are of Fedora Linux (an open source Linux sponsored by Red Hat). Your screen may look somewhat different.

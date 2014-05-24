@@ -1,0 +1,13 @@
+It is a common practice for websites to put a 'cookie', which is a small piece of data, on your browser to store information. This information can be everything from a username to keep you logged in on your next visit to data used to track your visit to the website. If you've visited a website you don't quite trust and want to delete your cookies from the iPad's Safari browser, don't worry, that's a pretty simple task. You can also clear your web history, so the iPad itself won't know where you have been browsing.
+
+Did you know you can enable private browsing on the iPad to keep sites from showing up in your web history? Find out how to browse the iPad in privacy mode.
+
+Note: When you are browsing in privacy mode, the top menu bar in Safari will be a very dark gray to let you know you are in privacy mode.
+
+Do you want to clear cookies from a specific website?
+
+Clearing cookies from a specific website is helpful if you are having issues with a single website, but you don't want all of your usernames and passwords cleared from all the other websites you visit.  You can delete cookies from a specific website by going into the Advanced settings at the bottom of the Safari settings.
+
+What else can you do in the iPad's Safari settings?
+
+Note: The image in this article reflects the settings in iOS 7.0.  However, the directions for clearing cookies and web history should be the same in previous versions of the iPad's operating system.

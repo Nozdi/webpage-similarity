@@ -1,0 +1,17 @@
+The ODIN VI Talking Mobile Phone is an accessible cell phone designed for persons who are blind or visually impaired, including seniors.
+
+What makes the phone accessible is its large number keypad, tactile buttons, and text-to-speech. The ODIN VI reads aloud what's displayed onscreen, speaks keys as you press them, and provides verbal prompts to help you perform various functions.
+
+While it supports neither web connectivity nor third-party apps, the ODIN VI enables users to:
+
+The Odin VI slides open to reveal a telephone-style number keypad with the main navigation buttons just above it, below the display. The phone's simple layout and menu systems makes both orientation and using the phone easy nontechnical users.
+
+To turn on the phone, press and hold the round, red "End" button until you hear an antique ringtone. Release the button to hear the introduction. Most menus, submenus, and features are accessed by pressing the blue, rectangular "OK" button -- located to the left of the "End" button -- and the up and down navigation arrows above and below it.
+
+The phone uses the Nuance Realspeak engine and has 3 different voices. Daniel (British, male) is the default. The others are Serena (British, female) and Siri-sounding Samantha (American, female).
+
+The ODIN VI Talking Mobile Phone costs $150. Odin Mobile offers 5 prepaid monthly plans, all of which include unlimited texting:
+
+Prices do not include state taxes, or the Universal Service Fee and E911 Fee. Check the coverage map to confirm service local availability. Odin Mobile offers auto pay for refilling accounts.
+
+Odin Mobile, a T-Mobile MVNO, is the world's first wireless carrier to focus exclusively on people who are blind or visually impaired. The Rockville, MD-based company provides services -- including wireless plans for the Project RAY smartphone -- designed to enable visually impaired consumers to maximize their use of mobile technology. Its mission is to narrow the access gap between low-vision users and the general public.

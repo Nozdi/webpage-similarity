@@ -1,0 +1,31 @@
+Remote sensing is the examination or the gathering of information about a place from a distance. Such examination can occur with devices (e.g. - cameras) based on the ground, and/or sensors or cameras based on ships, aircraft, satellites, or other spacecraft.
+
+Today, the data obtained is usually stored and manipulated using computers. The most common software used in remote sensing is ERDAS Imagine, ESRI, MapInfo, and ERMapper.
+
+Modern remote sensing began in 1858 when Gaspard-Felix Tournachon first took aerial photographs of Paris from a hot air balloon. Remote sensing continued to grow from there; one of the first planned uses of remote sensing occurred during the U.S. Civil War when messenger pigeons, kites, and unmanned balloons were flown over enemy territory with cameras attached to them.
+
+The first governmental-organized air photography missions were developed for military surveillance during World Wars I and II but reached a climax during the Cold War.
+
+Today, small remote sensors or cameras are used by law enforcement and the military in both manned and unmanned platforms to gain information about an area. Today's remote sensing imaging also includes infra-red, conventional air photos, and Doppler radar.
+
+In addition to these tools, satellites were developed during the late 20th century and are still used today to gain information on a global scale and even information about other planets in the solar system. For example, the Magellan probe is a satellite that has used remote sensing technologies to create topographic maps of Venus.
+
+The types of remote sensing data vary but each plays a significant role in the ability to analyze an area from some distance away. The first way to gather remote sensing data is through radar. Its most important uses are for air traffic control and the detection of storms or other potential disasters. In addition, Doppler radar is a common type of radar used in detecting meteorological data but is also used by law enforcement to monitor traffic and driving speeds. Other types of radar are also used to create digital models of elevation.
+
+Another type of remote sensing data comes from lasers. These are often used in conjunction with radar altimeters on satellites to measure things like wind speeds and their direction and the direction of ocean currents. These altimeters are also useful in seafloor mapping in that they are capable of measuring bulges of water caused by gravity and the varied seafloor topography. These varied ocean heights can then be measured and analyzed to create seafloor maps.
+
+Also common in remote sensing is LIDAR - Light Detection and Ranging. This is most famously used for weapons ranging but can also be used to measure chemicals in the atmosphere and heights of objects on the ground.
+
+Other types of remote sensing data include stereographic pairs created from multiple air photos (often used to view features in 3-D and/or make topographic maps), radiometers and photometers which collect emitted radiation common in infra-red photos, and air photo data obtained by earth-viewing satellites such as those found in the Landsat program.
+
+As with its varied types of data, the specific applications of remote sensing are diverse as well. However, remote sensing is mainly conducted for image processing and interpretation. Image processing allows things like air photos and satellite images to be manipulated so they fit various project uses and/or to create maps. By using image interpretation in remote sensing an area can be studied without being physically present there.
+
+The processing and interpretation of remote sensing images also has specific uses within various fields of study. In geology, for instance, remote sensing can be applied to analyze and map large, remote areas. Remote sensing interpretation also makes it easy for geologists in this case to identify an area's rock types, geomorphology, and changes from natural events such as a flood or landslide.
+
+Remote sensing is also helpful in studying vegetation types. Interpretation of remote sensing images allows physical and biogeographers, ecologists, those studying agriculture, and foresters to easily detect what vegetation is present in certain areas, its growth potential, and sometimes what conditions are conducive to its being there.
+
+Additionally, those studying urban and other land use applications are also concerned with remote sensing because it allows them to easily pick out which land uses are present in an area. This can then be used as data in city planning applications and the study of species habitat, for example.
+
+Finally, remote sensing plays a significant role in GIS. Its images are used as the input data for the raster-based digital elevation models (abbreviated as DEMs) - a common type of data used in GIS. The air photos taken during remote sensing applications are also used during GIS digitizing to create polygons, which are later put into shapefiles to create maps.
+
+Because of its varied applications and ability to allow users to collect, interpret, and manipulate data over large often not easily accessible and sometimes dangerous areas, remote sensing has become a useful tool for all geographers, regardless of their concentration.

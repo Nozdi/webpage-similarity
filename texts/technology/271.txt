@@ -1,0 +1,21 @@
+The following typographic and usage conventions occur in this text:
+
+A A A Literal computer input and output captured from the terminal, usually rendered with a light grey background. 
+
+A A A  command A A A Name of a command that can be entered on the command line. 
+
+A A A  VARIABLE A A A Name of a variable or pointer to content of a variable, as in $VARNAME . 
+
+A A A  option A A A Option to a command, as in "the -a option to the ls command" . 
+
+A A A  argument A A A Argument to a command, as in "read man ls " . 
+
+A A A  prompt A A A  User prompt, usually followed by a command that you type in a terminal window, like in hilda@home> ls -l 
+
+A A A
+
+A A A Command synopsis or general usage, on a separated line.A A AA A A Name of a file or directory, for example "Change to thedirectory."A A AA A A Keys to hit on the keyboard, such as "typeto quit" .A A A  Button A A A Graphical button to click, like the OK button.A A A  Menu ->Choice A A A Choice to select from a graphical menu, for instance: "SelectHelp ->About Mozilla in your browser."A A AA A A Important term or concept: "The Linuxis the heart of the system."A A A
+
+A A A The backslash in a terminal view or command synopsis indicates an unfinished line. In other words, if you see a long command that is cut into multiple lines, \ means "Don't press Enter yet!" 
+
+A A A See Chapter 1 A A A link to

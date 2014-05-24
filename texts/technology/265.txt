@@ -1,0 +1,37 @@
+Collection of introductory documentation on common tasks in Linux setup and administration, as well as guidance and recommendations on software selection.
+
+Software for Backing Up Windows Files on Linux Server
+
+A free program for copying files from Microsoft Windows to Linux servers and vice versa
+
+The Data-Type "long"
+
+Review of data-type "long" for computer programming.
+
+Copying Files Between Computers and Operating Sysems
+
+Various methods for copying files from one computer to another.
+
+The ls Command
+
+Introduction to the Linux command ls
+
+Files
+
+What are files, and what are they used for?
+
+Linux Packages
+
+Brief analysis of the organization of software on Linux systems in packages.
+
+Ajax - Paradigm For Responsive And Interactive Web Pages
+
+Overview of the concepts and technolgies comprising Ajax applications.
+
+File
+
+Quick answers to the questions of what is a computer file, what is its purpose, and how is it used.
+
+Package
+
+What is a package? How is a package created and used on Linux systems.

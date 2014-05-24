@@ -1,0 +1,37 @@
+Swimming involves the intermittent application of a propulsive force to overcome a velocity-dependent water resistance (Marinho 2009). At many pools, you'll note an elderly swimmer with minimal muscle mass crawling down the pool. At the same pool, you may encounter a muscle bound swimmer barely propelling themselves forward. This dichotomy puzzles many, as the muscle bound individual can create more force in the water.
+
+Human swimming performance is poor when compared to species whose habitat is aquatic. A maximum swimming speed of approximately 2 m/s represents only about 16% of the maximum unaided speed attained on land. One obvious reason for this speed difference is the higher resistance one encounters when moving through water. In running, air is the main culprit of drag. Water is approximately 900 times denser than air! This astounding difference clarifies why drag is so important in swimming. On top of this, drag in swimming is dependent on swimming velocity. The faster a swimmer travels, the exponentially greater drag is produced. More accurately, drag is believed as the product of D=16v^2 .
+
+Drag factors more into swimming than air based sports. This makes finding a streamline position essential for elite swimming performance and efficiency.
+
+Unfortunately, the simple glide test off the wall provide little insight into swimming active drag, as swimming is a multi-planar skill. However, it is the easiest method of assessing drag during a position, making it a rudimentary starting position.
+
+In swimming, maintaining a streamline position throughout the stroke reduces drag. Dr. Rushall has explained the following as key features for body position during freestyle: 
+
+ 1. Head down and look directly at the bottom of the pool.
+
+ 2. The head depth should be such that some water travels over the swimmer's cap.
+
+ 3. The top of the swimmer's buttocks should be at the same height as the top of the swimmer's
+
+ head as it looks to the bottom.
+
+ 4. The postural link between a swimmer's head and buttocks should be firm along the horizontal
+
+ axis.
+
+Knowing these factors is helpful, but knowing if they are working is more important. If you make a change in body position, here are the expected results: 
+
+ 1. It should be expected that the distance per stroke will increase, which translates into fewer
+
+ strokes per lap for equal swimming intensities.
+
+ 2. Since, the slowing down of each stroke is lessened there could be a minor improvement in
+
+ lap times for the same effort levels.
+
+ 3. Incurring less resistance should result in a reduction in the bow- and lateral-wave heights.
+
+ 4. Moving through drag consumes energy, thus swimming with less drag will be more efficient and less tiring when performed at the same speed.
+
+Once again, drag is the largest inhibitor of swimming speed. Yet, as you increase your swimming velocity, drag plays an even larger role in swimming skill. Follow these steps for reducing drag and address each of these points at a time. Also, taping yourself underwater or having a coach monitor improvement, are other ways of assessing improvement. Make sure if you change something you assess it!

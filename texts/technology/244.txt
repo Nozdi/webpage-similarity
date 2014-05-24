@@ -1,0 +1,13 @@
+Besides the listing command ls , the "change directory" command "cd" is perhaps the most basic Linux command. It allows you to browse the directory tree. For example, if the current directory has a subdirectory called "documents" and you type at the command line:the current directory changes to the "documents" subdirectory. If you now type:You will see the files and subdirectories in the "documents" folder. (The terms "folder" and "directory" have the same meaning in this context.)
+
+If you want to go one level up to the parent directory of the current directory, you can can type:
+
+The two periods mean "parent directory".
+
+You can also go several directories down or up in one step:
+
+This, will go to the "receipts" directory, which would be a subdirectory in the "documents" directory.
+
+Similarly, you can go two levels up with this command:
+
+Depending on the directory tree, you can move through any path of this tree in one step:This will first go one level up, and then two levels down.

@@ -1,0 +1,7 @@
+After Apple's Maps app disappointed, consumers welcomed Google Maps back to the iPhone in the form of its Google Maps app. Google Maps' feature list includes: address and business/points-of-interest search using Google's powerful Local Search utility; ratings and local reviews; sync searches and favorites (with Google login). Directions features include voice-guided, turn-by-turn directions, train, bus, subway or walking directions, and traffic detection.
+
+Google Maps also has Street View and imagery, with street-level imagery and touch-controlled panoramas of places around the globe. See inside 100,000 businesses worldwide. High-resolution global satellite imagery. Close connectivity with Google's earth-spanning imaging and mapping app, Google Earth.
+
+Last but not least, you get Google's years of hard-won experience and all of the research and fine-tuning it has done on a global basis to present the most accurate map and points-of-interest data possible.
+
+Shortcomings include no Siri integration, no Apple Contacts app integration, no lane guidance, and no route preview with change-route capability.

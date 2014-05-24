@@ -1,0 +1,9 @@
+Change the effective user id and group id to that of USER.
+
+A mere - implies -l. If USER not given, assume root.
+
+The full documentation foris maintained as a Texinfo manual. If theandprograms are properly installed at your site, the command
+
+should give you access to the complete manual.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

@@ -1,0 +1,33 @@
+The command locate is used to find files on a computer.
+
+Let's say you are searching for a file whose name contains the string "phone-numbers". The following command would print out a list of such files:
+
+The command will print out the complete path along with the filename containing the the string, so that you know where the identified files are located in the file system.
+
+However, before you can use locate, you have to build the index used by locate. This index makes it possible to find files quickly. The command to build this index is:
+
+Note that administrator privileges may be required to run updatedb . If you have access to an administrator or root account you can use the sudo command to issue commands that require administrator privileges, as in the following example:Before sudo executes you command it may ask you to enter the password for the account being used (root in this case).
+
+Alternatively, you can use the locate command with the "-u" flag to generate the database (index):
+
+The locate database is saved in the following directory:
+
+or a similar location. On OSX the locate database is placed under:If you try to use the locate command before the database has been created, you will see an error message like:If you don't know the exact file names or a unique substring of the file names, you can use "wildcards" to search in a more flexible way. For example, if you are searching for files whose name contains "phone" and "numbers", but you don't know what characters are between these two strings, if any, you would use something like:The "*" matches any number of characters. It would match:as well asorYou can use even more flexible search patterns using regular expressions . You can specify regular expressions as search patterns with the locate command using the "-r" or "--regex" options.
+
+You can limit the number of files being listed using the "-n" option. For example,
+
+will print only the first 20 hits.
+
+Another useful option is the "-i" flag, which instructs the locate command to ignore case when matching filenames to the search pattern, as in this example:
+
+This will list the paths of the files whose name contains "wednesday" or "Wednesday".
+
+Besides searching files, the locate command can also be used to find directories as illustrated in this example:
+
+where "papers" would be a directory in the file system. The command syntax actually doesn't distinguish between files and directories and would therefore list any files that contain "papers" as well.
+
+An alternative command to locate is the find command. The find command allows you to specify the directory in which you want to search. If you specify the root directory, as in the following example, the results are similar to the output of the locate command.
+
+However, find allows you search by criteria other than the file names. For example, you can search by file size and file permissions as well. Search criteria may also include file type, user id, user name, group name, group id, modification date, or the time last accessed.
+
+The find command can be considerably slower, since it actually traverses the directories specified while search for the files with the specified characteristics.

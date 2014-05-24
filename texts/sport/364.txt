@@ -1,0 +1,11 @@
+The answer can vary from filter to filter, but a general guideline on any swimming pool filter is to take a reading when the filter is clean, then clean the pool filter when the pressure rises about 10 psi.
+
+As the filter (cartridge, sand or DE) becomes "clogged" with debris, two things happen:
+
+One of the most important factors of a cartridge filter operation is that there not be too much flow through the filter.(stuff gets through the filter and goes back into the swimming pool).
+
+You will find on the outside of the filter a maximum pressure reading label. Be certain that your filter does not exceed this pressure. Most cartridge filters run at a lower pressure than sand or DE. It is not uncommon to find a cartridge filter pressure reading in the single digits if sized properly for the pump. In general, one multiplies the area of the filter (100 - 400 sq ft is common) by .33 and that is the maximum water flow in gallons per minute through the cartridge.
+
+When cleaning the filter cartridges, be sure not to use a power washer as this can break down the filter material and decrease the filter life. If it is not perfectly white when you are finished cleaning, it is ok. Be sure all of the large debris is off and at least once a year, soak the cartridge in a cleaning solution (see your local pool store) to aid in removing some of the buildup.
+
+Hope this helps. Remember, 10 psi rise in pressure is the magic number and the lower the pressure, the better the pool circulates.

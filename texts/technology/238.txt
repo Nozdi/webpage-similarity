@@ -1,0 +1,9 @@
+For regular Word Processing, AbiWord is the program to use. AbiWord is a state of the art word processor that reads and writes both OpenDocument (OpenOffice) and Microsoft Word documents, and is very fast. It features everything you need for standard word processing: tables, lists, images, footnotes, styles, spell-checking. It also has good internationalization and is easy to use. Start it with Applications->Office->AbiWord Word Processor
+
+Tip: 
+
+ Please consult the AbiWord Manual on the project's website for detailed information on how to use AbiWord.
+
+Note:
+
+ In case you need more features or better Microsoft Word compatibility, you may want to install OpenOffice. It is readily available for installation from the Ubuntu software repositories (refer to the section called "Adding, Removing and Updating Applications"). Just be warned that it is a lot bigger and slower than AbiWord!

@@ -1,0 +1,55 @@
+unzip - list, test and extract compressed files in a ZIP archive(1L),(1L),(1L),(1L),(1L),(1L),(1L) ] []]] [...] [...] [will list, test, or extract files from a ZIP archive, commonly found on MS-DOS systems. The default behavior (with no options) is to extract into the current directory (and subdirectories below it) all files from the specified ZIP archive. A companion program,(1L), creates ZIP archives; both programs are compatible with archives created by PKWARE'sandfor MS-DOS, but in many cases the program options or default behaviors differ.Note that, in order to support obsolescent hardware,'s usage screen is limited to 22 or 23 lines and should therefore be considered only a reminder of the basicsyntax rather than an exhaustive list of all possible flags. The exhaustive list follows:'s default behavior may be modified via options placed in an environment variable. This can be done with any option, but it is probably most useful with the, ormodifiers: makeauto-convert text files by default, make it convert filenames from uppercase systems to lowercase, make it match names case-insensitively, make it quieter, or make it always overwrite or never overwrite files as it extracts them. For example, to makeact as quietly as possible, only reporting errors, one would use one of the following commands:
+
+Environment options are, in effect, considered to be just like any other command-line options, except that they are effectively the first options on the command line. To override an environment option, one may use the ``minus operator'' to remove it. For instance, to override one of the quiet-flags in the example above, use the command
+
+The first hyphen is the normal switch character, and the second is a minus sign, acting on the q option. Thus the effect here is to cancel one quantum of quietness. To cancel both quiet flags, two (or more) minuses may be used:
+
+(the two are equivalent). This may seem awkward or confusing, but it is reasonably intuitive: just ignore the first hyphen and go from there. It is also consistent with the behavior of Unix nice(1).
+
+As suggested by the examples above, the default variable names are UNZIP_OPTS for VMS (where the symbol used to install unzip as a foreign command would otherwise be confused with the environment variable), and UNZIP for all other operating systems. For compatibility with zip(1L), UNZIPOPT is also accepted (don't ask). If both UNZIP and UNZIPOPT are defined, however, UNZIP takes precedence. unzip's diagnostic option (-v with no zipfile name) can be used to check the values of all four possible unzip and zipinfo environment variables.
+
+The timezone variable (TZ) should be set according to the local timezone in order for the -f and -u to operate correctly. See the description of -f above for details. This variable may also be necessary in order for timestamps on extracted files to be set correctly. Under Windows 95/NT unzip should know the correct timezone even if TZ is unset, assuming the timezone is correctly set in the Control Panel.
+
+Encrypted archives are fully supported by Info-ZIP software, but due to United States export restrictions, de-/encryption support might be disabled in your compiled binary. However, since spring 2000, US export restrictions have been liberated, and our source archives do now include full crypt code. In case you need binary distributions with crypt support enabled, see the file ``WHERE'' in any Info-ZIP source or binary distribution for locations both inside and outside the US.
+
+Some compiled versions of unzip may not support decryption. To check a version for crypt support, either attempt to test or extract an encrypted archive, or else check unzip's diagnostic screen (see the -v option above) for ``[decryption]'' as one of the special compilation options.
+
+As noted above, the -P option may be used to supply a password on the command line, but at a cost in security. The preferred decryption method is simply to extract normally; if a zipfile member is encrypted, unzip will prompt for the password without echoing what is typed. unzip continues to use the same password as long as it appears to be valid, by testing a 12-byte header on each file. The correct password will always check out against the header, but there is a 1-in-256 chance that an incorrect password will as well. (This is a security feature of the PKWARE zipfile format; it helps prevent brute-force attacks that might otherwise gain a large speed advantage by testing only the header.) In the case that an incorrect password is given but it passes the header test anyway, either an incorrect CRC will be generated for the extracted data or else unzip will fail during the extraction because the ``decrypted'' bytes do not constitute a valid compressed data stream.
+
+If the first password fails the header check on some file, unzip will prompt for another password, and so on until all files are extracted. If a password is not known, entering a null password (that is, just a carriage return or ``Enter'') is taken as a signal to skip all further prompting. Only unencrypted files in the archive(s) will thereafter be extracted. (In fact, that's not quite true; older versions of zip(1L) and zipcloak(1L) allowed null passwords, so unzip checks each encrypted file to see if the null password works. This may result in ``false positives'' and extraction errors, as noted above.)
+
+Archives encrypted with 8-bit passwords (for example, passwords with accented European characters) may not be portable across systems and/or other archivers. This problem stems from the use of multiple encoding methods for such characters, including Latin-1 (ISO 8859-1) and OEM code page 850. DOS PKZIP 2.04g uses the OEM code page; Windows PKZIP 2.50 uses Latin-1 (and is therefore incompatible with DOS PKZIP); Info-ZIP uses the OEM code page on DOS, OS/2 and Win3.x ports but Latin-1 everywhere else; and Nico Mak's WinZip 6.x does not allow 8-bit passwords at all. UnZip 5.3 (or newer) attempts to use the default character set first (e.g., Latin-1), followed by the alternate one (e.g., OEM code page) to test passwords. On EBCDIC systems, if both of these fail, EBCDIC encoding will be tested as a last resort. (EBCDIC is not tested on non-EBCDIC systems, because there are no known archivers that encrypt using EBCDIC encoding.) ISO character encodings other than Latin-1 are not supported.
+
+To useto extract all members of the archiveinto the current directory and subdirectories below it, creating any subdirectories as necessary:
+
+To extract all members of letters.zip into the current directory only:
+
+To test letters.zip, printing only a summary message indicating whether the archive is OK or not:
+
+To test all zipfiles in the current directory, printing only the summaries:
+
+(The backslash before the asterisk is only required if the shell expands wildcards, as in Unix; double quotes could have been used instead, as in the source examples below.) To extract to standard output all members of letters.zip whose names end in .tex, auto-converting to the local end-of-line convention and piping the output into more(1):
+
+To extract the binary file paper1.dvi to standard output and pipe it to a printing program:
+
+To extract all FORTRAN and C source files--*.f, *.c, *.h, and Makefile--into the /tmp directory:
+
+(the double quotes are necessary only in Unix and only if globbing is turned on). To extract all FORTRAN and C source files, regardless of case (e.g., both *.c and *.C, and any makefile, Makefile, MAKEFILE or similar):
+
+To extract any such files but convert any uppercase MS-DOS or VMS names to lowercase and convert the line-endings of all of the files to the local standard (without respect to any files that might be marked ``binary''):
+
+To extract only newer versions of the files already in the current directory, without querying (NOTE: be careful of unzipping in one timezone a zipfile created in another--ZIP archives other than those created by Zip 2.1 or later contain no timezone information, and a ``newer'' file from an eastern timezone may, in fact, be older):
+
+To extract newer versions of the files already in the current directory and to create any files not already there (same caveat as previous example):
+
+To display a diagnostic screen showing which unzip and zipinfo options are stored in environment variables, whether decryption support was compiled in, the compiler with which unzip was compiled, etc.:
+
+In the last five examples, assume that UNZIP or UNZIP_OPTS is set to -q. To do a singly quiet listing:
+
+(Note that the ``.zip'' is generally not necessary.) To do a standard listing:
+
+oror(Extra minuses in options don't hurt.) The current maintainer, being a lazy sort, finds it very useful to define a pair of aliases: tt for ``unzip -tq'' and ii for ``unzip -Z'' (or ``zipinfo''). One may then simply type ``tt zipfile'' to test an archive, something that is worth making a habit of doing. With luckwill report ``No errors detected in compressed data of zipfile.zip,'' after which one may breathe a sigh of relief.
+
+The maintainer also finds it useful to set the UNZIP environment variable to ``-aL'' and is tempted to add ``-C'' as well. His ZIPINFO variable is set to ``-z''.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

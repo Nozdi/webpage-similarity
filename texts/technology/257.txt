@@ -1,0 +1,21 @@
+The following is a selection free computer games that run under the Linux operating system (and often many other systems as well). Note: Freeware and GNU Library General Public License often come with restrictions. Users should check copyright and licensing statements from the developers.
+
+CrossOver Games
+
+Introduction to CrossOver Games, a software for running Microsoft Windows games on Linux computers.
+
+Flight Simulators for Linux
+
+Introduction to popular flight simulators for Linux systems.
+
+Linux Game: Four Second Frenzy
+
+Four Second Frenzy - Linux game review from about.com.
+
+Linux Game: Four Second Fury
+
+Four Second Fury - Linux game review from about.com.
+
+Linux Game Commands
+
+Synopsis, description, options, and examples for these game commands: cmail, intro, zic2xpm.

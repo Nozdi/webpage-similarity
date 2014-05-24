@@ -1,0 +1,5 @@
+Central Access Reader (CAR) is a free text-to-speech program designed for students with print disabilities (e.g. dyslexia and visual impairment) that deciphers mathematical notations, equations, and symbols that most screen readers do not support.
+
+The app recognize symbols from geometry and trigonometry, linear algebra, calculus, math, logic, or statistics and has attracted the attention of schools across the country, including MIT and Harvard.
+
+CAR runs on both Mac machines and PCs. Download a free copy on the CAR project website.

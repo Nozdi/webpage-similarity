@@ -1,0 +1,9 @@
+For those looking to put together a high performance desktop PC without spending a huge amount just for the motherboard, the ASUS P5K-E is an excellent blend of features and performance.
+
+5/17/08 - The ASUS P5K-E is a mid-level board using the popular Intel P35 chipset. The LGA775 socket allows it to use almost every version of the Core 2 processor available on the market save for the 1600MHz bus Core 2 Extreme. It can properly handle the new 1333MHz 45nm dual and quad core models.
+
+The number and variety of connectors on the board allows for it to use just about all of the latest technologies. It does use the DDR2 memory standard over DDR3, but this doesn't affect overall performance much and helps keep system costs down dramatically. One really nice feature of the P5K-E is the inclusion of the Q-Connectors that makes connecting case headers to the motherboard headers extremely easy.
+
+Some users might have an issue with the location of the SATA ports. If you happen to have a very long graphics card in the primary PCI-E slot, it will interfere with several of the SATA ports. Since there are six, it is possible to avoid using two of them but it is still an annoyance. Also, the second PCI-Express graphics slot can run at most at x4 transfer rates. This limits the overall performance of an ATI CrossFire setup.
+
+Overclocking the ASUS P5K-E motherboard worked very well. The heatsinks on the various critical components helps keep the motherboard temperatures down. Even though the board only officially supports the 1333MHz bus, the board has no problem reaching 1600MHz speeds without any chipset voltage increases. The only real problem is that the BIOS menus are fairly difficult to navigate and adjust to truly push the board as far as it can go. Of course, the cost of the board is much less expensive then the enthusiast class boards.

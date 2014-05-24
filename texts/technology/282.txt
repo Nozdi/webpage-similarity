@@ -1,0 +1,3 @@
+ldd - print shared library dependencies   [OPTION]... FILE...   prints the shared libraries required by each program or shared library specified on the command line.   (8),(8).
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

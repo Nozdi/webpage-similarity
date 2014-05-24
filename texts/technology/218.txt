@@ -1,0 +1,9 @@
+The Apache Software Foundation has announced the release of OpenOffice Version 4.1. Highlights of this update include a function for annotating text segments, support for iAccessible2, the ability to edit input fields in place, and improved cropping of graphics objects.
+
+
+
+OpenOffice is a free alternative to Microsoft Office. It's a suite of document productivity programs that includes applications for writing text documents (Writer), similar to Microsoft Word, a program for writing and performing presentations (Impress), similar to Microsoft PowerPoint, a spreadsheet program (Calc), similar to Microsoft Excel, a database program (Base), which is similar to Microsoft Access, and a drawing application (Draw). There are also extension packages and a Math package for constructing formulas and equations.
+
+You can download the latest version at the project web site.
+
+LibreOffice, a branch from OpenOffice, is another great choice and has similar capabilities as OpenOffice and Microsoft Office

@@ -1,0 +1,5 @@
+Computer based card games simulate a card game like poker or solitaire. The program can simulate your opponent(s).
+
+Logic games usually simulate some well known logic puzzle like Master Mind or the game where you have put sliding numbered tiles in order inside a box.
+
+Computer based board games simulate some kind of board game you'd play on a table top with friends, like monopoly, Mille Bourne, chess or checkers. The program can simulate your opponent.

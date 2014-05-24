@@ -1,0 +1,15 @@
+mkfs.jfs is used to create (format) a JFS partition. mkfs.jfs must be run as root. 
+
+
+
+device is the special file name corresponding to the actual device (e.g. /dev/hdb1) on which a JFS file system will be created.
+
+mkfs.jfs will destroy all data on the specified device!
+
+Format 3rd partition on 2nd hard disk with the volume label "JFS_hdb3":
+
+If you find a bug in JFS or mkfs.jfs, please report it via the bug tracking system ("Report Bugs" section) of the JFS project web site:
+
+Please send as much pertinent information as possible including any error messages resulting from running mkfs.jfs and the complete output of running fsck.jfs with the -v option.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

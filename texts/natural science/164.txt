@@ -1,0 +1,7 @@
+Definition: A dihybrid cross is a breeding experiment between P generation (parental generation) organisms that differ in two traits.
+
+
+
+ Related Terms: Monohybrid Cross, F1 generation, F2 generation, P generation, True-breeding Plant A dihybrid cross is a breeding experiment between P generation (parental generation) organisms that differ in two traits.
+
+In this dihybrid cross, a plant with the dominant traits of green pod color and yellow seed color is cross-pollinated with a plant with the recessive traits of yellow pod color and green seed color.If a true-breeding plant with green pod color (GG) and yellow seed color (YY) is cross-pollinated with a true-breeding plant with yellow pod color (gg) and green seeds (yy), the resulting offspring will all be heterozygous for green pod color and yellow seeds (GgYy).

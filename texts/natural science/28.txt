@@ -1,0 +1,37 @@
+Learn all about the latest innovations in geographic technologies such as GIS (Geographic Information Systems), GPS (Global Positioning System), satellite images, remote sensing, and more.
+
+GIS: An Overview - All About GIS
+
+An overview of GIS or Geographic Information Systems and modern computer map making technologies.
+
+Global Positioning System - An Overview of the Global Positio...
+
+The eight most important things you need to know about the GPS - Global Positioning System. Learn about the satellites that orbit the earth and how, using a handheld receiver unit, the GPS works to help you determine your location, speed, elevation, and the exact time.
+
+GIS Today
+
+Learn about the latest uses and developments in GIS.
+
+Remote Sensing - An Overview of Remote Sensing
+
+An overview of remote sensing and the uses of satellites for mapping and modeling terrain, from the About.com geography site.
+
+Landsat
+
+An overview of the Landsat satellites which have been orbiting the earth for over a quarter of a century, from your About.com Guide to Geography.
+
+Business Geographics - An Overview of Business Geographics
+
+A comprehensive overview of business geographics that tells how businesses can and do use geographic information to make sound business decisions.
+
+An Introduction to GIS
+
+Your Guide provides an overview of Geographic Information Systems (GIS) and how it works, using the fictional River City as they begin a GIS program.
+
+Geodetic Datums
+
+A comprehensive history and overview of geodetic datums such as NAD 83 and WGS 84, used with GPS.
+
+GIS Lounge
+
+GIS expert Guide Caitlin Dempsey covers the breadth and scope of GIS (Geographic Information Systems, computerized mapping) on this comprehensive site, which includes a forum for your GIS queries.

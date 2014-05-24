@@ -1,0 +1,3 @@
+openvt - start a program on a new virtual terminal (VT).   [-c vtnumber] [-s] [-u] [-l] [-v] [--] command command_options   will find the first available VT, and run on it the givenwith the givenstandard input, output and error are directed to that terminal. The current search path ($PATH) is used to find the requested command. If no command is specified then the environment variable $SHELL is used.   Ifis compiled with a POSIX (GNU) getopt() and you wish to set options to the command to be run, then you must supply the end of options -- flag before the command.EXAMPLEScan be used to start a shell on the next free VT, by using the command:(1),(8),(1)
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

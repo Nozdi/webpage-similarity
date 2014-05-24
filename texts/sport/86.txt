@@ -1,0 +1,35 @@
+In a simplified sense, flying with a higher wing loading increases the speed of your ram-air canopy. As you downsize, your forward speed will increase. So will your rate of descent.
+
+A canopy with a higher wing loading will not be able to ever fly as slowly as a canopy of the same model with a higher wing loading. It will achieve better penetration into "push" by strong winds, but will not have the lower wing-loaded canopy's glide in light-wind or downwind situations.
+
+For new skydivers, especially: before you downsize to a canopy with a higher wing loading, think deeply and carefully about your decision.
+
+At its most basic, the concept of wing loading comes down to a very simple formula, in which one calculates the ratio of jumper exit weight to canopy size. Here's the formula:
+
+For example, if you have a total exit weight of 190 pounds and fly a 190-square-foot canopy, your calculated wing loading would be:
+
+If your exit weight remains the same but you downsize to a 170-square-foot canopy, the formula looks like this:
+
+If you made the (extremely poor) decision to snap-downsize to a 120-square-foot canopy, the math looks like this:
+
+In doing the very simple calculation to determine wing loading, it's vital to understand the meaning of "exit weight" and calculate accordingly.
+
+"Exit weight" isn't just you-plus-your-current-skydiving-rig. It's the weight the scale would read if you stepped on a scale on your way in the plane door - and includes your clothing, your rig, both your main and reserve canopies, your weight belt (if you are wearing one), your helmet, your cameras and anything else you happen to be carrying on your person when you make the skydive.
+
+While this is typically about 20 pounds greater than your body weight, that's by no means an exact figure. Gear up, find a scale, and get your own exit weight. It doesn't take long.
+
+If you're shopping for a canopy, you've no doubt reviewed the wing loading recommendation charts that manufacturers publish to help guide the buyers' decision regarding their product lines. These charts, however, are often misunderstood and thusly misused.
+
+When you read a wing loading chart, understand that, as a general but by no means universal rule, manufacturers design their more advanced canopies to be flown at a higher wing loading. If you aren't ready for a higher-performance canopy, don't force it.
+
+It's also important to understand that differently sized versions of the exact same canopy will not fly identically, even if those canopies are flown with the exact same mathematical wing loading.
+
+For instance, two friends may fly a Performance Designs Pulse. The friends are different in size, so one flies a 190 and the other flies a 150. Both are loaded at precisely 1 to 1.
+
+If mathematical wing loading were the only determinant, both canopies would demonstrate the same flight characteristics. However, they will not. A smaller canopy delivers a more responsive, less forgiving ride than a larger canopy of the same type and brand.
+
+Between canopy styles and brands, the difference between the flight characteristics of canopies under exactly the same wing loading can vary even more widely. For instance, canopies made of "ZP" (zero-porosity) material will hold on to more air molecules in the cells for longer than their more porous F-111 counterparts. Hence, their glide and flare will be more efficient and the rate of descent will be slower.
+
+If you're buying a used skydiving canopy, the age of the fabric and how the canopy has been cared for will factor in to the equation. When you have it inspected, ask your rigger to review what flight characteristics you can expect.
+
+A canopy's line set may also influence flight characteristics, even without a change in wing loading. Learn about your canopy's line set and the changes in dynamic that you can expect with each type. Smaller canopies also have shorter lines, so they react more quickly to inputs than would a higher-square-footage canopy flown at exactly the same wing loading. Shorter lines create a shorter pendulum, increasing input response.

@@ -1,0 +1,45 @@
+Once oriented with the ODIN VI Talking Mobile Phone's keypad, navigation buttons, and main functions, you can start adding contacts, making calls, and sending text messages.
+
+Before you begin, make sure the battery is fully charged and that you have an Odin wireless plan in place.
+
+To turn the phone on, press and hold the red End button till it rings and tells you, "ODIN is ready."
+
+ You are now on the Home screen.
+
+On the Home screen, you can make calls by typing the number on the keypad and pressing the Call button. Press End to delete any incorrect entries.
+
+If you type fast, you likely won't hear numbers as you enter them, but the phone will repeat the whole number when you press Call. You can also press Repeat/Speech to hear the numbers you've entered.
+
+During calls, you can press Call to use ODIN VI as a speakerphone. Press Call again to turn the speaker off. To hang up, press End.
+
+The Call Log lets you access dialed-, received-, and missed calls. You reach the log by pressing OK on the Home screen, navigating the menu using the arrow keys, and pressing OK after hearing "Call Log." The Call Log has 3 submenus:
+
+Press the arrow keys to highlight a submenu and press OK.
+
+Each submenu lists the last 30 calls by name (if on your Contacts list) or number and the number of calls associated with each entry.
+
+Move through lists using the navigation arrows. You can press Call to call that entry or OK to hear more details, e,g, call date and time. Press End to return to the list.
+
+You can highlight any Call Log number and press 0 to enter it into your Contacts list. Enter the name using the keypad when prompted, press OK to confirm, and OK again (i.e. when the phone repeats the details) to save.
+
+To delete Call Log entries, highlight the name or number and press "#."
+
+To manage your contacts, press OK on the Home screen to reach the menu, navigate to Contacts using the arrow keys, and press OK.
+
+On your first visit, "Add Contact" is the only available option. Added contacts are stored as a list.   
+
+ To add a contact, press OK. Enter the name, when prompted, using the keypad, which uses standard telephone text entry, i.e. each number has corresponding letters, punctuation marks, and symbols.
+
+After entering the name, press OK, enter the number, and press OK twice to confirm and to save.
+
+ Calling Contacts
+
+To call a contact, press the down arrow on the Home screen or press OK and navigate down to Contacts on the main menu.
+
+Contacts are listed alphabetically. When you enter the list, the phone reads your first contact aloud.
+
+ Use the navigation arrows to highlight the appropriate contact, press "Call" to initiate the call, and then OK to confirm. Note: Entering the contact list from the main menu enables you to call, add, delete, or modify contacts. Entering Contacts from Home screen enables you to call and add, but not delete or modify.
+
+To edit or delete a contact, enter Contacts from the main menu. Use the navigation arrows to highlight the desired contact, press OK, and then select "Modify" or "Delete" from the submenu. Press OK to confirm your selection.
+
+Modifying contacts is similar adding them, only this time, you're deleting previously entered characters and replacing them with new ones. Note: character deletions are not announced, though you can press Repeat Speech to hear what's currently entered.

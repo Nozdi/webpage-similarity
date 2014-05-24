@@ -1,0 +1,39 @@
+Three Easy Ways to Get a Linux Desktop
+
+Suggestions on how to get a Linux system quickly, easily, and inexpensively.
+
+More About Operating Systems And Linux Distributions
+
+Background information on operating systems and Linux distributions
+
+For New Users of the Linux Desktop
+
+A group of self-study introductory tutorials for using a modern personal computer (PC) running the Linux operating system. After going through the guide the reader should be in a position to start using a Linux desktop for both personal and office use.
+
+Linux Operating Systems 101
+
+This guide will take you step-by-step through the process of deciding if a Linux operating system is suitable for your computing needs, choosing a distribution of Linux, then partitioning, installing and configuring a Linux distribution, and finally some software recommendations for your Linux platform. Screen shots are used whenever they are helpful.
+
+Linux Newbie Administrator Guide
+
+A complete and concise reference with examples for new Linux users who wish to set up and administer their own Linux home computer, workstation or their home or small office network. Linux benefits, Linux installation, Linux resources, basic operations FAQs, Linux newbie administrator FAQs, Linux shortcuts and commands, essential Linux applications, upgrade your kernel.
+
+Linux Tutorial: Using the Linux Desktop
+
+A basic step-by-step guide for new Linux users, from basic desktop customization, setting the date and time, to accessing applications. Screen shots are included.
+
+Linux Tutorial: Using the OpenOffice.org Suite
+
+A basic step-by-step guide with screen shots for new Linux desktop users. Topic: Using the OpenOffice.org Suite
+
+Linux Tutorial: The Shell
+
+A basic step-by-step guide with screen shots for new Linux desktop users. Topic: The Shell.
+
+GNOME Desktop User Guide
+
+The GNOME User Guide is a collection of documentation which details general use of the GNOME Desktop environment. Topics covered include sessions, panels, menus, file management, and preferences.
+
+The K Desktop (KDE) User Guide
+
+A basic step-by-step guide with screen shots for new Linux desktop users. Topic: KDE (The K Desktop Environment).

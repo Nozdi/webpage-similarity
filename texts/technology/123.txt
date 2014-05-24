@@ -1,0 +1,3 @@
+This guide was developed to instruct users on the proper method for installing an AGP adapter card into a desktop computer system. It is a step-by-step instruction guide with photographs detailing the individual steps. The setup for a PCI graphics adapter is pretty much identical except the card goes into a PCI slot instead of an AGP slot.
+
+Before working on a computer system at all, it is important to power down the system to make it safe. Shut down the operating system if the computer is on. Once the computer has safely closed down, turn off the power to the internals by flipping the switch on the back of the power supply and removing the AC power cord.

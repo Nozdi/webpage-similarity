@@ -1,0 +1,3 @@
+Say you have a large file that is frequently read, for example by a web server, and you would like to speed up this process by keeping the file in memory instead of reading it from disk every time. This is very simple to do in Linux: just copy the file to /dev/shm.
+
+While /dev/shm looks like any other directory for the user, the OS actually stores it in memory (RAM). Since accessing memory is generally much faster than accessing hard disks, reading such files can save a lot of time. It also reduces the load on hard disks which are more prone to failure than memory. The catch is, when the system is rebooted, the memory is wiped clean, and memory stored files have to be reloaded.

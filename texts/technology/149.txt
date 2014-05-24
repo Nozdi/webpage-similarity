@@ -1,0 +1,27 @@
+Have you ever wanted to turn off the web history on your Safari browser?  Private browsing can be a handy way to make sure your kids don't go hunting what you bought them for Christmas on Amazon, and it is now easier than ever to switch on Private Browsing on the iPad, but you do need to know where the magic switch is located.
+
+In iOS 7, Apple moved the switch from the Safari section of the iPad's settings to the Safari browser.  If you have upgraded to iOS 7, read on about how to turn private browsing on or off.  If you haven't yet upgraded, scroll down to the section for previous versions of the iPad's operating system.
+
+Private browsing does three things: (1) the iPad will no longer keep track of the websites you visit or the searches you perform in the search bar, (2) the iPad will block certain types of 'tracking' cookies from external websites and (3) the border of the Safari app will turn black to indicate you are in private mode.
+
+Next, tap the web address at the top of the screen.  This is normally where you would go to search the web or type in a website's address, but we really just want to get the on-screen keyboard to appear.
+
+Once the on-screen keyboard appears, locate the "Private" button.  It's on the top-left corner of the keyboard, just above the "Q".
+
+After you tap "Private", the iPad will prompt you to choose to either Close All tabs, Keep All tabs or cancel.  I would suggest closing all open tabs so you don't get confused.  Private browsing will be turned on for all tabs, including existing tabs. But when you turn it off, you will be asked the same question, and you should always close all when turning it off.
+
+Note: Private browsing simply allows you to browse the web without websites being recorded in your web history.   If you exit out of the Safari browser, and even if you close the app, relaunching will bring up all open tabs with private browsing turned on.  If you usually prefer to browse without private browsing turned on, you should turn it off after each session.
+
+--- Next: How to Enable or Disable Cookies -->
+
+How to Turn On Private Browsing in Previous Versions of iOS:
+
+Previous to iOS 7, the switch to turn on Private Browsing was kept in the iPad's settings along with all of the other settings for Safari.  This means you will have to exit out of Safari to turn on or turn off Private Browsing.
+
+First, go to the iPad settings by tapping the settings icon. Get help getting into the iPad's settings.
+
+Next, scroll down the left-side window until you locate Safari. When you tap Safari, the settings will show up in the main window.
+
+To turn on/off private browsing, move the tab either to "on" or "off".
+
+What else can you do in the iPad's Safari settings?

@@ -1,0 +1,7 @@
+The project started out as "CrossOver Office" which simplified the process of installing MS Office on Linux machines using WINE. As the project matured, many other native MS Windows applications were supported and "Office" was dropped from the product name. Then a version of CrossOver was developed that specialized in MS Windows games.
+
+Unlike the open source software WINE, CrossOver products are not free. The relatively modest price tag buys you simplified installation of supported applications. For example, when installing Steam, CrossOver Games automatically downloads the Windows installation file and any required supporting files. Also note that regular licensing still applies to the games you install.
+
+All the supported games generally install quickly and easily, but CrossOver Games also gives you the option to install unsupported applications and games, which requires some manual intervention.
+
+You may think that running Windows programs on Linux would be slower than running them in their native operating system. This, however, is not the case in general when using the well designed compatibility layer WINE. Most Windows games actually perform better on Linux, and CrossOver Games makes sure WINE is optimally set up to provide maximum performance for any of its supported games.

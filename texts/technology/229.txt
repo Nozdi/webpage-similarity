@@ -1,0 +1,7 @@
+The game developer Epic Games is launching a re-birth of the classic FPS (first person shooter) Unreal Tournament. The plan is to develop the game as open source, encouraging everybody to participate.
+
+
+
+ The final product will be free for everyone. Once the the project is mature, Epic plans to set up a marketplace for third party mods that will bring revenues for both the mod developers and Epic. A first alpha release is expected in a few months.
+
+For more information see the unrealengine wiki.

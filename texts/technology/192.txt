@@ -1,0 +1,25 @@
+ViA aggregates information on mobile apps relating to blindness and visual impairment.
+
+ViA (Visually Impaired Apps) from the Braille Institute is an accessible iOS app that aggregates information and reviews on mobile apps designed for users who are blind or visually impaired.
+
+With ViA, users can sort through the 500,000+ apps in the App Store (by category, price, or star rating) and find ones that are accessible to users with visual impairments that offer functions that can enhance education, mobility, braille literacy, and daily living skills.
+
+The app gathers external reviews and, like AppleVis, features a forum where users can comment on, suggest, and discuss other apps they've purchased or downloaded. Entries include links to podcasts and blogs to provide insights into using specific apps. Users can also track new apps in each category.
+
+ViA is aimed at teachers, orientation & mobility specialists, rehabilitation therapists, and family members of persons with visual impairments. The apps that appear in ViA are suggested by users, educators, parents, and Braille Institute partner organizations, including the American Printing House for the Blind.
+
+ViA has information on over 1,000 apps stored in a cloud database you can search by category or keyword. You can use ViA without a password, but must register to comments or reviews.
+
+The app's home screen has six tabs:
+
+Each app has its own information page. At the top, there are buttons for sharing (via Facebook, Twitter, or email) or downloading the app.
+
+The bottom of each page displays four tabs:
+
+ViA reviews use a "traffic light" system (red, yellow, or green) to indicate accessibility for low-vision users based on compatibility with VoiceOver.
+
+The app has built-in pinch zoom capability. Users can also switch to a larger font under "Settings" and turn off image display to increase the app speed.
+
+The Braille Institute's ViA 1.4 (March 11, 2013) requires iOS 4.3 or later, is optimized for iPhone 5, and is compatible with iPhone, iPad, and iPod touch. File size: 6.6 MB.
+
+The Braille Institute is a donor-funded nonprofit that seeks to eliminate barriers to a fulfilling life caused by blindness and severe sight loss. Its network of 4,000+ volunteers offers free programs through five centers and 220 outreach locations in Southern California that annually serve 75,000 people.

@@ -1,0 +1,9 @@
+Those looking for a high end 19" LCD display that has a very sharp and brigth picture with reasonable response times would be well served by the Samsung SyncMaster 193P
+
+1/31/05 - Samsung is one of the world's largest manufacturer of LCD panels. While 17-inch LCD displays are fairly common now, 19-inch monitors have lagged behind due to costs and technical problems. The SyncMaster 193P is the latest 19-inch digital LCD display from Samsung that has a lot to offer.
+
+Rather than using the traditional plastic bezels found in most LCD panels, Samsung has decided to use a brushed metal exterior on the 193P that is very small compared to many other monitors. It also uses a very slender design by providing most of the connectors and processor in the very sturdy base unit that houses the connectors.
+
+To give an additional minimalist design element, the 193P features only a single power button on the monitor. All of the controls for color, brightness and contrast and handled through the software package. This can be a benefit for some users, but it also makes the monitor a bit harder to use with non-support operating systems such as Linux.
+
+Overall the 193P is a very sharp and clean display. The 1000:1 contrast ratio is very apparent in the wide range of colors it can display. Things can get a tad too black in the darker colors, but this is a problem most LCD displays face. The 20ms response time is very good for a 19-inch display, but some motion blurring was noticed during action video playback. It is acceptable for video games, but some may be detracted at times.

@@ -1,0 +1,47 @@
+The Audible App for the iPhone and Android mobile devices provides instant access to over 85,000 digital audiobooks.
+
+Audiobooks are invaluable tools for print-disabled readers. They provide vital knowledge pathways to persons with visual impairments and learning disabilities.
+
+The most popular commercial audiobook producer is Audible.com, an Amazon.com subsidiary and preeminent spoken audio publisher on Apple's iTunes.
+
+Audible's online library contains over 85,000 works, including audiobooks; audio editions of periodicals such as the New York Times. Audible Education offers lectures, study guides, teacher materials, and test preparation resources in many subject areas.
+
+The Audible smart phone app, which works on the iPhone and Android devices, provides instant access to its entire store.
+
+Reading along with an audiobook can help a struggling student stay focused on the text and offer just enough assistance to get them through a book.
+
+The app is also accessible to the visually impaired. It integrates with VoiceOver, the screen reader built into Apple's iOS X products, and the Android reader.
+
+On both Android and Apple devices, the app syncs directly with one' personal Audible library. For iPhone users, this means you can download books directly, bypassing iTunes.
+
+The app also provides access to the Audible store where users can purchase and have immediate access to new books.
+
+The Audible phone screen is easy to navigate.
+
+Key features include a Sleep timer, which stops automatically at the end of a chapter or part or after a chosen block of minutes.
+
+The app remembers your place in the book and returns you there when reopened.
+
+Note: Audible "chapters" do not correspond to the printed book's chapters. They are random subdivisions of text.
+
+To the left and right of Play/Pause are the Jump Back and Bookmark buttons.
+
+You can configure Jump Back in the Settings Screen to take you back in the text from 10 to 90 seconds.
+
+Bookmarks enable you to mark places in the text you can return to later using buttons at the bottom of the screen.
+
+Purchased books are immediately available for download. To do so, close the web browser, return to the Audible app, and select Synchronize Library. The book will begin playing in seconds, depending on connection speed.
+
+Some carriers limit how much data you can download through a 3G connection. If you receive an error message saying the file is too large, connect to a Wi-Fi network and try again.
+
+Mobile apps are quickly becoming the preferred means of audiobook delivery.
+
+Till recently, Learning Ally and the National Library Service recorded books at slower speeds, a copyright protection restricting access to disabled users who listened using special playback equipment.
+
+In the digital age, as commercial publishers like Audible grew, manufacturers such as HumanWare began promoting Audible.com support into devices such as the Victor Reader Stream.
+
+At the same time, educational organizations such as Learning Ally (formerly Recording for the Blind), have digitized their collections, making them accessible to students via computer and smart phone.
+
+Learning Ally's app offers access to over 65,000 audio textbooks in DAISY -- a digital format designed to make books easy to navigate.
+
+Accessing Audible via smart phone rather than a specialized player means one less device that a print disabled student has to carry.

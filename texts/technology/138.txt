@@ -1,0 +1,11 @@
+When I first started developing applications for the web, it quickly became apparent how backwards the process was. This was in the days before Ajax and similar techniques to create interactive web apps was possible. And in many ways, it was like trying to program a complicated software project inside of Microsoft Word. Web browsers weren't designed for the fluid exchange of information. They were designed to display documents that were linked together with anchors.
+
+It got me to thinking what the web would look like if it were designed by developers rather than the evolution of the web browser, which was essentially a document viewer. From a developer standpoint, you would want a framework that allowed each web page to be a full app by itself.
+
+Fast forward a couple of decades and we have the rise of the app store. How many times have you browsed the web on your iPad and noticed the website you are on is jumping up and down trying to get you to download their app? Companies would much rather you use the iPad app than the webpage because they can create a more sophisticated and controlled experience. In effect, mobile apps have become better web pages, with the old site really being the thread that holds the web together.
+
+And with the rise of app stores on PCs, this is no longer a mobile phenomenon. I can choose to browser Facebook in my Chrome browser on my PC, or I could just download the Facebook app. This new web may have started on smartphones, but it is spreading everywhere.
+
+Not that the old web is going anywhere any time soon. While the idea of searching an app store may sound similar to googling for information on the web, it is that jump from website to website that really keeps us browsing. Apps don't quite have that jump-from-app-to-app feature down quite yet. (Could you imagine StumbleUpon for your PC? You might go from working on a document in Microsoft Word to killing skeletons in Dark Souls 2. W Which might be rather cool.)
+
+But there's no doubt that the app store has had a huge impact on the web.

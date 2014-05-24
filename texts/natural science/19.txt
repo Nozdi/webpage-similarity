@@ -1,0 +1,25 @@
+Business geographics is a field in business that uses geographic techniques and tools to accomplish a variety of tasks important to the world of business, marketing, and ideal site selection.
+
+The most commonly used tool relating to geography that is used in business geographics is mapping -- notably the use of geographic information systems, also known as GIS.
+
+An important aspect in business is the identification of a target market or "customer mapping." By using geography and mapping potential customers, those looking to identify their market can find the highest concentration of the best potential customers. GIS allows this mapping to be completed in an efficient manner and maps created with this tool can have color-coding to identify customer concentrations.
+
+For example, if a children's clothing store is considering relocation because it is not doing the ideal amount of business the store could map the population of people with children in its target age group throughout the city or area it is considering moving to. The data can then be put into a GIS and mapped using dark colors for the highest concentration families with children and lighter colors for those without. Once completed, the map will highlight the ideal areas for the clothing store to locate based on that factor.
+
+Like customer mapping, it's important to businesses to locate where a service is needed to get the best possible sales numbers. Using mapping allows various types of customers to be easily identified to see if an area needs a business or service.
+
+Take for instance, a senior center. Because this is a specialized service it is important for it to be located within an area with a high proportion of senior citizens. By using customer mapping like in the children's clothing store example, the highest proportion of senior citizens in a city can be easily identified. Therefore, the area with a greater senior population would need this service more than another without that age group.
+
+Another problem that sometimes occurs in business is the location of two types of service in the same area. Often one can drive another out by taking its customers and/or users (in the case of the senior center). For example if there is already a hot dog cart in a downtown area, a new one should not open on the next corner over unless there are enough customers to support both.
+
+With business geographics all businesses or services of a certain type in a city can be mapped. By using GIS, the target customers can be put on top of a layer showing current hot dog stand locations for instance. The result would be the ideal location for a new stand.
+
+Business geographics also helps businesses to analyze the geographic patterns in their sales. In identifying these patterns, business managers can see certain areas where people buy various products. This is important because the peaks of say, black coffee as opposed to coffee with cream, might not be recognizable any other way. By identifying such peaks through the sale of different items at several coffee houses in a chain, the manager of the chain can determine which items to carry at the different locations. In doing so, business for the chain can become more efficient.
+
+Identifying markets, determining if a service is needed, and identifying the location of other similar businesses in an area are all part of site selection - a major part of business geographics. Also important to site selection however, are incomes, community growth rates, available workers, and the physical features of an area such as roads, water, and other materials that may be needed to produce or sell a product.
+
+By using GIS, each of these factors can be layered on top of each other. The resulting map will then highlight the best possible site based on the characteristics deemed most important by the businesses managers.
+
+The applications of business geographics listed above (minus site selection) all aid in the creation of marketing plans as well. Once a business is built, it is important to be able to advertise to its target market in an efficient manner. By using GIS and mapping to first identify an area's market and the customers within it, the products offered by the stores can best match demands specific to that market area.
+
+The efficient sale of products and offering of services to the population is an important part of the world's economy. By using business geographics, those in charge of the task of locating businesses and selling such goods are doing this in the most efficient way possible. In using maps, businesses managers are also reinforcing the notion that maps make excellent graphical tools.

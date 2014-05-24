@@ -1,1 +1,0 @@
-Understanding how the many parts of a computer connect to each other inside your PC begins with the case, which physically houses most of the components.

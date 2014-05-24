@@ -1,0 +1,27 @@
+With each passing week, rumors about two new larger screen (4.7 and 5.5 inches) iPhone 6 models, to be announced in September, gain credibility. Leaked phone chassis, cases, and manufacturing details are some of the early signs that have proven accurate with previous iPhone releases. With the addition of these two new screen sizes, Apple will be offering a much smoother continuum of forms, ranging from the 4-inch screen of the iPhone 5S, to the two, larger new iPhone 6 models, then the iPad Mini at 7.9 inches, and the iPad at 9.7 inches.
+
+Larger screen size would be a significant plus for iPhone GPS navigation apps, since using maps and following turn-by-turn directions can be squint-inducing on the current models, especially if the phone is secured in a windshield mount, or charging iPhone car mount.
+
+With bigger screens in place, as with previous upgrades in iPhone screen size and resolution, it will take app developers time to adapt and upgrade to the larger formats. Expect your existing GPS apps to continue to work in a reduced "letterbox" configuration until they are optimized for the bigger displays.
+
+The new phones are also rumored to be thinner than the existing iPhone 5S, and to have more rounded edges.
+
+The iPhone 6 is also rumored to be set to use a new, faster and more efficient A8 chip, which would be beneficial for GPS apps in several ways. GPS apps are notorious for accelerating battery depletion, so energy savings anywhere in the system can help the iPhone go the distance with GPS activates.
+
+The new Apple smartphone will of course have a built-in GPS chip, as have all previous versions, but it will also have location features we don't often think about. These include an accelerometer, which detects motion, and an electronic compass, which is tapped by many navigation, outdoors and hiking apps.
+
+One more way your iPhone knows where you are is through WiFi positioning. This technology triangulates your position based on the location of known WiFi hotspots, and helps improve positioning reliability and accuracy indoors, or in "urban canyons" where GPS satellite signals are weak or sporadic.
+
+iOS 8 Location Features
+
+ A new operating system with the iOS 8 designation is likely to be introduced with the new iPhone. The new iOS 8 will likely have a number of health and fitness features that depend on location technology. If Apple releases a rumored smart watch possibly dubbed iWatch, the operating system will likely handle lots of fitness and health data directly in tandem with location features that help determine user speed, distance, steps, calorie burn, and more in fitness and training modes. Don't be surprised to find wireless, chest-strapless heart rate monitoring in the mix, as well.
+
+In addition, the new iOS 8 ecosystem may include a rumored "health book" app that will store and analyze large amounts of personal health and fitness data, including emergency and insurance information, blood type, heart rate, hydration, blood sugar (for diabetics), sleep and weight metrics, and more.
+
+Maps
+
+ Expect further improvement in Apple's map environment, following the well-publicized shortcomings of its first Maps effort. Apple continued its acquisition of map and map-related companies in 2013 and 2014.
+
+Apple CarPlay
+
+ Location technology will be front in center in Apple's automotive offering, CarPlay, which will roll out in production vehicles later this year, but more-so next year. We can expect iPhone 6 and iOS 8 to include features to further bolster Apple's offerings in cars.

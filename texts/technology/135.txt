@@ -1,0 +1,11 @@
+When the iPad was released in 2010, it didn't have any built-in print functionality. But it didn't take long for Apple to add this functionality to the operating system. AirPrint allows the iPad to see and communicate with AirPrint-enabled printers, making it easy to print documents from your iPad. You can print from Photos, Notes, Mail, the Safari browser and many apps downloaded from the App Store like Microsoft Office.
+
+While you will need an AirPrint-enabled printer to print seamlessly from your iPad, it's possible to print to any printer using a few nifty apps as a facilitator. AirPrint-enabled printers are the easiest solution, and you can pick one up for as cheap as $70-$90. Any printer marked as AirPrint enabled or compatible with the iPhone/iPad will work. However, if you already own a printer and have no desire to upgrade, you can go the app-based route. View a list of AirPrint-enabled printers
+
+To print from an app using AirPrint:
+
+Having problems printing? Find out how to troubleshoot problems printing from your iPad.
+
+There are two popular apps for printing to non-AirPrint printers: Printer Pro ($6.99) and PrintCentral Pro ($7.99). Printer Pro has a "Lite" version that will check to see if your printer is compatible with the app, so before you decide between the two, download Printer Pro Lite to see if Printer Pro is a workable solution.
+
+To print using either of these apps:

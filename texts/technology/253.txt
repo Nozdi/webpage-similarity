@@ -1,0 +1,7 @@
+The Evolution groupware suite can handle all your email, contact lists, tasks and calendar needs. It also can act as a newsreader and also integrates with the Gnome panel clock, giving you one-click access to your task list.
+
+Evolution can be launched by clicking Applications->Internet->Evolution Mail from the desktop menu system.
+
+Alternatively the Mozilla Thunderbird email client is available. To install this popular email client, install the mozilla-thunderbird package (see Chapter 2, Adding, Removing and Updating Applications).
+
+To start Thunderbird, choose Applications->Internet->Thunderbird Mail Client from the desktop menu system.

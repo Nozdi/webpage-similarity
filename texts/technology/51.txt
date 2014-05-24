@@ -1,0 +1,11 @@
+Display the barcode for your membership, and the cashier can scan it when you check out.
+
+It started with the library cards we got in elementary school, and now our wallets and keychains are inundated with membership cards. The large chain grocery stores, electronics stores, pet stores, drug stores (i.e., CVS), and office supply stores we visit all have discount cards. Whether you carry them on your keychain or in your wallet, these cards can add a lot of bulk, and slow down the checkout line when you have to shuffle through dozens of cards.
+
+CardStar is a simple, free BlackBerry application that consolidates all of your membership, healthcare, and discount cards.
+
+Once you download Cardstar and install it on your device, adding your membership cards is extremely easy. Click the red Add Card button on the main screen, and then click the Select Merchant button. From there you can choose a category, or search for the name of the merchant or organization from the complete list.
+
+Once you select the merchant, you are prompted to enter your membership number, which you can find on your keychain or wallet card. Once you're done, click the Save button. If you cannot find the merchant you're looking for in the list, you can add it using the Advanced feature on the Option menu.
+
+Every time you add a membership card number, it appears on the main screen. When you choose a card, you can either view the card number or the barcode, which cashiers can scan when you are checking out. If you click on the Info button for any membership, some convenient quick links are provided. You can call the merchant, visit their web site, or find a nearby location. In the future, CardStar will also provide links to product offers that you can retrieve directly from the application.

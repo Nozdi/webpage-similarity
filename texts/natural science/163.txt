@@ -1,0 +1,7 @@
+The animation above compares different phases of mitosis and meiosis I. The animation starts from metaphase of mitosis and metaphase I of meiosis I.
+
+Mitosis: The animation shows the sister chromatids of homologous chromosomes separating and moving to opposite ends (poles) of the cell. Spindle fibers lengthen and elongate the cell. The chromosomes are cordoned off into distinct new nuclei (plural form of nucleus) in the emerging daughter cells. The replicated genetic material from the parent cell is equally distributed between two daughter cells. The resulting cells have the same number of chromosomes as the parent cell. Each chromosome consists of one chromatid.
+
+Meiosis: The animation shows homologous chromosomes separating and moving to opposite poles of the cell. The sister chromatids however, remain together. Spindle fibers lengthen and elongate the cell. The chromosomes are cordoned off into distinct new nuclei. At the end of meiosis I, two daughter cells are produced, each with one half the number of chromosomes as the original parent cell. Each chromosome consists of two chromatids.
+
+At the end of meiosis I, the cells enter the second part of the meiotic process, meiosis II.

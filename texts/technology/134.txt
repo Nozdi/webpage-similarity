@@ -1,0 +1,23 @@
+"Please install Flash player to use this website."
+
+If you've browsed the web on your iPad for any length of time, you may have come across this dead end. It's 2014, and yet still people are using Flash to build websites. Steve Jobs famously denied allowing Flash on the iPad and iPhone, and perhaps for good reason. Flash can be a resource hog and had stability issues, with Jobs citing that Flash was the number one cause of crashes on the Mac. Sounds great, but what if you want to view Flash on your iPad? That's where the Photon Flash Player comes into the picture.
+
+The Photon Flash Player may not edge out Safari and Chrome as the two best web browser on the iPad, but it does a good enough job that many could switch over without noticing the difference. The browser has all the basic features, including saving bookmarks, a privacy mode and a pop-up blocker. As a nice bonus, you can also use the browser in one of several different split screen modes. These allow you to have more than one page up on the screen at the same time, which can be nice if you find yourself popping back and forth between two pages.
+
+But let's face it, people don't use Photon to browse the web. They use it for Flash. And as a Flash player, Photon is easily the best on the iPad.
+
+Flash browsers on the iPad work by streaming the page rather than rendering it. The actual Flash is being run on a server, and what you are seeing in your browser is a video of it. But this doesn't mean you can only watch Flash video via the Photon browser. The app also sends signals back to the server, allowing you to interact with the Flash app.
+
+Unlike some Flash browsers for the iPad, Photon doesn't run in streaming mode all the time. When you first boot up the browser, it will be in normal or "local" mode, which means it renders web pages just like any other browser. In fact, if you browse a website with Flash in this mode, you'll get the same warnings as you would in any iPad browser. To enter Flash mode, you tap the Lightning button at the top of the screen. This turns on streaming mode, allowing Flash to display within the browser.
+
+Photon also comes with a host of settings you can tweak to make your Flash experience better. There are three main modes while streaming Flash. The regular touch mode behaves just like any iPad browser, the mouse pointer mode lets your finger control a mouse pointer on the screen, allowing more precise control, and a grab mode allows you to scroll around big Flash maps. There are also numerous tweaks in the settings menu, including a game keyboard that will allow playing Flash games that use arrow keys and WASD keyboard controls. You can also tailor the browser for video, games or the web.
+
+How to Connect Your iPad to Your HDTV
+
+But while Photon is perhaps the best Flash browser on the iPad, it's not perfect. And at times, it can be downright clumsy. Flash wasn't designed to run on the iPad, and the different modes and tweaks are workarounds to this simple fact. While Photon can play some Flash games with ease, others will have you jumping in and out of the different modes to do everything you need to do, and still others are virtually unplayable. The onscreen game controls are good, but if you are really interested in playing Flash games on the iPad that require the keyboard to control them, you might think about hooking up a keyboard to your iPad in addition to using the Photon browser.
+
+AppVerse also made the curious choice of putting the button that exits you from Flash mode right between the various mode buttons and the browser settings, making it way too easy to accidentally knock yourself out of Flash mode. At the very least, the browser should prompt you to whether or not you are sure you want to leave Flash mode.
+
+So is the Photon Flash Player a good deal? If you want to run Flash on the iPad, it's a very good deal. The browser costs $9.99, but as often as not, it is on sale for $4.99. And for $5, it offers a pretty good value to anyone who needs to run Flash on their iPad.
+
+More: How to Use the Photon Browser to Play Flash Videos and Games

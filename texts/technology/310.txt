@@ -1,0 +1,9 @@
+Strings in Tcl are encoded using 16-bit Unicode characters. Different operating system interfaces or applications may generate strings in other encodings such as Shift-JIS. The encoding command helps to bridge the gap between Unicode and these other formats.
+
+Performs one of several encoding related operations, depending on option. The legal options are:
+
+It is common practice to write script files using a text editor that produces output in the euc-jp encoding, which represents the ASCII characters as singe bytes and Japanese characters as two bytes. This makes it easy to embed literal strings that correspond to non-ASCII characters by simply typing the strings in place in the script. However, because the source command always reads files using the ISO8859-1 encoding, Tcl will treat each byte in the file as a separate character that maps to the 00 page in Unicode. The resulting Tcl strings will not contain the expected Japanese characters. Instead, they will contain a sequence of Latin-1 characters that correspond to the bytes of the original string. The encoding command can be used to convert this string to the expected Japanese Unicode characters. For example,
+
+would return the Unicode string "\u306F", which is the Hiragana letter HA.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

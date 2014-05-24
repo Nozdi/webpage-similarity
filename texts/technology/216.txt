@@ -1,0 +1,29 @@
+sudo - execute a command as another user | [] [] [] [] | [] [] [] [allows a permitted user to execute aas the superuser or another user, as specified in thefile. The real and effective uid and gid are set to match those of the target user as specified in the passwd file (the group vector is also initialized when the target user is not root). By default,requires that users authenticate themselves with a password (by default this is the user's password, not the root password). Once a user has been authenticated, a timestamp is updated and the user may then use sudo without a password for a short period of time (minutes unless overridden in).
+
+determines who is an authorized user by consulting the file. By givingtheflag a user can update the time stamp without running aThe password prompt itself will also time out if the user's password is not entered withinminutes (unless overridden via).
+
+If a user who is not listed in the sudoers file tries to run a command via sudo, mail is sent to the proper authorities, as defined at configure time or the sudoers file (defaults to root). Note that the mail will not be sent if an unauthorized user tries to run sudo with the -l or -v flags. This allows users to determine for themselves whether or not they are allowed to use sudo.
+
+sudo can log both successful and unsuccessful attempts (as well as errors) to syslog(3), a log file, or both. By default sudo will log via syslog(3) but this is changeable at configure time or via the sudoers file.
+
+accepts the following command line options: Upon successful execution of a program, the return value fromwill simply be the return value of the program that was executed.
+
+Otherwise, sudo quits with an exit value of 1 if there is a configuration/permission problem or if sudo cannot execute the given command. In the latter case the error string is printed to stderr. If sudo cannot stat(2) one or more entries in the user's an error is printed on stderr. (If the directory does not exist or if it is not really a directory, the entry is ignored and no error is printed.) This should not happen under normal circumstances. The most common reason for stat(2) to return ``permission denied'' is if you are running an automounter and one of the directories in your is on a machine that is currently unreachable.
+
+tries to be safe when executing external commands. Variables that control how dynamic loading and binding is done can be used to subvert the program thatruns. To combat this theonly), andonly) environment variables are removed from the environment passed on to all commands executed.will also remove theandvariables as they too can pose a threat. If thevariable is set and is a pathname, it too is ignored. Additionally, if theorvariables contain theorcharacters, they are ignored. Ifhas been compiled with SecurID support, theandvariables are cleared as well. The list of environment variables thatclears is contained in the output ofwhen run as root.
+
+To prevent command spoofing, sudo checks ``.'' and "" (both denoting current directory) last when searching for a command in the user's (if one or both are in the ). Note, however, that the actual environment variable is not modified and is passed unchanged to the program that sudo executes.
+
+For security reasons, if your supports shared libraries and does not disable user-defined library search paths for setuid programs (most do), you should either use a linker option that disables this behavior or link sudo statically.
+
+sudo will check the ownership of its timestamp directory (/var/run/sudo by default) and ignore the directory's contents if it is not owned by root and only writable by root. On systems that allow non-root users to give away files via chown(2), if the timestamp directory is located in a directory writable by anyone (e.g.: /tmp), it is possible for a user to create the timestamp directory before sudo is run. However, because sudo checks the ownership and mode of the directory and its contents, the only damage that can be done is to ``hide'' files by putting them in the timestamp dir. This is unlikely to happen since once the timestamp dir is owned by root and inaccessible by any other user the user placing files there would be unable to get them back out. To get around this issue you can use a directory that is not world-writable for the timestamps (/var/adm/sudo for instance) or create /var/run/sudo with the appropriate owner (root) and permissions (0700) in the system startup files.
+
+sudo will not honor timestamps set far in the future. Timestamps with a date greater than current_time + 2 * will be ignored and sudo will log and complain. This is done to keep a user from creating his/her own timestamp with a bogus date on systems that allow users to give away files.
+
+Please note that sudo will only log the command it explicitly runs. If a user runs a command such as or , subsequent commands run from that shell will not be logged, nor will sudo's access control affect them. The same is true for commands that offer shell escapes (including most editors). Because of this, care must be taken when giving users access to commands via sudo to verify that the command does not inadvertantly give the user an effective root shell.
+
+To get a file listing of an unreadable directory:
+
+To list the home directory of user yazza on a machine where the filesystem holding ~yazza is not exported as root:To edit thefile as user www:To shutdown a machine:To make a usage listing of the directories in the /home partition. Note that this runs the commands in a sub-shell to make theand file redirection work.(2),(3),(5),(5),(8),(1),(1).
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

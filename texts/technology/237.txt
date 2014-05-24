@@ -1,0 +1,9 @@
+While most software development, web page design, etc. nowadays is done using graphical user interfaces, experienced Unix/Linux people appreciate the simplicity and efficiency of the powerful text-based tools available on those platforms. If you are familiar for example with one of the powerful text editors, such as Emacs or VI , it is very easy to work remotely (over the Internet or intranet) on other computers using Telnet or SSH connections.
+
+PuTTY is a free telnet/SSH client program that brings this functionality to machines running Windows. It has an easy-to-use graphical user interface for setting up and storing connections, and setting display options, etc. The main window contains the session ("shell") that runs on the remote computer, where you can type in commands that are sent directly to the remote computer, and anything the remote machine outputs (to "stdout") is displayed in the window.
+
+You can easily copy text to and from the PuTTY window using the mouse buttons. Selecting a section of text with the mouse immediately copies it to the clipboard. The right mouse button pastes the clipboard text to the current cursor location. You can even select rectangular regions by pressing the Alt key. You can also change the fonts and colors used in the terminal windows.
+
+PuTTY is also useful for setting up a remote X session, so that you can run graphical applications as well. In that case you need an X client on your local workstation in addition to PuTTY. The X client, such as Xming, Hummingbird Exceed, or Cygwin, would then display the graphical applications running on the remove server, and PuTTY would provide the secure connection. For this to work, the DISPLAY variable on the server needs to be set to the name (or IP address) of your local machine.
+
+For more information on PuTTY see the PuTTY home page.

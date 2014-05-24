@@ -1,0 +1,7 @@
+Definition: The principles that govern heredity were discovered by a monk named Gregor Mendel in the 1860's. One of these principles, now called 
+
+
+
+ Mendel formulated this principle after performing The principles that govern heredity were discovered by a monk named Gregor Mendel in the 1860's. One of these principles, now called Mendel's law of independent assortment , states that allele pairs separate independently during the formation of gametes . This means that traits are transmitted to offspring independently of one another.Mendel formulated this principle after performing dihybrid crosses between plants that differed in two traits, such as seed color and pod color. After these plants were allowed to self pollinate, he noticed that the same ratio of 9:3:3:1 appeared among the offspring. Mendel concluded that traits are transmitted to offspring independently.
+
+The image shows a true-breeding plant with the dominant traits of green pod color (GG) and yellow seed color (YY) being cross-pollinated with a true-breeding plant with yellow pod color (gg) and green seeds (yy). The resulting offspring are all heterozygous for green pod color and yellow seeds (GgYy). If the offspring are allowed to self pollinate, a 9:3:3:1 ratio will be seen in the next generation. About 9 plants will have green pods and yellow seeds, 3 will have green pods and green seeds, 3 will have yellow pods and yellow seeds and 1 will have a yellow pod and green seeds.

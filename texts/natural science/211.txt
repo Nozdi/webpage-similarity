@@ -1,0 +1,3 @@
+Definition: A haploid cell is a A haploid cell is a cell that contains one complete set of chromosomes Gametes are haploid cells that are produced by meiosis
+
+The haploid number is the number of chromosomes within the nucleus of a cell that constitutes one complete chromosomal set. This number is commonly abbreviated as n, where n stands for the number of chromosomes. The haploid number will be different for different organisms. In humans, the haploid number is expressed as n=23.Haploid human cells have 1 set of 23 chromosomes: Diploid human cells have 2 sets of 23 chromosomes for a total of 46 chromosomes:

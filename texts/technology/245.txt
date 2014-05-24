@@ -1,0 +1,11 @@
+These are some exercises to help you get the feel.
+
+Mind the space between "cd" and ".."! Use the pwd command.
+
+List the directory contents with the ls command. -> What do you think these are?
+
+Display the content of this directory.
+
+-> To which directories do you have access?
+
+Do you know another possibility to get where you are now?

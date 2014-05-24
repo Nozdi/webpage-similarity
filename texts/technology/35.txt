@@ -1,0 +1,9 @@
+BlackBerry phones provide you with a long list of security features. Unfortunately, if you do not enable them and learn how to use them, your BlackBerry is not as secure as it could be. By changing a few settings, you can secure your BlackBerry and make sure that your data does not get into the wrong hands.
+
+An easy way to protect your personal data on your BlackBerry is to enable encryption. Choose Options, then Security (or Security Options on OS 5), and then choose Encryption. Once you Enable Encryption, you can choose the strength and type of encryption, and you can also choose what items to encrypt. You can even encrypt items on your microSD card.
+
+By turning on the Firewall, you can block certain types of messages from being sent to your BlackBerry. Choose Options, then Security (or Security Options on OS 5), and then choose Firewall.
+
+You can choose to block Text Messages, PIN, Personal Email, and Enterprise E-mail. You can also add exceptions, so you will be able to receive text messages from specific numbers, or e-mail from specific contacts. This feature is particularly useful if you receive a lot of spam text messages, but do not want to completely disable incoming text messages to your device.
+
+By taking the time to change these settings, you are taking control of security for your personal information. You can also control the types of messages that your BlackBerry can receive, and avoid annoying, harassing, and unwanted communications.

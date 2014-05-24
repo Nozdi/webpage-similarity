@@ -3,11 +3,8 @@ from scrapy.selector import HtmlXPathSelector
 
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-#from scrapy.selector import Selector
 
 from webpage.items import Website
-
-from bs4 import BeautifulSoup
 
 import re
 from scrapy.http import Request
@@ -16,26 +13,10 @@ from goose import Goose
 
 class WebSpider(BaseSpider):
     name = "web_spider"
-    # allowed_domains = ["dogs.about.com"]
-    # allowed_domains = ["cats.about.com"]
-    # allowed_domains = ["animals.about.com"]
-    # allowed_domains = ["womenshealth.about.com"]
-    # allowed_domains = ["ancienthistory.about.com"]
-    # allowed_domains = ["americanhistory.about.com"]
-    # allowed_domains = ["sexuality.about.com"]
-    # allowed_domains = ["cars.about.com"]
-    allowed_domains = ["artandculture.com"]
+    allowed_domains = ["swimming.about.com"]
 
     start_urls = [
-        #"http://dogs.about.com/",
-        # "http://cats.about.com/",
-        # "http://animals.about.com/",
-        # "http://womenshealth.about.com/",
-        # "http://ancienthistory.about.com/",
-        # "http://americanhistory.about.com/",
-        # "http://sexuality.about.com/",
-        # "http://cars.about.com",
-        "http://www.artandculture.com/",
+        "http://swimming.about.com/",
     ]
 
     rules = (Rule(SgmlLinkExtractor(), callback='parse', follow=True), )
@@ -58,19 +39,8 @@ class WebSpider(BaseSpider):
                 crawledLinks.append(link)
                 yield Request(link, self.parse)
 
-        # tu trzeba zmienic po czym ma wyszukiwac na stronie, znaczniki html
-        # paragraphs = hxs.select("//div[@id='articlebody']/p")
-        # alltexts = []
-
-        # for par in paragraphs:
-        #     soup = BeautifulSoup(par.extract())
-        #     text = soup.get_text()
-        #     if text.isspace() or not text:
-        #         pass
-        #     alltexts.append(text)
-
-        # Goose dziala lepiej, niż soup, do tego może wyciągać img
-        # może wyciągać tekst, albo z url, albo z czystego html
+        # Goose dziala lepiej, niz soup, do tego moze wyciagac img
+        # moze wyciagac tekst, albo z url, albo z czystego html
         g = Goose()
         raw_html = response.body
         article = g.extract(raw_html=raw_html)
@@ -79,9 +49,6 @@ class WebSpider(BaseSpider):
             pass
 
         item = Website()
-        # text = ' '.join(alltexts)
-        # if text.isspace() or not text:
-        #        pass
         item['text'] = text
         item['filename'] = '1.txt'
         yield item

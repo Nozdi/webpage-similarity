@@ -1,1 +1,15 @@
-To wipe a hard drive means to completely erase the drive of all information. Deleting everything does not wipe a hard drive and formatting does not [always] wipe a hard drive. You'll need to take an extra step to wipe the hard drive completely. When you format a hard drive or delete a partition, you're usually only deleting the file system, making the data invisible but not gone. A file recovery program or special hardware can easily recover the information. If you want to make sure that your private information is gone forever, you'll need to wipe the hard drive using special software. Important: See Tip #2 at the bottom of the page for a huge exception in Windows 8, Windows 7, and Windows Vista. Follow these steps to completely wipe a hard drive: Difficulty: Average Time Required: It could take several minutes to several hours to wipe a hard drive Here's How: Tips:
+Not all cell phones are created equal. And not all smartphones are worthy of your attention. But you don't have to worry: we've tested the latest and greatest models for you, so you can find the phone that's right for you. Plus, we have the goods on some of the hottest accessories and applications out there.
+
+Do you have an idea of what you want in a phone, and just want to go straight to a list of the very best phones in that category? Look no further than our "best of" lists, which include photos, product highlights, and links to more details on whatever phone catches your eye.
+
+A smartphone is more than just a mobile phone. Sure, it can make calls. But it can also surf the Web, check e-mail, and even serve as a mini-laptop when you're away from your computer. But not all smartphones are created equal. The phones listed here are the smartest of the smartphone bunch.
+
+You don't have to break the bank to get a smartphone. You don't even have to break the bank to get an iPhone -- not anymore, anyway. Here's a list of smartphones that are all available for $100 or less. You'll find some of the most popular handsets available today on our list of the best budget smartphones.
+
+You want to send messages with ease, but you don't want (or need) a full-fledged smartphone. That's where a messaging phone can help. These cell phones add full QWERTY keyboards for easy typing -- no tapping out messages on a numeric keypad anymore!
+
+Today's best cell phones do a little bit of everything. They play music. They take pictures. They send messages. And, of course, they make calls. Here's a list of phones that can handle a variety of tasks -- and handle them very well.
+
+Sure, your cell phone or smartphone is great right out of the box. But the right accessories can make using your phone a whole lot easier, and in some cases, a whole lot safer.
+
+Want to get more work done, or just have a little fun? These applications can help your favorite phone do more.

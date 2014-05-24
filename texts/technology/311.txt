@@ -1,0 +1,9 @@
+The best computer games that can be played on Ubuntu Linux.
+
+Ubuntu Game: Tremulous
+
+Download, installation, and usage instructions for the 3D computer game Tremulous, a free computer game that uses 3-dimensional graphics to give the players the illusion to operate in a virtual world. Participants can play with other people who are connected to the Internet by selecting one of many servers. Player can take the role of humans or aliens and fight each other using guns.
+
+Ubuntu Flight Simulator - FlightGear
+
+Download, installation, and usage instructions for the 3D software FlightGear, a free flight simulator for personal computers running Linux. Users can control airplanes or helicopters using the keyboard, mouse, or game consoles. A large selection of aircraft and terrain data from around the world is available and can be freely downloaded.

@@ -1,0 +1,21 @@
+One of the most popular utilities for connecting to Linux servers from computers running a Microsoft Windows operating system is the open source program PuTTY . It works great as remote terminal for text-based interaction, but is also frequently used to set up SSH connections for supporting remote graphical displays and remote desktop systems.You can use the text-based remote terminal functionality in combination with text-based editors such as Emacs or VI . Such text-based software may seem outdated, but for many tasks it has some advantages. In particular when working remotely, a text-based session is faster to set up, more stable, and easier to make persistent, that is, being able to save or maintain a remote session while the connection is interrupted, so that it can be resumed when the connection is restored.
+
+Another utility that works great in conjunction with the remote terminal software PuTTY is screen. It effectively multiplexes the terminal provided by PuTTY, providing 10 shell windows, each of which is easily accessible through the Ctrl-a N keyboard shortcut, where N is a digit between 0 and 9.
+
+Keyboard short-cuts tend to be more powerful and more frequently used with text-based software since the resolution is lower and target specifications can therefore be easier captured with a few keystrokes.
+
+PuTTY has an easy-to-use graphical user interface for setting up and storing connections, and setting display options, etc. The main window contains the session ("shell") that runs on the remote computer, where you can type in commands that are sent directly to the remote computer, and anything the remote machine outputs (to "stdout") is displayed in the window.
+
+You can easily copy text to and from the PuTTY window using the mouse buttons. Selecting a section of text with the mouse immediately copies it to the clipboard. The right mouse button pastes the clipboard text to the current cursor location. You can even select rectangular regions by pressing the Alt key. You can also change the fonts and colors used in the terminal windows.
+
+After starting a PuTTY session you can access settings and session functionality by clicking on the PuTTY logo in the upper left hand corner of the session window. One of the menu options is "Change Settings...", which will bring up PuTTY configuration panel where you change fonts and colors and other parameters. You can save a configuration by specifying a new or existing session name and clicking the save button. Next time you start PuTTY you can select from one of the saved session settings.
+
+You can have multiple PuTTY sessions to the same of different servers, which is convenient for example when you simultaneously edit a program in one window and test it in another window.
+
+Terminals work great for editing and running scripts, such as bash scripts, Perl scripts, or expect scripts.
+
+PuTTY is also useful for setting up a remote X session , so that you can run graphical applications as well. In that case you need an X client on your local workstation in addition to PuTTY. The X client, such as Xming, MobaXterm, Hummingbird Exceed, or Cygwin , would then display the graphical applications running on the remove server, and PuTTY would provide the secure connection. For this to work, the DISPLAY variable on the server needs to be set to the name (or IP address ) of your local machine. VNC offers an alternative system that enables complete remote desktop functionality.
+
+It is also possible to install PuTTY on OSX.
+
+For more information on PuTTY see the PuTTY home page.

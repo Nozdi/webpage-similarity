@@ -1,0 +1,29 @@
+Update: Read my road test, review, and star-rating of the Maps app turn-by-turn navigation feature (and find out why it gets only 2.5 out of 5 stars).
+
+Update: See the latest on iPhone 5S GPS and navigation.
+
+The new iPhone 5 is here, along with its larger display and feature-laden new iOS 6 operating system. The new operating system adds to the iPhone's capabilities significantly in the categories of maps and navigation.
+
+Free Turn-by-Turn Navigation
+
+ The iPhone 5, plus other iPhones that can run the iOS 6 operating system, will gain free, spoken-street-name, turn-by-turn directions. It has been kept relatively quiet, but it was announced late last year that GPS and mapping company TomTom was instrumental in adding the turn-by-turn functionality, as well as mapping, points-of-interest, and road data from its acquired company, Tele Atlas into the ingredients Apple drew upon to create its new mapping and navigation system.
+
+With its "maps designed by Apple," the company states: "The new Maps app gives you a better way to find your way. Map elements are vector based, which means graphics and text are incredibly sharp, even when you zoom in. Pan around, and you'll instantly notice how smooth and responsive Maps is. Need directions from Point A to Point B? Maps not only shows you how to get there, it tells you -- out loud, turn by turn. Maps also gives you real-time traffic information and reroutes you to avoid delays. For a completely new perspective, switch to Flyover and explore major metro areas from above with photo-realistic, interactive 3D views."
+
+Since the Maps app constantly pulls in fresh data, you'll also have the benefit of ongoing, free updates of maps and POI data, among many other elements: updates that we all had to pay extra for and take the time and trouble to install with dedicated GPS devices.
+
+Free Real-Time Traffic Detection & Avoidance
+
+ Apple's Maps app has long had reasonably good traffic backup detection, with its colored lines on the road map. But the new Maps app takes that concept much further, with not only dotted red lines showing backups, but also a way to calculate and provide alternate routes, and to calculate new estimated times of arrival based on alternate routes and real-time traffic data.
+
+Flyover
+
+ In an effort to distinguish its maps and navigation offering, Apple amassed a huge database of aerial images that it incorporates in a feature called "Flyover." Flyover presents photo-realistic, interactive 3D views of cities and their landmarks. You can pan, tilt, zoom, and rotate for a great look before you go, or just to virtually "sightsee."
+
+Siri and Local Search
+
+ If there's one feature that goes well with a good turn-by-turn directions app, it's the ability to use voice commands to find and navigate to locations. Siri is one of the better utilities available for voice recognition, and she adapts to your voice as you use her. The dream of asking your phone for a named destination, or service, such as a restaurant, then having Siri find it for you, then having the app provide turn-by-turn, spoken-street-name directions to your destination is finally here.
+
+Local search for all types of goods and services is as great as ever, except with the iPhone 5 and iOS 6, you also get a quick summary screen of your selected destination, including photos, phone numbers, address, website links, and even Yelp reviews and ratings. Tap the Quick Route button for turn-by-turn directions to any location you find.
+
+The iPhone 5, matched with iOS 6, a larger screen, a much faster chip, plus all of the features described above, provides a powerful navigation package, and adds significant value to the iPhone experience.

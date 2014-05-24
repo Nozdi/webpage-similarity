@@ -1,0 +1,3 @@
+Translation is the initial step in the production of proteins by the cell. Translation uses the product of transcription, mRNA, as the template for constructing a sequence of polypeptides. This is done according to the genetic code. Each mRNA base signifies a series of three amino acids. The amino acids join to form polypeptides, which are modified to become proteins.
+
+Translation is done by the ribosomes in a cell's cytoplasm. There are four stages of translation: activation, initiation, elongation, and termination. These steps describe the growth of the amino acid chain.

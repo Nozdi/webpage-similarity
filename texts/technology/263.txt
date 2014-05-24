@@ -1,0 +1,1 @@
+If ls is corrupting your terminal emulation with the color feature, turn it off. ls --color, and ls --colour all use the color feature. Some installations have ls set to use color by default. Check /etc/profile, etc. for ls aliases. See Example for ls Function for how to have ls do color for the console and do monochrome for terminals.

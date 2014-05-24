@@ -1,0 +1,15 @@
+Your BlackBerry comes with its own task manager, which you can update on the go, making it easier to stay on top of your projects. But more and more BlackBerry users are now entrusting their data to cloud apps and moving away from desktop applications like Outlook, so keeping tasks lists in sync is more difficult. That's where Remember the Milk can help.
+
+A BlackBerry is excellent for productivity because it manages scheduling, e-mail, and tasks so easily. But with a little help from an app like Remember the Milk, your BlackBerry can help you be even more productive.
+
+Remember the Milk is a robust, free Web task management application. It provides more features than the average desktop task management application, which is why it is a popular choice. Remember the Milk has a BlackBerry application called MilkSync, which allows you to automatically synchronize your native BlackBerry Tasks list with your tasks lists on Remember the Milk.
+
+MilkSync requires a Pro subscription to Remember the Milk, which is $25 annually, but there is a 15 day free trial.
+
+MilkSync is an extremely simple synchronization application; its only function is to keep your tasks lists on Remember the Milk in sync with your BlackBerry Tasks application. Remember the Milk allows you to have multiple tasks lists, and MilkSync maps the names of the lists to the Categories field in the Blackberry Tasks application.
+
+To see the items on a particular list, use the Filter feature to select the list name, and you will only see items in that list. Removing all of the filters will allow you to see all of the tasks in a consolidated list. When you mark tasks as complete, MilkSync synchronizes their status with Remember the Milk.
+
+Setting up MilkSync is easy. Download and install the application, and when it prompts you for your Account information, enter your Username and Password, and then click Save.
+
+Choose Options from the Menu and you can configure the synchronization frequency, and the direction (Both, From BlackBerry, or From RTM). Once you have updated the options, choose Sync Now, and your BlackBerry Tasks and Remember the Milk tasks will be synchronized.

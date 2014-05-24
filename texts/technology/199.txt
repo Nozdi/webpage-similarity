@@ -1,0 +1,23 @@
+The DAISY Consortium, founded in 1996, is an international organization that develops, maintains, and promotes standards and technologies designed to provide all people with equal access to information.
+
+A DAISY book is basically a set of electronic files that include audio narration, text marked with special navigation tags, and other files that synchronize the text with the audio.
+
+DAISY, which stands for Digital Accessible Information System, is a set of standards developed to make written materials such as books more accessible to persons with print disabilities.
+
+The DAISY format was developed for persons who have limitations that make it difficult or impossible to read standard print. This group generally includes persons who are blind or visually impaired, persons with cognitive dysfunctions such as dyslexia, and persons with limited motor skills who might not be able to hold a book or turn pages.
+
+Digitized words can be quickly transmitted via the web and accessed on many types of assistive devices. For example, a DAISY audiobook can be played on a computer or mobile device using software or a screen reader or on a player such as the Victor Reader Stream. The text can also be enlarged for those with low vision, or converted into braille for embossing (printing) or reading on a refreshable display.
+
+The main advantage is DAISY books have "embedded navigation" that enables readers to instantly jump to any part of a work - the same way a sighted person can turn to any page. With DAISY, the text is delineated with tags, such as part, chapter, page, paragraph, etc., and synced with the audio files. Readers can navigate through this hierarchy using the Tab key or other player control.
+
+With audiocassettes, readers had to fast forward, stop, listen, and go forward or back to access, say, Act III of Hamlet. With DAISY audio, they can push a button and immediately access any act, scene, line, or other sections of the printed text.
+
+Other advantages DAISY books offer include word search, spell check, and the ability to place electronic bookmarks on key passages and navigate back to them on future readings.
+
+The largest providers of DAISY audiobooks include Bookshare.org, Learning Ally, and the National Library Service for the Blind and Physically Handicapped (NLS). Persons with qualifying print disabilities can apply and access books from these sources for free. Readers download BookShare and Learning Ally content via the web to a computer or mobile device. The NLS provides free digital players and, through its BARD program, makes some books available for download.
+
+To comply with copyright laws, Learning Ally and NLS books are encrypted to limit their access to those with documented print disabilities.
+
+To play DAISY books, one must either install special software onto a computer or mobile device, or use a DAISY-compatible player.
+
+The most popular software that supports the DAISY format includes:

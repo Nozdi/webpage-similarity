@@ -1,0 +1,15 @@
+If the terminal made some noise just before it failed (or when you turn it on after it failed) that noise is a clue to what is wrong. If you hear a noise or see/smell smoke, immediately turn the terminal off to prevent further damage. A pop noise may be a capacitor exploding or a fuse blowing. A buzzing noise is likely due to arcing. The problem may be in the high voltage power supply of several thousand volts.
+
+Remove the cover. Look for discoloration and bulging/cracked capacitors. If the bad spot is not evident, turn it on again for a short time and look for smoking/arcing. For arcing, a dimly lit room will help find it. The high voltage cable (runs between the flyback transformer and the side of the picture tube) may have broken insulation that arcs to ground. Fix it with high-voltage insulating dope, or special electrical tape designed say for 10,000 volts.
+
+The flyback transformer (high voltage) may make only a faint clicking or sparking noise if it fails. You may not hear it until you turn the terminal off for a while and then turn it back on again. To track down the noise you may use a piece of small rubber tubing (such as used in automobiles) as a stethoscope to listen to it. But while you are listening for the noise, the terminal is suffering more damage so try find it fast (but not so fast as to risk getting shocked).
+
+A shorted power supply may cause a fuse to blow. Replacing a blown fuse may not solve the problem as the same short may blow the fuse again. Inspect for any darkened spots due to high heat and test those components. Shorted power transistors may cause the fuse to blow. They may be tested with a transistor checker or even with an ohm-meter. Use the low ohm scale on an ohm-meter so that the voltage applied by the meter is low. This will reduce the possible damage to good components caused by this test voltage.
+
+If the terminal has been exposed to dampness such as being stored in a damp place or near a kitchen with steam from cooking, a fix may be to dry out the unit. Heating a "failed" flyback transformer with a blow dryer for several minutes may restore it.
+
+A blank screen may be due to someone turning the brightness control to the lowest level or to aging. The next thing to do is to check the cables for loose or broken connections. If there is no sign of power, substitute a new power cord after making sure that the power outlet on the wall is "hot".
+
+If the keyboard is suspected, try it on another terminal of the same type or substitute a good keyboard. Wiggle the keyboard cable ends and the plug. Wires inside cables may break, especially near their ends. If the break is verified by wiggling it (having the problem go on and off in synchronization with the wiggles), then one may either get a new cable or cut into the cable and re-solder the breaks, etc.
+
+One of the first things to do if the keyboard works is to put the terminal into Local Mode. If it works OK in local, then the problem is likely in the connection to the host computer (or incorrect interface) or in the UART chips of the terminal.

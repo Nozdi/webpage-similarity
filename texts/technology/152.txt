@@ -1,0 +1,39 @@
+The iPad accessibility settings are divided into four sections, which include vision assistance, hearing assistance, learning-based guided access and the physical and motor assistance settings. These settings can help those who might otherwise have problems operating a tablet enjoy the iPad.
+
+If you have trouble reading some text on the screen, you can increase the default font size by tapping the "Larger Type" button in the second set of vision settings. This font size can help the iPad become more easily readable, but these settings only work with apps that support the default font. Some apps use custom fonts, and websites viewed in the Safari browser won't have access to this functionality, so using the pinch-zoom gesture may still be needed when browsing the web.
+
+If you would like to activate text-to-speech, you can turn on "Speak Selection". This is the setting for those who can clearly see the iPad, but have difficulty reading text on it. Speak selection allows you to highlight text on the screen by tapping a finger and then speaking that text by choosing the "speak" button, which is the far-right button when you highlight text on the screen. The "Speak Auto-text" option will automatically speak the corrections given by the auto-correct functionality of the iPad.  Find out How to turn off Auto-Correct.
+
+If you have difficulty seeing the iPad, you can turn on Zoom mode. Tapping the Zoom button will put turn on the option to put the iPad into Zoom mode, which magnifies the screen to help you see it. While in Zoom mode, you won't be able to see the entire screen on the iPad. You can put the iPad into Zoom mode by double-tapping three fingers to zoom in or zoom out. You can move the screen around by dragging three fingers. You can also make Zoom mode easier to activate by turning on the Zoom "Accessibility Shortcut" at the bottom of the accessibility settings.
+
+If you have major difficulty seeing, you can activate voice operation by tapping the "VoiceOver" option. This is a special mode that changes the behavior of the iPad in order to make it more accessible for those with severe vision issues. In this mode, the iPad will will speak what is tapped, allowing those with vision issues to navigate via touch rather than sight.
+
+You can also invert colors if you have difficulty seeing in normal contrast. This is a systemwide settings, so it will apply to photographs and video as well as text on the screen.
+
+How to Connect an iPad to a TV
+
+The iPad supports Subtitles and Captioning, which will help those with hearing issues enjoy movies and video on the iPad. Once you tap the Subtitles and Captioning button, you can turn it on by tapping the button to the right of "Closed Captions SDH".
+
+There are several styles of captioning to choose from and you can even customize the captions by choosing a font, a basic font size, a color and a background color. You can also turn on Mono Audio by tapping the button, and even change the audio balance between the left and right channels, which is useful for those who have hearing issues in a single ear.
+
+The iPad also supports video conferencing through the FaceTime app. This app is great for those with hearing issues severe enough to impede voice calls. And because of its bigger screen, the iPad is idea for FaceTime. Learn more about setting up FaceTime on the iPad.
+
+The Guided Access setting is great for those with learning challenges, including autism, attention and sensory challenges. The Guided Access setting allows the iPad to stay within a specific app by disabling the Home Button, which is normally used to exit out of an app. Essentially, it locks the iPad in place with a single app.
+
+The iPad's Guided Access feature can also be used in conjunction with toddler apps to provide entertainment to infants and toddlers, though iPad use should be limited for toddlers under the age of two.
+
+By default, the iPad already has built-in help for those with difficulty operating certain aspects of the tablet. Siri can perform tasks such as scheduling an event or setting a reminder by voice, and Siri's speech recognition can be turned into voice dictation by tapping the microphone button anytime the on-screen keyboard is displayed.
+
+The AssistiveTouch setting can also be a great way to increase the functionality of the iPad. Not only can this setting be used to give fast and easy access to Siri, which is normally available by double-clicking the home button, it allows for custom gestures to be created and normal gestures executed through a menu system displayed on the screen.
+
+When AssistiveTouch is activated, a button is displayed at all times on the bottom right side of the iPad. This button activates the menu system and can be used to exit to the home screen, control device settings, activate Siri and execute a favorite gesture.
+
+The iPad also supports Switch Control, which allows third-party switch access accessories to control the iPad. The iPad settings allow for customizing the switch control, from fine-tuning the control to setting up sound effects and saved gestures. For more information on setting up and using Switch Control, refer to Apple's Switch Control online documentation.
+
+For those who want help double-clicking the home button, the home button can be slowed down to make it easier by going into the Home-click Speed setting. The default setting can be adjusted to "Slow" or "Slowest", each decreasing the time needed between clicks to activate a double-click or a triple-click.
+
+The Accessibility Shortcut is located at the very end of the accessibility settings, which makes it easy to miss if you don't know where it is located. This shortcut lets you assign an accessibility setting such as VoiceOver or Zoom to a triple-click of the home button.
+
+This shortcut is very useful for sharing the iPad. Instead of hunting for a particular setting in the accessibility section, a triple-click of the home button can activate or deactivate a setting.
+
+Read More About Accessibility on the iPad

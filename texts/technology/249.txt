@@ -1,0 +1,9 @@
+wc - print the number of bytes, words, and lines in files   ]... []...
+
+Print byte, word, and newline counts for each FILE, and a total line if more than one FILE is specified. With no FILE, or when FILE is -, read standard input.
+
+The full documentation foris maintained as a Texinfo manual. If theandprograms are properly installed at your site, the command
+
+should give you access to the complete manual.
+
+Important: Use the man command (% man) to see how a command is used on your particular computer.

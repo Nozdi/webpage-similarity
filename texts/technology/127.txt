@@ -1,0 +1,3 @@
+This guide was developed to instruct readers on the proper procedures for installing a Serial ATA hard drive into a desktop computer system. It includes step-by-step instructions for the physical installation of the drive into the computer case and properly connecting it into the computer motherboard. Please refer to the documentation included with the hard drive for some of the items listed in this guide.
+
+Before working on the inside of any computer system, it is important to power down the computer. Shutdown the computer from the operating system. Once the system has safely shutdown, turn off the power to the internal component by flipping the switch on the back of the computer and removing the AC power cord.

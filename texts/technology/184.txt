@@ -1,0 +1,27 @@
+The ODIN VI Talking Mobile Phone -- which features a large number keypad and text to speech for intuitive orientation -- makes writing, receiving, and listening to text messages easy for users who are visually impaired.
+
+To send and receive text messages, make sure your ODIN VI is on. When you receive a text message, the phone beeps and announces it. When your phone is off, you'll hear the beep and announcement the next time you turn it on.
+
+To turn on the ODIN VI, press and hold the round red End button until you hear an old-fashioned telephone ring. Release the End button.
+
+The phone stores texts in the messaging submenu. You can access messages from the Home screen in two ways:
+
+Messages are listed by date received. The phone identifies by name senders on your Contacts list (and by number those who are not) and announces the date the message was sent.
+
+To listen to a message, navigate the list using the arrow keys to highlight a message and press OK. The phone reads it aloud, including the time it was received. After listening to a message, you can do four things:
+
+To write and send text messages, navigate to Messages on the main menu, select "Write Message" from the submenu, and click OK. You will see/hear the first name on your contacts list.
+
+Choose a recipient from that list or press the up arrow once to enter a new number. Press OK to begin writing your message.
+
+Use the number keypad to enter the text of your message, pressing buttons from 1 to 4 times to enter each letter, e.g. 5-5-5 for "L."
+
+If you type quickly, ODIN VI won't be able to repeat each letter or number as entered, but each appears onscreen, and you can hear what you've typed by pressing the Repeat/Speech button.
+
+To delete a text message, highlight "Inbox" in the messaging submenu and press OK. Highlight the message you wish to delete from the list of received messages and press #. Press OK to verify your choice to delete.
+
+Note: The ODIN VI stores a maximum of 100 text messages and possibly fewer, depending on the size of the messages. When you reach the limit, messages, beginning with the oldest, are deleted automatically.
+
+To delete all text messages at once, go to the Main Menu and enter: * # 10 #.
+
+The Outbox contains all your sent text messages, Like the Inbox, it stores 100 messages which it automatically begins to delete, starting with the oldest, when you reach that limit. Follow the same steps to manually delete messages that you use with the Inbox. To delete everything in your Outbox at once, go to the Main Menu and enter: * # 11 #.

@@ -1,0 +1,7 @@
+Version 17 of the popular distro Linux Mint is expected by the end of the month. Release candidates are already available for download for the Cinnamon and MATE desktop versions.
+
+
+
+Linux Mint has been the top-ranked disto on distrowatch.com. It comes with most common proprietary multimedia formats pre-installed so that you can watch YouTube, QuickTime, Windows Media files, and CSS-encoded DVDs right out of the box. Oracle's Java is also included and set up to work as plug-in with Firefox.
+
+Default applications include LibreOffice (a branch from OpenOffice), Firefox, Thunderbird, Gimp, Pidgin, XChat, and Amarok. It provides access to large software repositories, and compatibility with Ubuntu and Debian repositories. For more information and download links, see the Linux Mint web site.

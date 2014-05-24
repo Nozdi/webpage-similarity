@@ -1,0 +1,1 @@
+Isolines are often used on maps to represent points of equal value. This is a list of some common (as well as obscure) types of isolines. The prefix "iso-" means "equal."

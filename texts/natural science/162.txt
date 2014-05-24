@@ -1,0 +1,19 @@
+Chromosomes are long, stringy aggregates of genes that carry heredity information. They are composed of DNA and proteins and are located within the nucleus of our cells. Chromosomes determine everything from hair color and eye color to sex. Whether you are a male or female depends on the presence or absence of certain chromosomes.
+
+
+
+ Human cells contain 23 pairs of chromosomes for a total of 46. There are 22 pairs of autosomes and one pair of sex chromosomes. The sex chromosomes are the X chromosome and the Y chromosome.
+
+In human sexual reproduction, two distinct gametes fuse to form a zygote. Gametes are reproductive cells produced by a type of cell division called meiosis.  Gametes are also called sex cells. They contain only one set of chromosomes and are said to be haploid.
+
+
+
+ The male gamete, called the spermatozoan, is relatively motile and usually has a flagellum. The female gamete, called the ovum, is nonmotile and relatively large in comparison to the male gamete. When the haploid male and female gametes unite in a process called fertilization, they form what is called a zygote. The zygote is diploid, meaning that it contains two sets of chromosomes.
+
+The male gametes or sperm cells in humans and other mammals are heterogametic and contain one of two types of sex chromosomes. They are either X or Y. The female gametes or eggs however, contain only the X sex chromosome and are homogametic. The sperm cell determines the sex of an individual in this case. If a sperm cell containing an X chromosome fertilizes an egg, the resulting zygote will be XX or female. If the sperm cell contains a Y chromosome, then the resulting zygote will be XY or male.
+
+Grasshoppers, roaches, and other insects have a similar system for determining the sex of an individual. Adult males lack a Y sex chromosome and have only an X chromosome. They produce sperm cells that contain either an X chromosome or no sex chromosome, which is designated as O. The females are XX and produce egg cells that contain an X chromosome. If an X sperm cell fertilizes an egg, the resulting zygote will be XX or female. If a sperm cell containing no sex chromosome fertilizes an egg, the resulting zygote will be XO or male.
+
+Birds, insects like butterflies, frogs and some species of fish have a different system for determining gender. In these animals it is the female gamete that determines the sex of an individual. Female gametes can either contain a Z chromosome or a W chromosome. Male gametes contain only the Z chromosome. Females of these species are ZW and males are ZZ.
+
+What about animals like most kinds of wasps, bees, and ants that have no sex chromosomes? How is sex determined? In these species, fertilization determines sex. If an egg becomes fertilized it will develop into a female. A non-fertilized egg may develop into a male. The female is diploid and contains two sets of chromosomes, while the male is haploid. This development of an unfertilized egg into an individual is called parthenogenesis.
