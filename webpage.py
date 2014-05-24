@@ -37,7 +37,7 @@ class WebPage(object):
         article = g.extract(url=self.url)
         text = article.cleaned_text
         with open(filename, 'w') as myFile:
-            myFile.write(text)
+            myFile.write(text.encode('utf-8'))
 
     def get_picture(self, pic_name):
         g = Goose()
