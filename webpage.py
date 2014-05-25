@@ -6,6 +6,7 @@
 from similarity.text.document import AnalizedDocument
 from extractor import ExtendedGoose
 from unidecode import unidecode
+import os
 import urllib
 
 
@@ -38,7 +39,8 @@ class WebPage(object):
 
     def get_picture(self, pic_name):
         image = self.article.top_image.src
-        urllib.urlretrieve(image, pic_name)
+        extension = os.path.splitext(image)[1]
+        urllib.urlretrieve(image, pic_name + extension)
 
     def get_text_similarity(self, web_page):
         return self.content.compare(web_page.content)

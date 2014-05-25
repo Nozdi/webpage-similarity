@@ -79,6 +79,7 @@ class AnalizedDocument(Document):
 
     def __init__(self, text):
         super(AnalizedDocument, self).__init__(text)
+        self.text = text
         self.terms_membership = {}
         self.categories_membership = {}
 
@@ -127,7 +128,7 @@ class AnalizedDocument(Document):
         for key in changed_membership:
             changed_membership[key] /= maximal
 
-        importance = len(filter(lambda x: x > .5, changed_membership.values()))
+        importance = min(len(filter(lambda x: x > .5, changed_membership.values())), 4)
         important_categories = categories_by_membership[:importance]
 
         return jaccard(
