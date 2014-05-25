@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import codecs
+import os
 from glob import glob
 from unidecode import unidecode
-from os import remove
 
 
 def get_all_files():
@@ -36,9 +36,26 @@ def remove_email_info():
             files_to_delete.append(f.name)
 
     for filename in files_to_delete:
-        remove(filename)
+        os.remove(filename)
+
+
+def renumber_files(root_dir):
+    renumber_files_with_suffix(root_dir, "a")
+    renumber_files_with_suffix(root_dir, "")
+
+
+def renumber_files_with_suffix(root_dir, suffix):
+    dict = {}
+    for root, subFolders, files in os.walk(root_dir):
+        dict.setdefault(root, 0)
+        for file in files:
+            dict[root] = dict[root] + 1
+            old_file = os.path.join(root, file)
+            new_file = os.path.join(root, str(dict[root]) + suffix + ".txt")
+            os.rename(old_file, new_file)
+
 
 if __name__ == '__main__':
     remove_unicode()
     print(count_all())
-    remove_email_info()
+    # remove_email_info()
