@@ -23,6 +23,10 @@ def get_fuzzy_brightness(image):
     return stats.rms[0]/100
 
 
+def get_size(image):
+    return image.size
+
+
 if __name__ == '__main__':
     im = Image.open("../../red.jpg")
     print(get_fuzzy_colors(im))
