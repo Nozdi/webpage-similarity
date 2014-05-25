@@ -6,27 +6,27 @@
 from operator import itemgetter
 from sys import argv
 from similarity.text.document import AnalizedDocument
-from webpage import WebPage
+# from webpage import WebPage
 
 
 def print_sorted_dict(dictionary, name):
     print name
-    shit = sorted(dictionary.iteritems(), key=itemgetter(1), reverse=True)
-    for key, value in shit:
+    sdict = sorted(dictionary.iteritems(), key=itemgetter(1), reverse=True)
+    for key, value in sdict:
         print str(key), ":", value
 
 
 if __name__ == '__main__':
     if len(argv) == 3:
-        w1 = WebPage(AnalizedDocument.from_file(argv[1]))
-        w2 = WebPage(AnalizedDocument.from_file(argv[2]))
+        ad1 = AnalizedDocument.from_file(argv[1])
+        ad2 = AnalizedDocument.from_file(argv[2])
     else:
-        w1 = WebPage(AnalizedDocument.from_file('test_doc'))
-        w2 = WebPage(AnalizedDocument.from_file('test_doc2'))
-    print w1.get_text_similarity(w2)
-    # from similarity.serialization import load_objects
-    # categories = load_objects("cats")
-    # w1.content.calculate_belongness_to_categories(categories)
+        # w1 = WebPage(url="https://github.com/")
+        # w2 = WebPage(url="http://en.wikipedia.org/wiki/Giraffe")
+        ad1 = AnalizedDocument.from_file('test_doc')
+        ad2 = AnalizedDocument.from_file('test_doc2')
+    # print w1.get_text_similarity(w2)
+    print ad1.compare(ad2)
 
-    print_sorted_dict(w1.content.categories_membership, "dog")
-    print_sorted_dict(w2.content.categories_membership, "cat")
+    print_sorted_dict(ad1.categories_membership, "zyrafy")
+    print_sorted_dict(ad2.categories_membership, "zebry")

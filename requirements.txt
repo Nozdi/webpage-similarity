@@ -6,3 +6,4 @@ nltk
 topia.termextract
 scrapy
 unidecode
+goose-extractor
