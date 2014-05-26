@@ -12,7 +12,7 @@ from PIL import (
 
 
 def get_fuzzy_size(image):
-    controller = Reader().load_from_file("size.fcl")
+    controller = Reader().load_from_file("./similarity/img/size.fcl")
 
     width, height = image.size
 
@@ -25,7 +25,7 @@ def get_fuzzy_size(image):
     }
     controller.calculate(input_variables, output_variables)
     print(output_variables)
-    return output_variables
+    return output_variables['size']
 
 
 def get_fuzzy_colors(image):
@@ -40,10 +40,6 @@ def get_fuzzy_colors(image):
 def get_fuzzy_brightness(image):
     stats = ImageStat.Stat(image.convert('L'))
     return stats.rms[0] / 100
-
-
-def get_size(image):
-    return image.size
 
 
 if __name__ == '__main__':

@@ -76,6 +76,7 @@ class AnalizedDocument(Document):
         :type terms_membership: dictionary
     """
     categories = load_objects('cats')
+    terms_revelance = load_objects('db')
 
     def __init__(self, text):
         super(AnalizedDocument, self).__init__(text)
@@ -101,11 +102,10 @@ class AnalizedDocument(Document):
         if not self.terms_membership:
             self.calculate_terms_membership()
 
-        terms_revelance = load_objects('db')
         for category in self.categories:
             self.categories_membership[category] = jaccard(
                 self.terms_membership,
-                terms_revelance[category.identifier],
+                self.terms_revelance[category.identifier],
                 algebraic_product,
                 algebraic_sum,
             )
