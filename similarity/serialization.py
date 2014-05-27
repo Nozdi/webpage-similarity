@@ -6,6 +6,8 @@ from pickle import (
     dump,
     load,
 )
+from os import path
+import __main__
 
 
 def dump_objects(objects, filename="db"):
@@ -14,5 +16,9 @@ def dump_objects(objects, filename="db"):
 
 
 def load_objects(filename="db"):
-    with open(filename, 'rb') as f:
-        return load(f)
+    try:
+        with open(filename, 'rb') as f:
+            return load(f)
+    except IOError:
+        if path.basename(__main__.__file__) != "create_db.py":
+            print("To use this library you need to train the system - use create_db.py")

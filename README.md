@@ -1,12 +1,9 @@
 webpage-similarity
 ==================
 
-Create objects and pickle:
+Train system:
 ```
-$[i]python
->>> from similarity.text.train import *
->>> dump_objects(create_categories_with_documents(), "cats")
->>> dump_objects(create_terms_to_categories_relevance(), "db")
+./create_db.py
 ```
 
 Install
