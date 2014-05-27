@@ -6,5 +6,5 @@ from similarity.text.train import (
     create_terms_to_categories_relevance,
 )
 
-dump_objects(create_categories_with_documents(), 'cats')
-dump_objects(create_terms_to_categories_relevance(), 'db')
+dump_objects(create_categories_with_documents(), './data/cats')
+dump_objects(create_terms_to_categories_relevance(), './data/db')

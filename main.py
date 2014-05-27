@@ -8,7 +8,7 @@ from sys import argv
 from similarity.text.document import AnalizedDocument
 from similarity.img.compare import compare
 from PIL import Image
-from webpage import WebPage
+from similarity import WebPage
 
 
 def print_sorted_dict(dictionary, name):
@@ -36,4 +36,4 @@ if __name__ == '__main__':
     print_sorted_dict(w2.content.categories_membership, "gotyk")
 
     print("\nImages similarity:")
-    print(compare(Image.open("red.jpg"), Image.open("pom.png")))
+    print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))

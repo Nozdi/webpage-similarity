@@ -14,7 +14,6 @@ from similarity.serialization import load_objects
 from copy import copy
 from operator import itemgetter
 
-
 class Document(object):
     """
         :field text: content of document
@@ -75,8 +74,9 @@ class AnalizedDocument(Document):
         :field terms_membership: key - term, value - term weight / max weight
         :type terms_membership: dictionary
     """
-    categories = load_objects('cats')
-    terms_revelance = load_objects('db')
+
+    categories = load_objects('./data/cats')
+    terms_relevance = load_objects('./data/db')
 
     def __init__(self, text):
         super(AnalizedDocument, self).__init__(text)
@@ -105,7 +105,7 @@ class AnalizedDocument(Document):
         for category in self.categories:
             self.categories_membership[category] = jaccard(
                 self.terms_membership,
-                self.terms_revelance[category.identifier],
+                self.terms_relevance[category.identifier],
                 algebraic_product,
                 algebraic_sum,
             )

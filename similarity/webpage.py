@@ -4,7 +4,7 @@
 """
 
 from similarity.text.document import AnalizedDocument
-from extractor import ExtendedGoose
+from similarity.extractor import ExtendedGoose
 from unidecode import unidecode
 import os
 import urllib

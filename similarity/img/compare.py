@@ -14,7 +14,7 @@ from similarity.fuzzy import jaccard
 def get_properties(image):
     properties = get_fuzzy_colors(image)
     properties["brightness"] = get_fuzzy_brightness(image)
-    properties["size"] = get_fuzzy_size(image)
+    properties.update(get_fuzzy_size(image))
     return properties
 
 

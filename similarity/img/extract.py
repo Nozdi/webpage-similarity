@@ -25,7 +25,7 @@ def get_fuzzy_size(image):
     }
     controller.calculate(input_variables, output_variables)
     print(output_variables)
-    return output_variables['size']
+    return output_variables
 
 
 def get_fuzzy_colors(image):
