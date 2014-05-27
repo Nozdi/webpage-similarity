@@ -11,23 +11,23 @@ END_VAR
 
 FUZZIFY width
 	TERM very_small := (0, 1) (50, 1) (100, 0);
-	TERM small := (50, 0) (100, 1) (300, 1) (400, 0);
-	TERM medium := (300, 0) (400,1) (700,1) (800,0);
-	TERM big := (700, 0) (800, 1) (1000, 1);
+	TERM small := (50, 0) (250, 1) (400, 1) (600, 0);
+	TERM medium := (400, 0) (800,1) (900,1) (1500,0);
+	TERM big := (900, 0) (1500, 1);
 END_FUZZIFY
 
 FUZZIFY height
 	TERM very_small := (0, 1) (50, 1) (100, 0);
-	TERM small := (50, 0) (150, 1) (300, 0);
-	TERM medium := (200, 0) (300,1) (600,1) (700,0);
-	TERM big := (600, 0) (700, 1) (1000, 1);
+	TERM small := (50, 0) (200, 1) (300, 0);
+	TERM medium := (200, 0) (500, 1) (600, 1) (900, 0);
+	TERM big := (600, 0) (1000, 1);
 END_FUZZIFY
 
 DEFUZZIFY size
-	TERM very_small := (0.0, 1) (0.25, 1) (0.5, 0);
+	TERM very_small := (-0.5, 0) (0.0, 1) (0.25, 1) (0.5, 0);
 	TERM small := (0.25, 0) (0.5, 1) (0.75, 0);
 	TERM medium := (0.5, 0) (0.75, 1) (1.0, 0);
-	TERM big := (0.75, 0) (1.0, 1) (1.25, 0);
+	TERM big := (0.75, 0) (1, 1) (1.2, 0);
 	ACCU: MAX;
 	METHOD : COG;
 	DEFAULT := 0;
@@ -38,23 +38,23 @@ RULEBLOCK No1
 	ACT : MIN;
 	(*ACCU:MAX;*)
 	RULE 1 : IF width IS very_small AND height IS very_small THEN size IS very_small;
-	RULE 2 : IF width IS very_small AND height IS small THEN size IS small;
+	RULE 2 : IF width IS very_small AND height IS small THEN size IS very_small;
 	RULE 3 : IF width IS very_small AND height IS medium THEN size IS small;
-	RULE 4 : IF width IS very_small AND height IS big THEN size IS medium;
+	RULE 4 : IF width IS very_small AND height IS big THEN size IS small;
 
-	RULE 5 : IF width IS small AND height IS very_small THEN size IS small;
+	RULE 5 : IF width IS small AND height IS very_small THEN size IS very_small;
 	RULE 6 : IF width IS small AND height IS small THEN size IS small;
-	RULE 7 : IF width IS small AND height IS medium THEN size IS medium;
+	RULE 7 : IF width IS small AND height IS medium THEN size IS small;
 	RULE 8 : IF width IS small AND height IS big THEN size IS medium;
 
 	RULE 9 : IF width IS medium AND height IS very_small THEN size IS small;
-	RULE 10 : IF width IS medium AND height IS small THEN size IS medium;
+	RULE 10 : IF width IS medium AND height IS small THEN size IS small;
 	RULE 11 : IF width IS medium AND height IS medium THEN size IS medium;
-	RULE 12 : IF width IS medium AND height IS big THEN size IS big;
+	RULE 12 : IF width IS medium AND height IS big THEN size IS medium;
 
-	RULE 13 : IF width IS big AND height IS very_small THEN size IS medium;
+	RULE 13 : IF width IS big AND height IS very_small THEN size IS small;
 	RULE 14 : IF width IS big AND height IS small THEN size IS medium;
-	RULE 15 : IF width IS big AND height IS medium THEN size IS big;
+	RULE 15 : IF width IS big AND height IS medium THEN size IS medium;
 	RULE 16 : IF width IS big AND height IS big THEN size IS big;
 
 END_RULEBLOCK
