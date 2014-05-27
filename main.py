@@ -23,8 +23,8 @@ if __name__ == '__main__':
         ad1 = AnalizedDocument.from_file(argv[1])
         ad2 = AnalizedDocument.from_file(argv[2])
     else:
-        w1 = WebPage(url="http://en.wikipedia.org/wiki/Zebra")
-        w2 = WebPage(url="http://en.wikipedia.org/wiki/Gothic_architecture")
+        w1 = WebPage(url="http://swimming.about.com/cs/gettingstarted/a/getting_started.htm")
+        w2 = WebPage(url="http://biology.about.com/b/2014/05/21/dangerous-bacteria-on-aircraft-cabin-surfaces.htm")
         # ad1 = AnalizedDocument.from_file('test_doc')
         # ad2 = AnalizedDocument.from_file('test_doc2')
     print w1.get_text_similarity(w2)
@@ -32,8 +32,8 @@ if __name__ == '__main__':
 
     # print_sorted_dict(ad1.categories_membership, "zyrafy")
     # print_sorted_dict(ad2.categories_membership, "zebry")
-    print_sorted_dict(w1.content.categories_membership, "zebry")
-    print_sorted_dict(w2.content.categories_membership, "gotyk")
+    print_sorted_dict(w1.content.categories_membership, "plywanie")
+    print_sorted_dict(w2.content.categories_membership, "bakterie")
 
     print("\nImages similarity:")
     print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))

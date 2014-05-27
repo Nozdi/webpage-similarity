@@ -1,5 +1,7 @@
 from goose import Goose
 from goose.crawler import Crawler
+import os
+import re
 
 
 class ExtendedCrawler(Crawler):
@@ -16,7 +18,11 @@ class ExtendedCrawler(Crawler):
         self.article.images = []
         for node in nodes:
             src = parser.getAttribute(node, attr='src')
-            self.article.images.append(self.image_extractor.get_image(node, src))
+            extension = os.path.splitext(src)[1]
+            if re.match(".[a-zA-Z]+", extension) and re.match("https?", src):
+                self.article.images.append(
+                    self.image_extractor.get_image(node, src)
+                )
 
         return self.article
 
