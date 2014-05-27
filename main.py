@@ -40,6 +40,7 @@ if __name__ == '__main__':
     print("\nImages similarity:")
     print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))
 
+    print("\nMany images:")
     img_list1 = []
     img_list2 = []
 
@@ -47,6 +48,6 @@ if __name__ == '__main__':
         img_list1.append(Image.open(filename))
 
     for filename in glob("./data/test_b/*"):
-        img_list2.append(Image.open(filename))  
+        img_list2.append(Image.open(filename))
 
     print(compare_many(img_list1, img_list2))
