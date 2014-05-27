@@ -7,8 +7,10 @@ from operator import itemgetter
 from sys import argv
 from similarity.text.document import AnalizedDocument
 from similarity.img.compare import compare
+from similarity.img.compare import compare_many
 from PIL import Image
 from similarity import WebPage
+from glob import glob
 
 
 def print_sorted_dict(dictionary, name):
@@ -37,3 +39,14 @@ if __name__ == '__main__':
 
     print("\nImages similarity:")
     print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))
+
+    img_list1 = []
+    img_list2 = []
+
+    for filename in glob("./data/test_a/*"):
+        img_list1.append(Image.open(filename))
+
+    for filename in glob("./data/test_b/*"):
+        img_list2.append(Image.open(filename))  
+
+    print(compare_many(img_list1, img_list2))
