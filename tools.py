@@ -2,6 +2,7 @@
 import codecs
 from glob import glob
 from unidecode import unidecode
+import os
 
 
 def get_all_files():
@@ -28,18 +29,10 @@ if __name__ == '__main__':
 
 
 def renumber_files(root_dir):
-	renumber_files_with_suffix(root_dir, "a")
-	renumber_files_with_suffix(root_dir, "")
-
-
-def renumber_files_with_suffix(root_dir, suffix):
-	import os
-
-	dict = {}
 	for root, subFolders, files in os.walk(root_dir):
-		dict.setdefault(root, 0)
+		counter = 0
 		for file in files:
-			dict[root] = dict[root] + 1
+			counter+=1
 			old_file = os.path.join(root, file)
-			new_file = os.path.join(root, str(dict[root]) + suffix + ".txt")
+			new_file = os.path.join(root, str(counter)  + ".txt")
 			os.rename(old_file, new_file)
