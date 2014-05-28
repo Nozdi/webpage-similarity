@@ -25,8 +25,8 @@ if __name__ == '__main__':
         ad1 = AnalizedDocument.from_file(argv[1])
         ad2 = AnalizedDocument.from_file(argv[2])
     else:
-        w1 = WebPage(url="http://swimming.about.com/cs/gettingstarted/a/getting_started.htm")
-        w2 = WebPage(url="http://biology.about.com/b/2014/05/21/dangerous-bacteria-on-aircraft-cabin-surfaces.htm")
+        w1 = WebPage(url="http://americanfood.about.com/od/appetizersandsoups/r/roasted-garlic.htm")
+        w2 = WebPage(url="http://ipod.about.com/od/KidsiPhoneiPodTouch/tp/Roadtrips-With-Iphone-And-Apps.htm")
         # ad1 = AnalizedDocument.from_file('test_doc')
         # ad2 = AnalizedDocument.from_file('test_doc2')
     print w1.get_text_similarity(w2)
@@ -34,20 +34,12 @@ if __name__ == '__main__':
 
     # print_sorted_dict(ad1.categories_membership, "zyrafy")
     # print_sorted_dict(ad2.categories_membership, "zebry")
-    print_sorted_dict(w1.content.categories_membership, "plywanie")
-    print_sorted_dict(w2.content.categories_membership, "bakterie")
+    print_sorted_dict(w1.content.categories_membership, "food")
+    print_sorted_dict(w2.content.categories_membership, "ipod")
 
     print("\nImages similarity:")
     print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))
 
+
     print("\nMany images:")
-    img_list1 = []
-    img_list2 = []
-
-    for filename in glob("./data/test_a/*"):
-        img_list1.append(Image.open(filename))
-
-    for filename in glob("./data/test_b/*"):
-        img_list2.append(Image.open(filename))
-
-    print(compare_many(img_list1, img_list2))
+    print w1.get_image_similatiry(w2)

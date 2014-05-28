@@ -4,8 +4,10 @@
 """
 
 from similarity.text.document import AnalizedDocument
+from similarity.img.compare import compare_many
 from similarity.extractor import ExtendedGoose
 from unidecode import unidecode
+from PIL import Image
 import os
 import urllib
 import re
@@ -52,9 +54,15 @@ class WebPage(object):
         urllib.urlretrieve(image, self.directory + "top" + extension)
 
     def get_all_pictures(self):
-        for image in map(lambda im: im.src, self.article.images):
-            base = os.path.basename(image)
-            urllib.urlretrieve(image, self.directory + base)
+        self.pictures = []
+        for image_src in map(lambda im: im.src, self.article.images):
+            image_path = self.directory + os.path.basename(image_src)
+            urllib.urlretrieve(image_src, image_path)
+            self.pictures.append(Image.open(image_path))
 
     def get_text_similarity(self, web_page):
         return self.content.compare(web_page.content)
+
+    def get_image_similatiry(self, web_page):
+        return compare_many(self.pictures, web_page.pictures)
+
