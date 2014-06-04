@@ -44,22 +44,15 @@ if __name__ == '__main__':
     print("\nImages similarity:")
     print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))
 
-    print "./data/test_a/*"
-        print filename
-        img_list1.append((filename, Image.open(filename)))
-    print "./data/test_b/*"
-        print filename
-        img_list2.append((filename, Image.open(filename)))
-
-    compared_many = compare_many(img_list1, img_list2)
-    print("compared_many: ", compared_many)
     print("\nMany images:")
-    print w1.get_image_similatiry(w2)
+    image_similarity = w1.get_image_similatiry(w2)
+    print image_similarity
+
     html_result_creator = HtmlResultCreator(template_path="template2.html")
     html_result_creator.first = w1.url
     html_result_creator.second = w2.url
     html_result_creator.categories = text_similarity
-    html_result_creator.images = compared_many
+    html_result_creator.images = image_similarity
     print "dict.images: ", html_result_creator.images
     created_html_path = "./Output.html"
     html_result_creator.createm(created_html_path)
