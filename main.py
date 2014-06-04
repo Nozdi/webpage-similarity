@@ -8,9 +8,11 @@ from sys import argv
 from similarity.text.document import AnalizedDocument
 from similarity.img.compare import compare
 from similarity.img.compare import compare_many
+from html_result import HtmlResultCreator
 from PIL import Image
 from similarity import WebPage
 from glob import glob
+import webbrowser
 
 
 def print_sorted_dict(dictionary, name):
@@ -29,7 +31,9 @@ if __name__ == '__main__':
         w2 = WebPage(url="http://ipod.about.com/od/KidsiPhoneiPodTouch/tp/Roadtrips-With-Iphone-And-Apps.htm")
         # ad1 = AnalizedDocument.from_file('test_doc')
         # ad2 = AnalizedDocument.from_file('test_doc2')
-    print w1.get_text_similarity(w2)
+    print "TextSimilarity for w1 and w2"
+    text_similarity = w1.get_text_similarity(w2)
+    print text_similarity
     # print ad1.compare(ad2)
 
     # print_sorted_dict(ad1.categories_membership, "zyrafy")
@@ -40,6 +44,23 @@ if __name__ == '__main__':
     print("\nImages similarity:")
     print(compare(Image.open("./data/red.jpg"), Image.open("./data/pom.png")))
 
+    print "./data/test_a/*"
+        print filename
+        img_list1.append((filename, Image.open(filename)))
+    print "./data/test_b/*"
+        print filename
+        img_list2.append((filename, Image.open(filename)))
 
+    compared_many = compare_many(img_list1, img_list2)
+    print("compared_many: ", compared_many)
     print("\nMany images:")
     print w1.get_image_similatiry(w2)
+    html_result_creator = HtmlResultCreator(template_path="template2.html")
+    html_result_creator.first = w1.url
+    html_result_creator.second = w2.url
+    html_result_creator.categories = text_similarity
+    html_result_creator.images = compared_many
+    print "dict.images: ", html_result_creator.images
+    created_html_path = "./Output.html"
+    html_result_creator.createm(created_html_path)
+    #webbrowser.open(created_html_path)
