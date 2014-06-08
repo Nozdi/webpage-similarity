@@ -6,14 +6,9 @@
 from operator import itemgetter
 from sys import argv
 from similarity.text.document import AnalizedDocument
-from similarity.img.compare import compare
-from similarity.img.compare import compare_many
-from html_result import HtmlResultCreator
-from PIL import Image
 from similarity import WebPage
-from glob import glob
-import webbrowser
-
+from html_result import TemplateData
+from html_result import create_result_as_html
 
 def print_sorted_dict(dictionary, name):
     print name
@@ -41,10 +36,11 @@ if __name__ == '__main__':
     image_similarity = w1.get_image_similatiry(w2)
     print image_similarity
 
-    html_result_creator = HtmlResultCreator(template_path="template2.html")
-    html_result_creator.first_web_page = w1
-    html_result_creator.second_web_page = w2
-    html_result_creator.text_similarity = text_similarity
-    html_result_creator.image_similarity = image_similarity
-    created_html_path = "./Output.html"
-    html_result_creator.create(created_html_path)
+    template_data = TemplateData(
+        template_path="template2.html",
+        first_web_page=w1,
+        second_web_page=w2,
+        text_similarity=text_similarity,
+        image_similarity=image_similarity,
+        html_path="./Output.html")
+    create_result_as_html(template_data)

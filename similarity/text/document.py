@@ -11,10 +11,11 @@ from similarity.fuzzy import (
     jaccard,
 )
 from similarity.serialization import load_objects
-from similarity.text.result import TextComparisonResult
 from copy import copy
 from operator import itemgetter
-from pprint import pprint
+from collections import namedtuple
+
+TextComparisonResult = namedtuple('TextComparisonResult', 'similarity_result important_categories')
 
 class Document(object):
     """
