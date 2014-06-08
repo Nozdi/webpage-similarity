@@ -11,6 +11,7 @@ from similarity.fuzzy import (
     jaccard,
 )
 from similarity.serialization import load_objects
+from similarity.text.result import TextComparisonResult
 from copy import copy
 from operator import itemgetter
 from pprint import pprint
@@ -42,13 +43,6 @@ class Document(object):
     def from_file(cls, filename, *args, **kwargs):
         with open(filename) as f:
             return cls(f.read().decode("utf-8"), *args, **kwargs)
-
-def common_entries(first_dict, second_dict):
-    result = {}
-    for i in set(first_dict).intersection(set(second_dict)):
-        result[i] = (first_dict[i], second_dict[i])
-    return result
-
 
 class TrainingDocument(Document):
     """
@@ -140,24 +134,13 @@ class AnalizedDocument(Document):
         importance = min(len(filter(lambda x: x > .5, changed_membership.values())), 4)
         important_categories = categories_by_membership[:importance]
 
-        print "important_categories: ", important_categories
-
         important_categories_dict = dict(important_categories)
-        print "dupa: ", important_categories_dict
-        print "document.categories_membership: ", document.categories_membership
-        entries = common_entries(important_categories_dict, document.categories_membership)
-        print "common_entries: ", entries
 
-        values_for_common_entries = {}
-        for common_entry in entries:
-            values_for_common_entries[common_entry] = (important_categories_dict[common_entry],
-                                                       document.categories_membership[common_entry])
-
-        return jaccard(
+        return TextComparisonResult(jaccard(
             important_categories_dict,
             document.categories_membership,
             min,
             max,
-        ), values_for_common_entries
+        ), important_categories_dict)
 
 

@@ -12,23 +12,15 @@ class HtmlResultCreator(object):
 
     def __init__(self, template_path):
         self.template = JINJA_ENVIRONMENT.get_template(template_path)
-        self.first = "dupa"
-        self.second = "kupa"
-        self.categories = {'a': (1, 2), 'b': (3, 4), 'c': (5, 6)}
-        self.images = {}
 
-    def createm(self, html_path):
+    def create(self, html_path):
+
         template_values = {
-            'first': self.first,
-            'second': self.second,
-            'categories': self.categories,
-            'images': self.images,
+            'first': self.first_web_page,
+            'second': self.second_web_page,
+            'categories': self.text_similarity,
+            'images': self.image_similarity,
         }
         html = self.template.render(template_values)
-        print html
         with open(html_path, "w") as text_file:
             text_file.write(html)
-
-if __name__ == '__main__':
-    dupa = HtmlResultCreator(template_path="template.html")
-    dupa.createm()

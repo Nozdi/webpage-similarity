@@ -58,7 +58,7 @@ class WebPage(object):
         for image_src in map(lambda im: im.src, self.article.images):
             image_path = self.directory + os.path.basename(image_src)
             urllib.urlretrieve(image_src, image_path)
-            self.pictures.append((image_path,Image.open(image_path)))
+            self.pictures.append((image_path, Image.open(image_path)))
 
     def get_text_similarity(self, web_page):
         return self.content.compare(web_page.content)

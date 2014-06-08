@@ -9,7 +9,7 @@ from similarity.img.extract import (
     get_fuzzy_size,
 )
 from similarity.fuzzy import jaccard
-from similarity.fuzzy import algebraic_sum
+from similarity.img.result import ImageComparisonResult
 
 
 def get_properties(image):
@@ -44,6 +44,4 @@ def compare_many(img_list1, img_list2):
 
         temp = []
 
-    #return reduce(lambda x, y: x * y, results)
-    #return reduce(lambda x, y: algebraic_sum(x, y), results)
-    return sum(results) / len(results), detailed_results
+    return ImageComparisonResult(sum(results) / len(results), detailed_results)

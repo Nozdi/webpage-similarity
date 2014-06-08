@@ -21,11 +21,11 @@
         </thead>
         <tbody>
         <tr>
-            {% set count = categories[1]|length + 1 %}
+            {% set count = categories.important_categories|length + 1 %}
             <td rowspan="{{count}}">text content</td>
         </tr>
 
-        {% for key, value in categories[1].iteritems() %}
+        {% for key, value in categories.important_categories.iteritems() %}
         <tr>
             <td><p class="text-center">{{value[0]}}</p></td>
             <td><p class="text-center">{{key}}</p></td>
@@ -35,14 +35,14 @@
 
         <tr>
             <td colspan="2">Podsumowanie:</td>
-            <td colspan="2">{{categories[0]}}</td>
+            <td colspan="2">{{categories.similarity_result}}</td>
         </tr>
 
         <tr>
-            {% set count = images[1]|length + 1 %}
+            {% set count = images.image_pairs_results|length + 1 %}
             <td rowspan="{{count}}"><p class="text-center"><strong>images</strong></p></td>
         </tr>
-        {% for key, value in images[1].iteritems() %}
+        {% for key, value in images.image_pairs_results.iteritems() %}
         <tr>
             <td><img src="{{key[0]}}" height="56" width="56" class="img-rounded center-block"></td>
             <td><p class="text-center">{{value}}</p></td>
@@ -52,7 +52,7 @@
 
         <tr>
             <td colspan="2">Podsumowanie:</td>
-            <td colspan="2">{{images[0]}}</td>
+            <td colspan="2">{{images.similarity_result}}</td>
         </tr>
         </tbody>
     </table>
