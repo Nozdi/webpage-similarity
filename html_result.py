@@ -12,6 +12,11 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     autoescape=True)
 
 def create_result_as_html(template_data):
+    """
+        Generates html file containing results of web pages comparison
+        :param template_data: Contains data required to create html file.
+        :type template_data: TemplateData.
+    """
 
     template = JINJA_ENVIRONMENT.get_template(template_data.template_path)
     template_values = {
