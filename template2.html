@@ -14,22 +14,34 @@
         <thead>
         <tr>
             <th></th>
-            <th>{{first}}</th>
+            <th><a href="{{first.url}}">{{first.url}}</a></th>
             <th></th>
-            <th>{{second}}</th>
+            <th><a href="{{second.url}}">{{second.url}}</a></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            {% set count = categories.important_categories|length + 1 %}
-            <td rowspan="{{count}}">text content</td>
+            {% set count = categories.important_categories|length + 12 %}
+            <td rowspan="{{count}}"><p class="text-center"><strong>text</strong></p></td>
+            <td colspan="3"><p class="text-center"><strong>found terms</strong></p></td>
+        </tr>
+
+        {% for first_term, second_term in zip(first_terms, second_terms) %}
+        <tr>
+            <td colspan="2"><p class="text-center">{{first_term[0]}}</p></td>
+            <td colspan="2"><p class="text-center">{{second_term[0]}}</p></td>
+        </tr>
+        {% endfor %}
+
+        <tr>
+            <td colspan="3"><p class="text-center"><strong>important categories membership (only top 10)</strong></p></td>
         </tr>
 
         {% for key, value in categories.important_categories.iteritems() %}
         <tr>
-            <td><p class="text-center">{{value[0]}}</p></td>
+            <td><p class="text-center">{{first.content.categories_membership[key]}}</p></td>
             <td><p class="text-center">{{key}}</p></td>
-            <td><p class="text-center">{{value[1]}}</p></td>
+            <td><p class="text-center">{{second.content.categories_membership[key]}}</p></td>
         </tr>
         {% endfor %}
 
@@ -37,16 +49,19 @@
             <td colspan="2">Podsumowanie:</td>
             <td colspan="2">{{categories.similarity_result}}</td>
         </tr>
-
+        <tr>
+            <td colspan="4"/>
+        </tr>
         <tr>
             {% set count = images.image_pairs_results|length + 1 %}
             <td rowspan="{{count}}"><p class="text-center"><strong>images</strong></p></td>
+            <td colspan="3"><p class="text-center"><strong>found images</strong></p></td>
         </tr>
         {% for key, value in images.image_pairs_results.iteritems() %}
         <tr>
-            <td><img src="{{key[0]}}" height="56" width="56" class="img-rounded center-block"></td>
+            <td><img src="{{key[0]}}" max-height="56" max-width="100"  class="img-rounded center-block"></td>
             <td><p class="text-center">{{value}}</p></td>
-            <td><img src="{{key[1]}}" height="56" width="56" class="img-rounded center-block"></td>
+            <td><img src="{{key[1]}}" max-height="56" max-width="auto" class="img-rounded center-block"></td>
         </tr>
         {% endfor %}
 

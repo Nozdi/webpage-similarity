@@ -9,13 +9,13 @@ from similarity.text.document import AnalizedDocument
 from similarity import WebPage
 from html_result import TemplateData
 from html_result import create_result_as_html
+from itertools import islice
 
 def print_sorted_dict(dictionary, name):
     print name
     sdict = sorted(dictionary.iteritems(), key=itemgetter(1), reverse=True)
     for key, value in sdict:
         print str(key), ":", value
-
 
 if __name__ == '__main__':
     if len(argv) == 3:
