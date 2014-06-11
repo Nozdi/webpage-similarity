@@ -45,4 +45,5 @@ topia
 setuptools-3.4.4.zip
 *~
 
-data/*.*.*
+example/data/*.*.*
+example/Output.html

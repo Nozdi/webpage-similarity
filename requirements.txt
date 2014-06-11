@@ -8,3 +8,4 @@ scrapy
 unidecode
 goose-extractor
 PIL
+pyfuzzy

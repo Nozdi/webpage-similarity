@@ -1,29 +1,16 @@
 webpage-similarity
 ==================
 
-Train system:
+Webpage similarity is a library to compare two webpages.
+We used fuzzy approach. You can find here:
+    * fuzzy text classification
+    * similarity between two texts based on classifications
+    * fuzzy images comparsion (RGBA, brightness and size)
+    * webpage crawler
+Example usage is shown in example directory.
+
+Before you can use this library you must install dependencies from `requirements.txt` and antlr3
+And train system:
 ```
 ./create_db.py
-```
-
-Install
-```
-MAC:
-[sudo] port install antlr3 graphviz gnuplot
-Debian/Ubuntu:
-[sudo] apt-get install antlr3 graphviz gnuplot
-```
-
-Install python dependencies:
-```
-pip install -r requirements.txt [--allow-all-external --allow-unverified antlr-python-runtime --allow-unverified gnuplot-py]
-```
-If any problems install packages from system utils (port, brew, apt-get, yum, ...)
-
-
-Install pyfuzzy:
-```
-svn checkout svn://svn.code.sf.net/p/pyfuzzy/code/trunk pyfuzzy-code
-cd pyfuzzy-code/pyfuzzy
-python setup.py install
 ```

@@ -11,7 +11,11 @@ from similarity.img.extract import (
 from similarity.fuzzy import jaccard
 from collections import namedtuple
 
-ImageComparisonResult = namedtuple('ImageComparisonResult', 'similarity_result image_pairs_results')
+ImageComparisonResult = namedtuple(
+    'ImageComparisonResult',
+    ['similarity_result', 'image_pairs_results']
+)
+
 
 def get_properties(image):
     properties = get_fuzzy_colors(image)
@@ -44,4 +48,7 @@ def compare_many(img_list1, img_list2):
         results.append(result)
 
         temp = []
-    return ImageComparisonResult(similarity_result=sum(results) / len(results), image_pairs_results=detailed_results)
+    return ImageComparisonResult(
+        similarity_result=sum(results)/len(results),
+        image_pairs_results=detailed_results
+    )

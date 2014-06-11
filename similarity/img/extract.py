@@ -5,6 +5,7 @@
 from __future__ import division
 from fuzzy.storage.fcl.Reader import Reader
 
+import os
 from PIL import (
     Image,
     ImageStat,
@@ -12,7 +13,10 @@ from PIL import (
 
 
 def get_fuzzy_size(image):
-    controller = Reader().load_from_file("./similarity/img/size.fcl")
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    controller = Reader().load_from_file(
+        "{}/size.fcl".format(current_dir)
+    )
 
     width, height = image.size
 

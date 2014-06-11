@@ -65,4 +65,3 @@ class WebPage(object):
 
     def get_image_similatiry(self, web_page):
         return compare_many(self.pictures, web_page.pictures)
-

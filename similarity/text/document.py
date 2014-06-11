@@ -15,7 +15,11 @@ from copy import copy
 from operator import itemgetter
 from collections import namedtuple
 
-TextComparisonResult = namedtuple('TextComparisonResult', 'similarity_result important_categories')
+TextComparisonResult = namedtuple(
+    'TextComparisonResult',
+    ['similarity_result', 'important_categories']
+)
+
 
 class Document(object):
     """
@@ -44,6 +48,7 @@ class Document(object):
     def from_file(cls, filename, *args, **kwargs):
         with open(filename) as f:
             return cls(f.read().decode("utf-8"), *args, **kwargs)
+
 
 class TrainingDocument(Document):
     """
@@ -112,8 +117,6 @@ class AnalizedDocument(Document):
                 algebraic_sum,
             )
 
-
-
     def compare(self, document):
         if not self.categories_membership:
             self.calculate_membership_to_categories()
@@ -143,5 +146,3 @@ class AnalizedDocument(Document):
             min,
             max,
         ), important_categories_dict)
-
-
