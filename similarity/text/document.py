@@ -3,7 +3,6 @@
     :synopsis: This module provides all Document-like objects
 """
 from __future__ import division
-from topia.termextract import extract
 
 from similarity.fuzzy import (
     algebraic_product,
@@ -13,7 +12,13 @@ from similarity.fuzzy import (
 from similarity.serialization import load_objects
 from copy import copy
 from operator import itemgetter
-from collections import namedtuple
+from collections import (
+    namedtuple,
+    Counter,
+)
+from gensim.utils import lemmatize
+from gensim.parsing.preprocessing import STOPWORDS
+
 
 TextComparisonResult = namedtuple(
     'TextComparisonResult',
@@ -29,8 +34,6 @@ class Document(object):
         :type terms_quantity: dictionary
     """
     __slots__ = 'terms_quantity',
-    extractor = extract.TermExtractor()
-    extractor.filter = extract.permissiveFilter
 
     def __init__(self, text):
         """
@@ -39,9 +42,8 @@ class Document(object):
         """
 
         # d = {<t1, w1>, ... <tm, wm>}
-        self.terms_quantity = dict(
-            [(term.lower(), quantity)
-             for term, quantity, words_no in Document.extractor(text)]
+        self.terms_quantity = Counter(
+            lemma for lemma in lemmatize(text) if lemma[:-3] not in STOPWORDS
         )
 
     @classmethod
@@ -56,7 +58,7 @@ class TrainingDocument(Document):
         Degree of belongness to categories is not needed,
         only chrisp sets are used.
     """
-    __slots__ = 'name',
+    __slots__ = 'terms_quantity', 'name',
 
     def __init__(self, text, name):
         """
